@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../AdMasterLibs2017/admasterlibs" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Community2017/communitylib" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../Community2017_BeautyCamera/communitylib" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../FaceDetection/facedetectlibs" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../IMSDK/imsdk" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../VideoPlusLib/videoPluslibs" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/OkHttpProgressListenerLib" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/beautyMall" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/beautyaccount-release" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/beautylogin" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/hzbeautycommonlib" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/missionHall" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../missionHall4beautyCamera/pickerview-release" vcs="svn" />
+  </component>
+</project>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/task_center_page_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#f4ffffff">
+
+        <ImageView
+            android:id="@+id/task_center_page_ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/framework_back_btn" />
+
+        <TextView
+            android:id="@+id/task_center_page_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的积分"
+            android:textColor="#ff6e6e6e"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/task_center_page_ib_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/task_center_page_ic_info" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/task_center_page_pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/task_center_page_title_bar"
+        android:max="100"
+        android:progress="1"
+        android:progressDrawable="@drawable/webview_progress_horizontal"
+        android:visibility="invisible" />
+
+    <WebView
+        android:id="@+id/task_center_page_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/task_center_page_title_bar"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/rl_net_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@id/task_center_page_title_bar">
+
+        <ImageView
+            android:id="@+id/iv_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="128dp"
+            android:src="@drawable/net_error_wifi" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_wifi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="当前网络不可用"
+            android:textColor="#818181"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:text="请检查网络连接"
+            android:textColor="#818181"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

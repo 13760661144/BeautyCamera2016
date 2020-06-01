@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- 首页 -->
+	<integer name="首页">106010911</integer>
+	<integer name="首页_拍照">106010912</integer>
+	<integer name="首页_点击个人中心">106010913</integer>
+	<integer name="首页_左滑个人中心">106010914</integer>
+	<integer name="首页_点击素材商店">106010915</integer>
+	<integer name="首页_右滑素材商店">106010916</integer>
+	<integer name="首页_点击打开相册">106010917</integer>
+	<integer name="首页_上拉打开相册">106010918</integer>
+	<integer name="首页_下拉运营中心">106010919</integer>
+	<integer name="首页_点击运营中心">106011284</integer>
+	<integer name="首页_点击大圆商业">106011789</integer>
+	<integer name="首页_点击左下角商业">106011790</integer>
+	<integer name="首页_开机画面">106011793</integer>
+
+	<!-- 菜单/个人中心 -->
+	<integer name="菜单_任务大厅">106010991</integer>
+	<integer name="菜单_云相册">106010992</integer>
+	<integer name="菜单_照片冲印">106010993</integer>
+	<integer name="菜单_福利社">106014108</integer>
+
+	<integer name="菜单_主题换肤_返回">106012093</integer>
+	<integer name="菜单_主题换肤">106010994</integer>
+	<integer name="菜单_主题换肤_Begonia">106010995</integer>
+	<integer name="菜单_主题换肤_Sakura">106010996</integer>
+	<integer name="菜单_主题换肤_Fragrans">106010997</integer>
+	<integer name="菜单_主题换肤_Datura">106010998</integer>
+	<integer name="菜单_主题换肤_Minosa">106010999</integer>
+	<integer name="菜单_主题换肤_Tiffany">106011000</integer>
+	<integer name="菜单_主题换肤_Mint">106011001</integer>
+	<integer name="菜单_主题换肤_Jasmine">106011002</integer>
+	<integer name="菜单_主题换肤_Tulip">106011003</integer>
+	<integer name="菜单_主题换肤_Daylily">106011004</integer>
+	<integer name="菜单_主题换肤_Azalea">106011005</integer>
+	<integer name="菜单_主题换肤_Peoly">106011006</integer>
+	<integer name="菜单_主题换肤_Violet">106011007</integer>
+	<integer name="菜单_主题换肤_Cymbiddium">106011008</integer>
+	<integer name="菜单_主题换肤_Peach">106011009</integer>
+	<integer name="菜单_主题换肤_Canna">106011010</integer>
+	<integer name="菜单_主题换肤_Gardenia">106011011</integer>
+	<integer name="菜单_主题换肤_Bamboo">106011012</integer>
+	<integer name="菜单_主题换肤_Coral">106011013</integer>
+	<integer name="菜单_主题换肤_Lilac">106011014</integer>
+	<integer name="菜单_主题换肤_Pansy">106011015</integer>
+	<integer name="菜单_主题换肤_Ivy">106011016</integer>
+	<integer name="菜单_主题换肤_Sunflower">106011017</integer>
+	<integer name="菜单_主题换肤_Calendula">106011018</integer>
+	<integer name="菜单_主题换肤_Epiphyllum">106011019</integer>
+	<integer name="菜单_主题换肤_Statice">106011020</integer>
+	<integer name="菜单_主题换肤_Aloe">106011021</integer>
+	<integer name="菜单_主题换肤_Daffodil">106011022</integer>
+	<integer name="菜单_主题换肤_Iris">106011023</integer>
+	<integer name="菜单_主题换肤_Hyacinth">106011024</integer>
+
+	<integer name="菜单_设置">106011025</integer>
+	<integer name="菜单_设置_美形定制">106011026</integer>
+	<integer name="菜单_设置_快门声音开">106011027</integer>
+	<integer name="菜单_设置_快门声音关">106011028</integer>
+	<integer name="菜单_设置_保存原图开">106011029</integer>
+	<integer name="菜单_设置_保存原图关">106011030</integer>
+	<integer name="菜单_设置_直接开启镜头开">106011031</integer>
+	<integer name="菜单_设置_直接开启镜头关">106011032</integer>
+	<integer name="菜单_设置_读秒声音开">106011033</integer>
+	<integer name="菜单_设置_读秒声音关">106011034</integer>
+	<integer name="菜单_设置_安卓高清画质开">106011038</integer>
+	<integer name="菜单_设置_安卓高清画质关">106011039</integer>
+	<integer name="菜单_设置_记住上一次美颜模式开">106011040</integer>
+	<integer name="菜单_设置_记住上一次美颜模式关">106011041</integer>
+	<integer name="菜单_设置_照片日期水印开">106011042</integer>
+	<integer name="菜单_设置_照片日期水印关">106011043</integer>
+	<integer name="菜单_设置_初始化为默认">106011044</integer>
+	<integer name="菜单_设置_帮助与反馈">106011045</integer>
+	<integer name="菜单_设置_清除缓存">106011046</integer>
+	<integer name="菜单_设置_关于我们">106011047</integer>
+
+	<integer name="菜单_精品推荐">106011048</integer>
+	<integer name="菜单_APP评分">106011049</integer>
+	<integer name="菜单_点击头像">106011050</integer>
+	<integer name="菜单_聊天">106014916</integer>
+	<integer name="菜单_互动消息">106014917</integer>
+
+	<!-- 素材中心 -->
+	<integer name="素材中心_返回">106011052</integer>
+	<integer name="素材中心_管理">106011053</integer>
+	<integer name="素材中心_管理_彩妆">106011054</integer>
+	<integer name="素材中心_管理_贴图">106011055</integer>
+	<integer name="素材中心_管理_相框">106011056</integer>
+	<integer name="素材中心_管理_简约边框">106011057</integer>
+	<integer name="素材中心_管理_毛玻璃">106011058</integer>
+	<integer name="素材中心_管理_马赛克">106011059</integer>
+	<integer name="素材中心_管理_指尖魔法">106011060</integer>
+
+	<integer name="素材中心_管理_滤镜">106012147</integer>
+	<integer name="素材中心_管理_滤镜_返回">106012149</integer>
+	<integer name="素材中心_管理_滤镜_全选">106012150</integer>
+	<integer name="素材中心_管理_滤镜_删除">106012151</integer>
+
+	<!-- 相册 -->
+	<integer name="相册_拍照">106011062</integer>
+	<integer name="相册_选文件夹">106011063</integer>
+	<integer name="相册_选中照片">106012152</integer>
+	<integer name="相册_返回按钮">106012153</integer>
+
+	<!-- 拍照 -->
+	<integer name="拍照">106011</integer>
+	<integer name="拍照_前置镜头">1064610</integer>
+	<integer name="拍照_后置镜头">1064611</integer>
+	<integer name="拍照_语音导航">1064612</integer>
+	<integer name="拍照_语音导航_自动拍">1064613</integer>
+
+	<integer name="拍照_切换到动态贴纸">106010921</integer>
+	<integer name="拍照_设置">106010922</integer>
+	<integer name="拍照_设置_手动1秒">106010923</integer>
+	<integer name="拍照_设置_手动2秒">106010924</integer>
+	<integer name="拍照_设置_手动10秒">106010925</integer>
+	<integer name="拍照_设置_手动关闭">106011286</integer>
+	<integer name="拍照_设置_触屏拍照开">106010926</integer>
+	<integer name="拍照_设置_触屏拍照关">106010927</integer>
+	<integer name="拍照_设置_语音提示开">106010928</integer>
+	<integer name="拍照_设置_语音提示关">106011285</integer>
+	<integer name="拍照_设置_实时美颜开">106010929</integer>
+	<integer name="拍照_设置_实时美颜光">106010930</integer>
+
+	<integer name="拍照_美形定制_指引弹窗">106014223</integer>
+	<integer name="拍照_美形定制_指引弹窗_去设置">106014224</integer>
+	<integer name="拍照_美形定制_指引弹窗_以后再说">106014225</integer>
+	<integer name="拍照_美形定制">106011194</integer>
+	<integer name="拍照_美形定制_退出">106011195</integer>
+	<integer name="拍照_美形定制_确定">106011200</integer>
+	<integer name="拍照_美形定制_瘦脸">106011196</integer>
+	<integer name="拍照_美形定制_大眼">106011197</integer>
+	<integer name="拍照_美形定制_美颜">106014226</integer>
+	<integer name="拍照_美形定制_瘦鼻">106014227</integer>
+	<integer name="拍照_美形定制_美牙">106014228</integer>
+	<integer name="拍照_关闭美形定制">106014229</integer>
+	<integer name="拍照_开启美形定制">106014230</integer>
+
+	<!--<integer name="拍照_夜拍模式">106010931</integer>-->
+	<integer name="拍照_闪光灯开">106010932</integer>
+	<integer name="拍照_闪光灯自动">106010933</integer>
+	<integer name="拍照_闪光灯关">106010934</integer>
+	<integer name="拍照_手电筒">106010935</integer>
+	<integer name="拍照_切换镜头">106010936</integer>
+	<integer name="拍照_1_1照片比例">106010937</integer>
+	<integer name="拍照_4_3照片比例">106010938</integer>
+	<integer name="拍照_16_9照片比例">106014720</integer>
+	<integer name="拍照_关闭">106010939</integer>
+	<integer name="拍照_打开相册">106010940</integer>
+	<integer name="拍照_点击拍照">106010941</integer>
+    <integer name="拍照_切换前置">106010945</integer>
+    <integer name="拍照_切换后置">106010946</integer>
+    <integer name="拍照_展开滤镜列表">106010947</integer>
+    <integer name="拍照_收起滤镜列表">106012082</integer>
+    <integer name="拍照_滤镜下载更多">106010948</integer>
+    <integer name="拍照_滤镜原图">106012081</integer>
+
+	<integer name="拍照_预览_取消返回">106010949</integer>
+	<integer name="拍照_预览_确认">106010950</integer>
+	<integer name="拍照_预览_对比按钮">106010951</integer>
+	<integer name="拍照_预览_美颜美化按钮">106010952</integer>
+	<integer name="拍照_预览_暗角">106010953</integer>
+	<integer name="拍照_预览_虚化">106010954</integer>
+	<integer name="拍照_预览_滤镜_原图">106010955</integer>
+	<integer name="拍照_预览_滤镜_Jasmine">106010956</integer>
+	<integer name="拍照_预览_滤镜_Camillia">106010957</integer>
+	<integer name="拍照_预览_滤镜_Rosa">106010958</integer>
+	<integer name="拍照_预览_滤镜_Lavender">106010959</integer>
+	<integer name="拍照_预览_滤镜_Sunflower">106010960</integer>
+	<integer name="拍照_预览_滤镜_Clover">106010961</integer>
+	<integer name="拍照_预览_滤镜_Peach">106010962</integer>
+	<integer name="拍照_预览_滤镜_Dandelion">106010963</integer>
+	<integer name="拍照_预览_滤镜_Lilac">106010964</integer>
+	<integer name="拍照_预览_滤镜_Tulip">106010965</integer>
+	<integer name="拍照_预览_滤镜_调节美颜滑动杆">106012083</integer>
+	<integer name="拍照_预览_滤镜_预览_展开滤镜bar">106012084</integer>
+	<integer name="拍照_预览_滤镜_预览_收起滤镜bar">106012086</integer>
+	<integer name="拍照_预览_滤镜_预览_滤镜下载更多">106012085</integer>
+	<integer name="拍照_预览_滤镜_预览_滤镜_原图">106010955</integer>
+
+	<integer name="拍照_预览_保存_返回上一级">106010966</integer>
+	<integer name="拍照_预览_保存_返回首页">106010967</integer>
+	<integer name="拍照_预览_保存_点击照片查看">106010968</integer>
+	<integer name="拍照_预览_保存_继续拍照">106010969</integer>
+	<integer name="拍照_预览_保存_美颜美化">106010970</integer>
+	<integer name="拍照_预览_保存_分享到朋友圈">106010971</integer>
+	<integer name="拍照_预览_保存_分享到微信好友">106010972</integer>
+	<integer name="拍照_预览_保存_分享到新浪">106010973</integer>
+	<integer name="拍照_预览_保存_分享到QQ空间">106010974</integer>
+	<integer name="拍照_预览_保存_分享到QQ好友">106010975</integer>
+	<integer name="拍照_预览_保存_分享到poco">106010976</integer>
+	<integer name="拍照_预览_保存_分享到facebook">106010977</integer>
+	<integer name="拍照_预览_保存_分享到ins">106010978</integer>
+	<integer name="拍照_预览_保存_分享到twitter">106010979</integer>
+
+	<integer name="拍照_动态贴纸_返回美颜拍照">106010980</integer>
+	<integer name="拍照_动态贴纸_长按录视频">106010981</integer>
+	<integer name="拍照_动态贴纸_短按拍照">106010982</integer>
+	<integer name="拍照_动态贴纸_预览_返回">106010983</integer>
+	<integer name="拍照_动态贴纸_预览_分享">106010984</integer>
+	<integer name="拍照_动态贴纸_预览_分享_保存到本地">106010985</integer>
+	<integer name="拍照_动态贴纸_预览_分享_分享到朋友圈">106010986</integer>
+	<integer name="拍照_动态贴纸_预览_分享_分享到微信好友">106010987</integer>
+	<integer name="拍照_动态贴纸_预览_分享_分享到新浪">106010988</integer>
+	<integer name="拍照_动态贴纸_预览_分享_分享到QQ空间">106010989</integer>
+	<integer name="拍照_动态贴纸_预览_分享_返回">106010990</integer>
+	<integer name="拍照_动态贴纸_预览_分享_视频_分享到朋友圈">106013494</integer>
+	<integer name="拍照_动态贴纸_预览_分享_视频_分享到微信好友">106013495</integer>
+	<integer name="拍照_动态贴纸_预览_分享_视频_分享到新浪">106013496</integer>
+	<integer name="拍照_动态贴纸_预览_分享_视频_分享到QQ空间">106013497</integer>
+	<integer name="拍照_动态贴纸_预览_分享_gif_分享到微信好友">106013498</integer>
+	<integer name="拍照_动态贴纸_预览_分享_gif_分享到新浪">106013500</integer>
+	<integer name="拍照_动态贴纸_预览_分享_gif_分享到QQ空间">106013501</integer>
+	<integer name="拍照_动态贴纸_预览_分享_gif_分享到QQ好友">106013499</integer>
+	<integer name="拍照_动态贴纸_预览_分享_gif_分享到推特">106013503</integer>
+	<integer name="拍照_动态贴纸_表情包_录制视频">106013339</integer>
+	<integer name="拍照_动态贴纸_切换到小视频">106013335</integer>
+	<integer name="拍照_动态贴纸_切换到表情包">106013337</integer>
+	<integer name="拍照_动态贴纸_收起素材列表">106012088</integer>
+	<integer name="拍照_动态贴纸_展开素材列表">106012089</integer>
+	<integer name="拍照_动态贴纸_录像_预览_音乐_无" >106014242</integer>
+	<integer name="拍照_动态贴纸_录像_预览_收起音乐列表" >106014243</integer>
+	<integer name="拍照_表情包_预览_点击添加文字">106013343</integer>
+	<integer name="拍照_表情包_预览_文字编辑_返回">106013345</integer>
+	<integer name="拍照_表情包_预览_文字编辑_确定">106013346</integer>
+	<integer name="拍照_表情包_预览_x_返回">106013347</integer>
+	<integer name="拍照_表情包_预览_分享">106013349</integer>
+	
+	<integer name="拍照_萌装照_预览_继续拍摄">106014723</integer>
+	<integer name="拍照_萌装照_预览_美颜美图">106014724</integer>
+
+	<integer name="拍照_动态贴纸_预览页_静音_开">106014239</integer>
+	<integer name="拍照_动态贴纸_预览页_静音_关">106014240</integer>
+	<integer name="拍照_动态贴纸_预览页_背景音乐按钮">106014241</integer>
+	
+	
+	<integer name="拍照_切换到表情包">106014716</integer>
+	<integer name="拍照_切换到高清拍照">106014717</integer>
+	<integer name="拍照_切换到萌妆照">106010921</integer>
+	<integer name="拍照_切换到视频">106014718</integer>
+	<integer name="拍照_退出到首页">106014719</integer>
+	
+	<integer name="拍照_萌装照_收回素材列表">106012088</integer>
+	<integer name="拍照_萌装照_展开素材列表">106012089</integer>
+	<integer name="拍照_萌装照_收起滤镜">106014721</integer>
+	<integer name="拍照_萌装照_展开滤镜">106014722</integer>
+
+
+	<integer name="拍照_视频拍摄_收回素材列表">106014731</integer>
+	<integer name="拍照_视频拍摄_展开素材列表">106014732</integer>
+	<integer name="拍照_视频拍摄_收起滤镜">106014733</integer>
+	<integer name="拍照_视频拍摄_展开滤镜">106014734</integer>
+	<integer name="拍照_视频拍摄_拍摄开始">106014735</integer>
+	<integer name="拍照_视频拍摄_拍摄暂停">106014736</integer>
+	<integer name="拍照_视频拍摄_拍摄暂停_返回">106014737</integer>
+	<integer name="拍照_视频拍摄_删除选段">106014738</integer>
+	<integer name="拍照_视频拍摄_确认拍照_打钩">106014739</integer>
+
+
+	<integer name="拍照_表情包拍摄_收回素材列表">106014725</integer>
+	<integer name="拍照_表情包拍摄_展开素材列表">106014726</integer>
+	<integer name="拍照_表情包拍摄_收起滤镜">106014727</integer>
+	<integer name="拍照_表情包拍摄_展开滤镜">106014728</integer>
+	<integer name="拍照_表情包拍摄_拍摄按钮">106014729</integer>
+
+
+	<!-- 修图/美颜美化页 -->
+	<integer name="修图_返回">106011065</integer>
+	<integer name="修图_撤销">106012155</integer>
+	<integer name="修图_重做">106012156</integer>
+	<integer name="修图_分享">106011066</integer>
+	<integer name="修图_保存并分享">106011067</integer>
+
+	<integer name="修图_编辑">106011068</integer>
+	<integer name="修图_编辑_取消">106011069</integer>
+	<integer name="修图_编辑_确认">106011070</integer>
+	<integer name="修图_编辑_重置">106011071</integer>
+	<integer name="修图_编辑_旋转">106011072</integer>
+	<integer name="修图_编辑_镜像">106011073</integer>
+	<integer name="修图_编辑_收回bar">106012157</integer>
+	<integer name="修图_编辑_展开bar">106012158</integer>
+	<integer name="修图_编辑_FREE">106012159</integer>
+	<integer name="修图_编辑_1_1">106012160</integer>
+	<integer name="修图_编辑_4_3">106012161</integer>
+	<integer name="修图_编辑_3_4">106012162</integer>
+	<integer name="修图_编辑_16_9">106012163</integer>
+	<integer name="修图_编辑_9_16">106012164</integer>
+
+	<integer name="修图_美颜美形">106011074</integer>
+
+	<integer name="修图_美颜美形_美颜">106011075</integer>
+	<integer name="修图_美颜美形_美颜_取消">106011076</integer>
+	<integer name="修图_美颜美形_美颜_确认">106011077</integer>
+	<integer name="修图_美颜美形_美颜_效果_无">106011078</integer>
+	<integer name="修图_美颜美形_美颜_效果_细节">106011079</integer>
+	<integer name="修图_美颜美形_美颜_效果_轻微">106011080</integer>
+	<integer name="修图_美颜美形_美颜_效果_亮白">106011081</integer>
+	<integer name="修图_美颜美形_美颜_效果_自然">106011082</integer>
+	<integer name="修图_美颜美形_美颜_效果_朦胧">106011083</integer>
+	<integer name="修图_美颜美形_美颜_效果_自定义">106011084</integer>
+	<integer name="修图_美颜美形_美颜_对比按钮">106012165</integer>
+	<integer name="修图_美颜美形_美颜_收回bar">106012166</integer>
+	<integer name="修图_美颜美形_美颜_展开bar">106012167</integer>
+
+	<integer name="修图_美颜美形_瘦脸瘦身">106011085</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_取消">106011086</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_确认">106011087</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_手动瘦身_展开tab">106011088</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_手动瘦身_收回tab">106012169</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_手动瘦身_滑动杆">106012170</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_自动瘦身_展开tab">106011089</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_自动瘦身_收回tab">106012171</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_瓜子脸">106011090</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_瓜子脸_滑动杆">106012172</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_锥子脸">106011091</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_锥子脸_滑动杆">106012173</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_鹅蛋脸">106011092</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_鹅蛋脸_滑动杆">106012174</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_瘦脸工具">106011093</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_对比按钮">106011094</integer>
+	<integer name="修图_美颜美形_瘦脸瘦身_手动定点">106011095</integer>
+
+	<integer name="修图_美颜美形_祛痘">106011096</integer>
+	<integer name="修图_美颜美形_祛痘_取消">106011097</integer>
+	<integer name="修图_美颜美形_祛痘_确认">106011098</integer>
+	<integer name="修图_美颜美形_祛痘_收回bar">106012175</integer>
+	<integer name="修图_美颜美形_祛痘_展开bar">106012176</integer>
+	<integer name="修图_美颜美形_祛痘_滑动杆">106012177</integer>
+	<integer name="修图_美颜美形_祛痘_对比按钮">106012178</integer>
+
+	<integer name="修图_美颜美形_祛眼袋">106011099</integer>
+	<integer name="修图_美颜美形_祛眼袋_取消">106011100</integer>
+	<integer name="修图_美颜美形_祛眼袋_确认">106011101</integer>
+	<integer name="修图_美颜美形_祛眼袋_手动定点">106011102</integer>
+	<integer name="修图_美颜美形_祛眼袋_对比">106012179</integer>
+	<integer name="修图_美颜美形_祛眼袋_大眼bar收回">106012180</integer>
+	<integer name="修图_美颜美形_祛眼袋_大眼bar展开">106012181</integer>
+	<integer name="修图_美颜美形_祛眼袋_大眼滑动杆">106012182</integer>
+	<integer name="修图_美颜美形_祛眼袋_祛眼袋bar收回">106012183</integer>
+	<integer name="修图_美颜美形_祛眼袋_祛眼袋bar展开">106012184</integer>
+	<integer name="修图_美颜美形_祛眼袋_祛眼袋滑动杆">106012185</integer>
+	<integer name="修图_美颜美形_祛眼袋_亮眼bar收回">106012186</integer>
+	<integer name="修图_美颜美形_祛眼袋_亮眼bar展开">106012187</integer>
+	<integer name="修图_美颜美形_祛眼袋_亮眼滑动杆">106012188</integer>
+
+	<integer name="修图_美颜美形_亮眼">106011103</integer>
+	<integer name="修图_美颜美形_亮眼_取消">106011104</integer>
+	<integer name="修图_美颜美形_亮眼_确认">106011105</integer>
+	<integer name="修图_美颜美形_亮眼_手动定点">106011106</integer>
+	<integer name="修图_美颜美形_亮眼_对比">106012189</integer>
+	<integer name="修图_美颜美形_亮眼_大眼bar收回">106012190</integer>
+	<integer name="修图_美颜美形_亮眼_大眼bar展开">106012191</integer>
+	<integer name="修图_美颜美形_亮眼_大眼滑动杆">106012192</integer>
+	<integer name="修图_美颜美形_亮眼_祛眼袋bar收回">106012193</integer>
+	<integer name="修图_美颜美形_亮眼_祛眼袋bar展开">106012194</integer>
+	<integer name="修图_美颜美形_亮眼_祛眼袋滑动杆">106012195</integer>
+	<integer name="修图_美颜美形_亮眼_亮眼bar收回">106012196</integer>
+	<integer name="修图_美颜美形_亮眼_亮眼bar展开">106012197</integer>
+	<integer name="修图_美颜美形_亮眼_亮眼滑动杆">106012198</integer>
+
+	<integer name="修图_美颜美形_大眼">106011107</integer>
+	<integer name="修图_美颜美形_大眼_取消">106011108</integer>
+	<integer name="修图_美颜美形_大眼_确认">106011109</integer>
+	<integer name="修图_美颜美形_大眼_手动定点">106011110</integer>
+	<integer name="修图_美颜美形_大眼_对比">106012199</integer>
+	<integer name="修图_美颜美形_大眼_大眼bar收回">106012200</integer>
+	<integer name="修图_美颜美形_大眼_大眼bar展开">106012201</integer>
+	<integer name="修图_美颜美形_大眼_大眼滑动杆">106012202</integer>
+	<integer name="修图_美颜美形_大眼_祛眼袋bar收回">106012203</integer>
+	<integer name="修图_美颜美形_大眼_祛眼袋bar展开">106012204</integer>
+	<integer name="修图_美颜美形_大眼_祛眼袋滑动杆">106012205</integer>
+	<integer name="修图_美颜美形_大眼_亮眼bar收回">106012206</integer>
+	<integer name="修图_美颜美形_大眼_亮眼bar展开">106012207</integer>
+	<integer name="修图_美颜美形_大眼_亮眼滑动杆">106012208</integer>
+
+	<integer name="修图_美颜美形_高鼻梁">106011111</integer>
+	<integer name="修图_美颜美形_高鼻梁_取消">106011112</integer>
+	<integer name="修图_美颜美形_高鼻梁_确认">106011113</integer>
+	<integer name="修图_美颜美形_高鼻梁_手动定点">106011114</integer>
+	<integer name="修图_美颜美形_高鼻梁_收回bar">106012209</integer>
+	<integer name="修图_美颜美形_高鼻梁_展开bar">106012210</integer>
+	<integer name="修图_美颜美形_高鼻梁_滑动杆">106012211</integer>
+
+	<integer name="修图_美颜美形_微笑">106011115</integer>
+	<integer name="修图_美颜美形_微笑_取消">106011116</integer>
+	<integer name="修图_美颜美形_微笑_确认">106011117</integer>
+	<integer name="修图_美颜美形_微笑_手动定点">106011118</integer>
+	<integer name="修图_美颜美形_微笑_收回bar">106012212</integer>
+	<integer name="修图_美颜美形_微笑_展开bar">106012213</integer>
+	<integer name="修图_美颜美形_微笑_滑动杆">106012214</integer>
+
+	<integer name="修图_美颜美形_彩妆">106011119</integer>
+	<integer name="修图_美颜美形_彩妆_取消">106011120</integer>
+	<integer name="修图_美颜美形_彩妆_确认">106011121</integer>
+	<integer name="修图_美颜美形_彩妆_手动定点">106011122</integer>
+	<integer name="修图_美颜美形_彩妆_下载更多">106011123</integer>
+	<integer name="修图_美颜美形_彩妆_主题妆容">106011124</integer>
+	<integer name="修图_美颜美形_彩妆_粉底">106011125</integer>
+	<integer name="修图_美颜美形_彩妆_腮红">106011126</integer>
+	<integer name="修图_美颜美形_彩妆_唇彩">106011127</integer>
+	<integer name="修图_美颜美形_彩妆_眉毛">106011128</integer>
+	<integer name="修图_美颜美形_彩妆_眼影">106011129</integer>
+	<integer name="修图_美颜美形_彩妆_眼线">106011130</integer>
+	<integer name="修图_美颜美形_彩妆_睫毛">106011131</integer>
+	<integer name="修图_美颜美形_彩妆_美瞳">106011132</integer>
+	<integer name="修图_美颜美形_彩妆_对比按钮">106011133</integer>
+	
+	<integer name="修图_美颜美形_美牙">106014740</integer>
+	<integer name="修图_美颜美形_美牙_取消">106014742</integer>
+	<integer name="修图_美颜美形_美牙_确认">106014743</integer>
+	<integer name="修图_美颜美形_美牙_手动定点">106014744</integer>
+	<integer name="修图_美颜美形_美牙_对比按钮">106014745</integer>
+	<integer name="修图_美颜美形_美牙_bar收回">106014746</integer>
+	<integer name="修图_美颜美形_美牙_bar展开">106014747</integer>
+	<integer name="修图_美颜美形_美牙_美牙滑动杆">106014748</integer>
+
+
+	<integer name="修图_美颜美形_瘦鼻">106014741</integer>
+	<integer name="修图_美颜美形_瘦鼻_取消">106014749</integer>
+	<integer name="修图_美颜美形_瘦鼻_确认">106014750</integer>
+	<integer name="修图_美颜美形_瘦鼻_手动定点">106014751</integer>
+	<integer name="修图_美颜美形_瘦鼻_对比按钮">106014752</integer>
+	<integer name="修图_美颜美形_瘦鼻_bar收回">106014753</integer>
+	<integer name="修图_美颜美形_瘦鼻_bar展开">106014754</integer>
+	<integer name="修图_美颜美形_瘦鼻_美牙滑动杆">106014755</integer>
+
+	<!-- 一键萌妆 -->
+	<integer name="一键萌妆">106013370</integer>
+	<integer name="一键萌妆_取消">106013371</integer>
+	<integer name="一键萌妆_确认">106013372</integer>
+	<integer name="一键萌妆_手动定点">106013373</integer>
+	<integer name="一键萌妆_对比按钮">106013374</integer>
+	<integer name="一键萌妆_小黑猫">106013376</integer>
+	<integer name="一键萌妆_天使猫">106013377</integer>
+	<integer name="一键萌妆_糖果猫咪">106013378</integer>
+	<integer name="一键萌妆_乔巴">106013379</integer>
+	<integer name="一键萌妆_阿拉蕾">106013380</integer>
+	<integer name="一键萌妆_美少女">106013381</integer>
+	<integer name="一键萌妆_草莓兔">106013382</integer>
+	<integer name="一键萌妆_气球派对">106013383</integer>
+	<integer name="一键萌妆_山兔">106013384</integer>
+	<integer name="一键萌妆_麋鹿妆">106013385</integer>
+	<integer name="一键萌妆_小恶魔">106013386</integer>
+	<integer name="一键萌妆_鹿公主">106013387</integer>
+	<integer name="一键萌妆_迷糊汪">106014244</integer>
+	<integer name="一键萌妆_嘻哈侠">106014245</integer>
+	<integer name="一键萌妆_甜心汪">106014246</integer>
+	<integer name="一键萌妆_俊介君">106014247</integer>
+
+
+
+
+	<integer name="修图_素材美化">106011134</integer>
+
+	<integer name="修图_素材美化_滤镜">106011135</integer>
+	<integer name="修图_素材美化_滤镜_取消">106011136</integer>
+	<integer name="修图_素材美化_滤镜_确认">106011137</integer>
+	<integer name="修图_素材美化_滤镜_虚化">106011138</integer>
+	<integer name="修图_素材美化_滤镜_暗角">106011139</integer>
+	<integer name="修图_素材美化_滤镜_Original">106011140</integer>
+	<integer name="修图_素材美化_滤镜_推荐位">106012221</integer>
+	<integer name="修图_素材美化_滤镜_下载更多">106012215</integer>
+	<integer name="滤镜_水印_无">106012488</integer>
+	<integer name="滤镜_水印_我爱美人">106012500</integer>
+	<integer name="滤镜_水印_爱心1">106012489</integer>
+	<integer name="滤镜_水印_爱星">106012490</integer>
+	<integer name="滤镜_水印_英文相机1">106012491</integer>
+	<integer name="滤镜_水印_英文相机2">106012492</integer>
+	<integer name="滤镜_水印_几何">106012494</integer>
+	<integer name="滤镜_水印_流星">106012495</integer>
+	<integer name="滤镜_水印_猫">106012496</integer>
+	<integer name="滤镜_水印_丘比特">106012497</integer>
+	<integer name="滤镜_水印_音符">106012498</integer>
+	<integer name="滤镜_水印_优雅">106012499</integer>
+
+	<integer name="修图_素材美化_相框">106011152</integer>
+	<integer name="修图_素材美化_相框_取消">106011153</integer>
+	<integer name="修图_素材美化_相框_确认">106011154</integer>
+	<integer name="修图_素材美化_相框_更多素材">106011155</integer>
+	<integer name="修图_素材美化_相框_主题">106011156</integer>
+	<integer name="修图_素材美化_相框_简约">106011157</integer>
+
+	<integer name="修图_素材美化_贴图">106011158</integer>
+	<integer name="修图_素材美化_贴图_取消">106011159</integer>
+	<integer name="修图_素材美化_贴图_确认">106011160</integer>
+	<integer name="修图_素材美化_贴图_下载更多">106011161</integer>
+
+	<integer name="修图_素材美化_毛玻璃">106011162</integer>
+	<integer name="修图_素材美化_毛玻璃_取消">106011163</integer>
+	<integer name="修图_素材美化_毛玻璃_确认">106011164</integer>
+	<integer name="修图_素材美化_毛玻璃_下载更多">106011165</integer>
+	<integer name="修图_素材美化_毛玻璃_贴纸">106011166</integer>
+	<integer name="修图_素材美化_毛玻璃_形状">106011167</integer>
+
+	<integer name="修图_素材美化_马赛克">106011168</integer>
+	<integer name="修图_素材美化_马赛克_取消">106011169</integer>
+	<integer name="修图_素材美化_马赛克_确认">106011170</integer>
+	<integer name="修图_素材美化_马赛克_下载更多">106011171</integer>
+	<integer name="修图_素材美化_马赛克_涂鸦">106011172</integer>
+	<integer name="修图_素材美化_马赛克_画风">106011173</integer>
+	<integer name="修图_素材美化_马赛克_切换橡皮擦">106011174</integer>
+	<integer name="修图_素材美化_马赛克_切换画笔">106011175</integer>
+
+	<integer name="修图_素材美化_指尖魔法">106011176</integer>
+	<integer name="修图_素材美化_指尖魔法_取消">106011177</integer>
+	<integer name="修图_素材美化_指尖魔法_确认">106011178</integer>
+	<integer name="修图_素材美化_指尖魔法_下载更多">106011179</integer>
+	<integer name="修图_素材美化_指尖魔法_清空按钮">106011180</integer>
+	
+	<integer name="修图_素材美化_拼图">106012216</integer>
+	<integer name="修图_素材美化_拼图_马上下载">106012217</integer>
+	<integer name="修图_素材美化_拼图_马上使用">106012218</integer>
+	<integer name="修图_素材美化_拼图_不再提示">106012219</integer>
+	<integer name="修图_素材美化_拼图_返回">106012220</integer>
+
+	<integer name="修图_保存_返回">106011182</integer>
+	<integer name="修图_保存_返回首页">106011183</integer>
+	<integer name="修图_保存_编辑下一张">106011184</integer>
+	<integer name="修图_保存_分享到朋友圈">106011185</integer>
+	<integer name="修图_保存_分享到微信好友">106011186</integer>
+	<integer name="修图_保存_分享到新浪">106011187</integer>
+	<integer name="修图_保存_分享到QQ空间">106011188</integer>
+	<integer name="修图_保存_分享到QQ好友">106011189</integer>
+	<integer name="修图_保存_分享到poco">106011190</integer>
+	<integer name="修图_保存_分享到facebook">106011191</integer>
+	<integer name="修图_保存_分享到ins">106011192</integer>
+	<integer name="修图_保存_分享到twitter">106011193</integer>
+
+	<!--修图推荐位-->
+	<integer name="修图_素材美化_主题彩妆_推荐位">106011560</integer>
+	<integer name="修图_素材美化_主题相框_推荐位">106011561</integer>
+	<integer name="修图_素材美化_白色相框_推荐位">106011562</integer>
+	<integer name="修图_素材美化_贴图_推荐位">106011563</integer>
+	<integer name="修图_素材美化_毛玻璃_推荐位">106011564</integer>
+	<integer name="修图_素材美化_指尖魔法_推荐位">106011566</integer>
+	<integer name="修图_素材美化_马赛克_推荐位">106011565</integer>
+
+
+	<!-- 云相册 -->
+	<integer name="云相册_首页_新建相册">1069277</integer>
+	<integer name="云相册_相册创建页_返回">1069278</integer>
+	<integer name="云相册_相册创建页_创建">1069279</integer>
+	<integer name="云相册_相册创建页_快速创建标题">1069280</integer>
+	<integer name="云相册_内页_上传照片">1069340</integer>
+	<integer name="云相册_内页_长按下弹出多选">1069282</integer>
+	<integer name="云相册_内页_多选">1069283</integer>
+	<integer name="云相册_内页_多选下移动">1069284</integer>
+	<integer name="云相册_内页_多选下删除">1069285</integer>
+	<integer name="云相册_内页_多选下保存至本地">1069286</integer>
+	<integer name="云相册_内页_删除相册">1069341</integer>
+	<integer name="云相册_内页_相册重命名">1069342</integer>
+	<integer name="云相册_照片详情页_删除">1069343</integer>
+	<integer name="云相册_照片详情页_保存到本地">1069344</integer>
+	<integer name="云相册_照片详情页_移动">1069287</integer>
+	<integer name="云相册_相册删除_第一次弹框_取消">1069288</integer>
+	<integer name="云相册_相册删除_提示框_确认删除">1069289</integer>
+	<integer name="云相册_相册删除_提示框_删除相册">1069290</integer>
+	<integer name="云相册_相册删除_二次弹框_取消">1069291</integer>
+	<integer name="云相册_首页_设置">1069345</integer>
+	<integer name="云相册_传输列表_等待传输列点击">1069292</integer>
+	<integer name="云相册_设置_询问弹框_蜂窝网络上传_取消">1069293</integer>
+	<integer name="云相册_设置_询问弹框_蜂窝网络上传_确认">1069294</integer>
+	<integer name="云相册_正在上传bar">1069295</integer>
+	<integer name="云相册_等待传输bar">1069296</integer>
+	<integer name="云相册_传输失败bar">1069297</integer>
+	<integer name="云相册_设置_传输列表">1069298</integer>
+	<integer name="云相册_设置_WIFI传输开关">1069299</integer>
+
+	<!-- 滤镜页 -->
+	<integer name="滤镜页">106151</integer>
+	<integer name="滤镜页_重拍">106152</integer>
+	<integer name="滤镜页_保存">106153</integer>
+	<integer name="滤镜页_美颜">106154</integer>
+	<integer name="滤镜页_展开滤镜">1066310</integer>
+	<!-- 美化 -->
+	<integer name="美化_卡片">106260</integer>
+	<integer name="美化_卡片_写贺卡文字界面">106262</integer>
+	<integer name="美化_卡片_热门祝福语">106263</integer>
+	<integer name="美化_卡片_热门祝福语_某一条祝福语">106264</integer>
+	<integer name="美化_卡片_解锁成功">1065790</integer>
+	<integer name="美化_卡片_解锁">1065789</integer>
+	<integer name="美化_返回按钮">1065648</integer>
+	<integer name="美化_保存按钮">1065647</integer>
+	<integer name="美化_裁剪">1065645</integer>
+	<integer name="美化_边框">106034</integer>
+	<integer name="美化_边框_下载更多">106009750</integer>
+	<integer name="美化_装饰">106032</integer>
+	<integer name="美化_指尖魔法">1065646</integer>
+	<integer name="美化_指尖魔法_下载更多">106009751</integer>
+	<integer name="美化_文字">1065784</integer>
+	<integer name="美化_文字_下载POCO相机">1065785</integer>
+	<integer name="美化_文字_启动POCO相机">1065786</integer>
+	<integer name="美化_马赛克">1066784</integer>
+	<integer name="美化_毛玻璃">1066783</integer>
+
+
+	<!-- 素材中心 -->
+	<integer name="素材中心_点击某分类">106318</integer>
+	<integer name="素材中心_解锁">1065986</integer>
+	<integer name="素材中心_解锁_成功">1065987</integer>
+
+	<!-- 精品应用 -->
+	<integer name="精品应用">106190</integer>
+	<integer name="精品应用_点击下载">106194</integer>
+	<integer name="精品应用_POCO应用">106193</integer>
+	<integer name="精品应用_推荐平台">106192</integer>
+	<integer name="精品应用_精品">106191</integer>
+	<integer name="精品应用_banner">106011794</integer>
+
+	<!-- 冲印 -->
+	<integer name="冲印_马上制作_下一步">1160049</integer>
+	<integer name="冲印_马上制作_添加照片">1160050</integer>
+	<integer name="冲印_我的订单">1160041</integer>
+	<integer name="冲印_上传素材">1160052</integer>
+	<integer name="冲印_上传素材_成功">1160053</integer>
+	<integer name="冲印_确认订单_加载失败">1160051</integer>
+
+	<!-- 分享 -->
+	<integer name="分享_登录">106059</integer>
+	<integer name="分享_登录_注册">106074</integer>
+	<integer name="分享_登录_注册_成功">106116</integer>
+	<integer name="分享_微信好友_成功">1066318</integer>
+	<integer name="分享_微信朋友圈_成功">1066317</integer>
+	<integer name="分享_新浪微博">106140</integer>
+	<integer name="分享_新浪微博_绑定">106060</integer>
+	<integer name="分享_新浪微博_成功">106144</integer>
+	<integer name="分享_新浪微博_失败">106145</integer>
+	<integer name="分享_POCO微博">106139</integer>
+	<integer name="分享_POCO微博_成功">106142</integer>
+	<integer name="分享_POCO微博_失败">106143</integer>
+	<integer name="分享_腾讯微博">106141</integer>
+	<integer name="分享_腾讯微博_成功">106146</integer>
+	<integer name="分享_腾讯微博_失败">106147</integer>
+	<integer name="分享_人人网">106148</integer>
+	<integer name="分享_人人网_成功">106149</integer>
+	<integer name="分享_人人网_失败">106150</integer>
+	<integer name="分享_QQ空间">106305</integer>
+	<integer name="分享_QQ空间_成功">106306</integer>
+	<integer name="分享_QQ空间_失败">106307</integer>
+	<integer name="分享_豆瓣_成功">101233</integer>
+	<integer name="分享_豆瓣_失败">101234</integer>
+	<integer name="分享_点击推送内容">1060470</integer>
+	<integer name="分享_服务器转发_成功">106163</integer>
+	<integer name="分享_服务器转发_失败">106164</integer>
+	<integer name="分享_点击某个热门标签">1060468</integer>
+	<integer name="分享_预览">106053</integer>
+	<integer name="分享_拍照">1066313</integer>
+	<integer name="分享_美颜">1066312</integer>
+	<integer name="分享_美化">1066314</integer>
+	<integer name="分享_简拼">1066315</integer>
+	<integer name="分享_banner">106011792</integer>
+	<integer name="分享到在一起">106012291</integer>
+
+	<!-- 保存页 -->
+	<integer name="保存页_美颜">1065637</integer>
+	<integer name="保存页_简拼">1065983</integer>
+	<integer name="保存页_简拼_下载">1065984</integer>
+	<integer name="保存页_简拼_启动">1065985</integer>
+	<integer name="保存页_拼图">1065639</integer>
+	<integer name="保存页_在一起">106009741</integer>
+
+	<!-- 商业 -->
+	<integer name="商业_介绍页">106299</integer>
+	<integer name="商业_介绍页_填资料">106300</integer>
+	<integer name="商业_介绍页_拍一张">106301</integer>
+	<integer name="商业_介绍页_从相册选">106302</integer>
+	<integer name="商业_活动列表">106297</integer>
+
+	<!-- 设置 -->
+	<integer name="设置">106064</integer>
+	<integer name="设置_问题反馈">106292</integer>
+	<integer name="设置_新功能介绍">106293</integer>
+
+	<!-- 关于 -->
+	<integer name="关于">106065</integer>
+
+	<!-- 萌大头 -->
+	<integer name="萌大头_定点">1065959</integer>
+	<integer name="萌大头_加装饰界面">1065961</integer>
+	<integer name="萌大头_拖动条界面">1065960</integer>
+	<integer name="萌大头_保存">1065962</integer>
+	<integer name="萌大头_保存_微信好友">1065963</integer>
+	<integer name="萌大头_保存_微信朋友圈">1065964</integer>
+	<integer name="萌大头_保存_新浪微博">1065965</integer>
+	<integer name="萌大头_保存_QQ空间">1065966</integer>
+	<integer name="萌大头_保存_微信好友_成功">1065967</integer>
+	<integer name="萌大头_保存_微信朋友圈_成功">1065968</integer>
+	<integer name="萌大头_保存_新浪微博_成功">1065969</integer>
+	<integer name="萌大头_保存_QQ空间_成功">1065970</integer>
+
+	<!-- 颜值王 -->
+	<integer name="颜值王_其他banner通道">1067614</integer>
+	<integer name="颜值王_微信好友">1067657</integer>
+	<integer name="颜值王_微信朋友圈">1067656</integer>
+	<integer name="颜值王_新浪微博">1067658</integer>
+	<integer name="颜值王_QQ空间">1067659</integer>
+
+	<!-- 行为事件 -->
+	<integer name="行为事件_保存作品">106012905</integer>
+	<integer name="行为事件_用美人账号登录">106012901</integer>
+	<integer name="行为事件_用微信登录">106012903</integer>
+	<integer name="行为事件_用微博登录">106012902</integer>
+	<integer name="行为事件_美人账号注册成功">106012906</integer>
+</resources>

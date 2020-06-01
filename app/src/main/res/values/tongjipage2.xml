@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="首页_首页_主页面">P110_B01_M01_P01_L1</string>
+
+	<string name="美颜美图_照片预览页_主页面">P110_B01_M02_P02_L1</string>
+	<string name="美颜美图_照片预览页_美颜美形菜单">P110_B01_M02_P02_L11</string>
+	<string name="美颜美图_照片预览页_素材美化菜单">P110_B01_M02_P02_L12</string>
+	<string name="美颜美图_编辑页面_主页面">P110_B01_M02_P03_L1</string>
+	<string name="美颜美图_美颜界面_主页面">P110_B01_M02_P04_L1</string>
+	<string name="美颜美图_瘦脸瘦身页_主页面">P110_B01_M02_P05_L1</string>
+	<string name="美颜美图_祛痘页_主页面">P110_B01_M02_P06_L1</string>
+	<string name="美颜美图_祛眼袋页面_主页面">P110_B01_M02_P07_L1</string>
+	<string name="美颜美图_亮眼页面_主页面">P110_B01_M02_P08_L1</string>
+	<string name="美颜美图_大眼页面_主页面">P110_B01_M02_P09_L1</string>
+	<string name="美颜美图_高鼻梁页面_主页面">P110_B01_M02_P10_L1</string>
+	<string name="美颜美图_微笑页面_主页面">P110_B01_M02_P11_L1</string>
+	<string name="美颜美图_彩妆页面_主页面">P110_B01_M02_P12_L1</string>
+	<string name="美颜美图_一键萌妆页面_主页面">P110_B01_M02_P13_L1</string>
+	<string name="美颜美图_滤镜页面_主页面">P110_B01_M02_P14_L1</string>
+	<string name="美颜美图_相框页面_主页面">P110_B01_M02_P15_L1</string>
+	<string name="美颜美图_贴图页面_主页面">P110_B01_M02_P16_L1</string>
+	<string name="美颜美图_毛玻璃页面_主页面">P110_B01_M02_P17_L1</string>
+	<string name="美颜美图_马赛克页面_主页面">P110_B01_M02_P18_L1</string>
+	<string name="美颜美图_指尖魔法页面_主页面">P110_B01_M02_P19_L1</string>
+	<string name="美颜美图_拼图页面_主页面">P110_B01_M02_P20_L1</string>
+	<string name="美颜美图_保存页_主页面">P110_B01_M02_P21_L1</string>
+
+	<string name="美颜美图_美牙页_主页面">P110_B01_M02_P51_L1</string>
+	<string name="美颜美图_瘦鼻页_主页面">P110_B01_M02_P52_L1</string>
+	<string name="美颜美图_增高页_主页面">P110_B04_M02_P62_L1</string>
+	<string name="美颜美图_修图退出确认_主页面">P110_B04_M02_P63_L1</string>
+
+	<string name="拍照_拍照_顶部设置">P110_B01_M03_P22_L1</string>
+	<string name="拍照_拍照_更多设置">P110_B01_M03_P22_L13</string>
+	<string name="拍照_拍照_美形定制">P110_B05_M03_P22_L11</string>
+	<string name="拍照_拍照_切换模式">P110_B01_M03_P22_L12</string>
+
+	<string name="拍照_拍照_美形定制首次弹窗">P110_B03_M03_P60_L1</string>
+
+	<string name="拍照_表情包拍摄_主页面">P110_B01_M03_P23_L1</string>
+	<string name="拍照_表情包拍摄_滤镜列表">P110_B01_M03_P23_L11</string>
+	<string name="拍照_表情包拍摄_素材列表">P110_B01_M03_P23_L12</string>
+	<string name="拍照_表情包拍摄_素材管理">P110_B01_M03_P23_L13</string>
+	<string name="拍照_表情包预览页_主页面">P110_B01_M03_P24_L1</string>
+	<string name="拍照_表情包分享_主页面">P110_B01_M03_P25_L1</string>
+	<string name="拍照_美颜拍照_主页面">P110_B01_M03_P26_L1</string>
+	<string name="拍照_美颜拍照_滤镜列表">P110_B01_M03_P26_L11</string>
+	<string name="拍照_拍照预览页_主页面">P110_B01_M03_P27_L12</string>
+	<string name="拍照_拍照预览页_滤镜列表">P110_B01_M03_P27_L13</string>
+	<string name="拍照_拍照保存页_主页面">P110_B01_M03_P28_L1</string>
+	<string name="拍照_萌妆照拍摄页_主页面">P110_B01_M03_P29_L1</string>
+	<string name="拍照_萌妆照拍摄页_滤镜列表">P110_B01_M03_P29_L11</string>
+	<string name="拍照_萌妆照拍摄页_素材列表">P110_B01_M03_P29_L12</string>
+	<string name="拍照_萌妆照拍摄页_素材管理">P110_B01_M03_P29_L13</string>
+	<string name="拍照_萌妆照预览页_主页面">P110_B01_M03_P30_L1</string>
+	<string name="拍照_萌妆照分享页_主页面">P110_B01_M03_P31_L1</string>
+	<string name="拍照_视频拍摄页_主页面">P110_B01_M03_P32_L1</string>
+	<string name="拍照_视频拍摄页_滤镜列表">P110_B01_M03_P32_L11</string>
+	<string name="拍照_视频拍摄页_素材列表">P110_B01_M03_P32_L12</string>
+	<string name="拍照_视频拍摄页_素材管理">P110_B01_M03_P32_L13</string>
+	<string name="拍照_视频预览页_主页面">P110_B01_M03_P33_L1</string>
+	<string name="拍照_视频分享页_主页面">P110_B01_M03_P34_L1</string>
+
+	<string name="素材商店_素材商店首页_主页面">P110_B01_M04_P35_L1</string>
+	<string name="素材商店_素材管理_主页面">P110_B01_M04_P36_L1</string>
+	<string name="素材商店_彩妆管理_主页面">P110_B01_M04_P37_L1</string>
+	<string name="素材商店_贴图管理_主页面">P110_B01_M04_P38_L1</string>
+	<string name="素材商店_相框管理_主页面">P110_B01_M04_P39_L1</string>
+	<string name="素材商店_简约边框管理_主页面">P110_B01_M04_P40_L1</string>
+	<string name="素材商店_毛玻璃管理_主页面">P110_B01_M04_P41_L1</string>
+	<string name="素材商店_马赛克管理_主页面">P110_B01_M04_P42_L1</string>
+	<string name="素材商店_指尖魔法管理_主页面">P110_B01_M04_P43_L1</string>
+	<string name="素材商店_滤镜管理_主页面">P110_B01_M04_P44_L1</string>
+
+	<string name="选相册_选相册_主页面">P110_B01_M05_P45_L1</string>
+
+	<string name="个人中心_首页_主页面">P110_B01_M06_P46_L1</string>
+	<string name="个人中心_主题换肤_主页面">P110_B01_M06_P47_L1</string>
+	<string name="个人中心_通用设置_主页面">P110_B01_M06_P48_L1</string>
+	<string name="个人中心_登录注册_登录页面">P110_B01_M06_P49_L1</string>
+	<string name="个人中心_登录注册_创建账号_步骤一">P110_B01_M06_P49_L21</string>
+	<string name="个人中心_登录注册_创建账号_步骤二">P110_B01_M06_P49_L22</string>
+	<string name="个人中心_登录注册_忘记密码_步骤一">P110_B01_M06_P49_L23</string>
+	<string name="个人中心_登录注册_忘记密码_步骤二">P110_B01_M06_P49_L24</string>
+	<string name="个人中心_登录注册_个人资料页">P110_B01_M06_P49_L31</string>
+
+	<string name="社区_首页_主页面">P110_B01_M07_P50_L1</string>
+	<string name="快捷修图_首页_主页面">P110_B04_M08_P61_L1</string>
+
+	<!--2018-1-30-->
+	<string name="ar祝福_活动首页_主页面">P110_B05_M09_P64_L1</string>
+	<string name="ar祝福_送祝福_主页面">P110_B05_M09_P65_L1</string>
+    <string name="ar祝福_送祝福_打开镜头拍照">P110_B05_M09_P65_L11</string>
+    <string name="ar祝福_送祝福_弹出视频选择_本地或录制">P110_B05_M09_P65_L12</string>
+    <string name="ar祝福_送祝福_打开镜头录像">P110_B05_M09_P65_L13</string>
+    <string name="ar祝福_送祝福_录像预览页">P110_B05_M09_P65_L14</string>
+	<string name="ar祝福_送祝福_打开相册选视频">P110_B05_M09_P65_L15</string>
+	<string name="ar祝福_送祝福_相册视频预览页">P110_B05_M09_P65_L16</string>
+	<string name="ar祝福_送祝福_完成送祝福">P110_B05_M09_P65_L17</string>
+	<string name="ar祝福_找祝福_打开镜头准备扫描">P110_B05_M09_P66_L11</string>
+	<string name="ar祝福_找祝福_输入口令">P110_B05_M09_P66_L12</string>
+	<string name="ar祝福_找祝福_打开ar镜头">P110_B05_M09_P66_L13</string>
+	<string name="ar祝福_找祝福_播放视频">P110_B05_M09_P66_L14</string>
+	<string name="直播助手_直播入口_入口中转页">P110_B05_M10_P67_L1</string>
+	<string name="直播助手_直播入口_教程页">P110_B05_M10_P67_L2</string>
+	<string name="直播助手_直播页_主页面">P110_B05_M10_P68_L1</string>
+	<string name="直播助手_贴纸页_主页面">P110_B05_M10_P69_L1</string>
+	<string name="直播助手_贴纸页_贴纸管理页">P110_B05_M10_P69_L11</string>
+	<string name="直播助手_美颜美型页_美颜页">P110_B05_M10_P70_L11</string>
+	<string name="直播助手_美颜美型页_脸型页">P110_B05_M10_P70_L21</string>
+	<string name="直播助手_美颜美型页_滤镜页">P110_B05_M10_P70_L31</string>
+	<string name="直播助手_美颜美型页_滤镜下载页">P110_B05_M10_P70_L311</string>
+	<string name="直播助手_美颜美型页_滤镜管理页">P110_B05_M10_P70_L312</string>
+
+</resources>

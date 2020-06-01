@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../AdMasterLibs2017/admasterlibs" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../BeautyImageProcess/PocoARSDKlibs" />
+            <option value="$PROJECT_DIR$/../BeautyImageProcess/imageprocessjni" />
+            <option value="$PROJECT_DIR$/../BlogLibs2016/bloglibs" />
+            <option value="$PROJECT_DIR$/../Camera2016" />
+            <option value="$PROJECT_DIR$/../CloudAlbum2016/cloudalbumlibs" />
+            <option value="$PROJECT_DIR$/../Community2017_BeautyCamera/communitylib" />
+            <option value="$PROJECT_DIR$/../CommunitySkin/beautycommunityskinlibs" />
+            <option value="$PROJECT_DIR$/../FaceDetection/facedetectlibs" />
+            <option value="$PROJECT_DIR$/../IMSDK/imsdk" />
+            <option value="$PROJECT_DIR$/../LoginSystem2016/loginlibs" />
+            <option value="$PROJECT_DIR$/../PocoGLLibs2016/pocogllibs" />
+            <option value="$PROJECT_DIR$/../PocoInterface2016/pocointerfacelibs" />
+            <option value="$PROJECT_DIR$/../PocoLibs2016/pocolibs" />
+            <option value="$PROJECT_DIR$/../ResourceLibs2017/resourcelibs" />
+            <option value="$PROJECT_DIR$/../ScoreSystem2016/scorelibs" />
+            <option value="$PROJECT_DIR$/../StatisticLibs2017/statisticlibs" />
+            <option value="$PROJECT_DIR$/../StorageSystem2016/storagesystemlibs" />
+            <option value="$PROJECT_DIR$/../VideoPlusLib/videoPluslibs" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/OkHttpProgressListenerLib" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/beautyMall" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/beautyaccount-release" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/beautylogin" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/hzbeautycommonlib" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/missionHall" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/pickerview-release" />
+            <option value="$PROJECT_DIR$/../missionHall4beautyCamera/pickphotoview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

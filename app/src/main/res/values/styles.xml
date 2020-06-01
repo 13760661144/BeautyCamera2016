@@ -1,0 +1,88 @@
+<resources>
+
+    <style name="MyAppTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+	<style name="MainAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+	</style>
+
+	<style name="AlertDialog" parent="android:Theme.Dialog">
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/popup_bg</item>
+	</style>
+
+	<style name="MyTheme_Dialog_Transparent_Fullscreen_NO_ANIM" parent="MyTheme_Dialog_Transparent_Fullscreen">
+		<item name="android:windowEnterAnimation">@anim/dialog_none_anim</item>
+		<item name="android:windowExitAnimation">@anim/dialog_none_anim</item>
+	</style>
+
+	<style name="CloudalbumProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+		<item name="android:maxHeight">50dip</item>
+		<item name="android:minHeight">10dip</item>
+		<item name="android:indeterminateOnly">false</item>
+		<item name="android:indeterminateDrawable">
+			@android:drawable/progress_indeterminate_horizontal
+		</item>
+		<item name="android:progressDrawable">@drawable/cloudalbum_progressbar_shape</item>
+	</style>
+
+	<style name="mystyle" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+		<!--进入时的动画-->
+		<item name="android:windowExitAnimation">@anim/dialog_exit</item>
+		<!--退出时的动画-->
+	</style>
+
+	<style name="popUpAnimation" parent="@android:style/Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_window_in</item>
+		<item name="android:windowExitAnimation">@anim/popup_window_out</item>
+	</style>
+
+	<style name="pocoLoginDialogAnimation" parent="@android:style/Animation">
+		<item name="android:windowEnterAnimation">@anim/poco_login_dialog_enter</item>
+		<item name="android:windowExitAnimation">@anim/poco_login_dialog_exit</item>
+	</style>
+
+	<style name="popUpAnimation2" parent="@android:style/Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_window_in2</item>
+		<item name="android:windowExitAnimation">@anim/popup_window_out</item>
+	</style>
+
+	<style name="homeTipAnimation" parent="@android:style/Animation">
+		<item name="android:windowEnterAnimation">@anim/dialog_home_tip_enter</item>
+		<item name="android:windowExitAnimation">@anim/dialog_home_tip_exit</item>
+	</style>
+
+
+	<style name="fullDialog" mce_bogus="1" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+
+	<style name="fullDialog1" mce_bogus="1" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:backgroundDimAmount">0.3</item>
+	</style>
+
+</resources>

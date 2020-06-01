@@ -1,0 +1,1129 @@
+﻿<resources>
+    <string name="app_name_main">Beauty Camera</string>
+    <string name="app_name_recommend">Beauty Camera(Recommend)</string>
+
+    <string name="app_sd_card_warning">Less than 100MB of storage will cause app error </string>
+    <string name="app_sd_card_out_of_space">No enough storage</string>
+    <string name="app_sd_card_err">Storage device error</string>
+
+    <string name="press_again_and_quit">Press back button again and quit </string>
+
+    <string name="printerpage_details_btn_name">Orders</string>
+    <string name="printalbumpage_next_btn_name">Next</string>
+    <string name="lotter_tip1">Share order successful to participate in the lottery</string>
+    <string name="lotter_tip2">Only one chance for per order</string>
+    <string name="lotter_reconnect_tip">Network error. Please try again</string>
+    <string name="weibo_send_sina">Sending</string>
+    <string name="confirm_title">Tips</string>
+    <string name="ensure">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_back">Go back will abandon the photo edit</string>
+    <string name="content_description_icon">icon</string>
+    <string name="refresh">Refresh</string>
+    <string name="loading">Loading</string>
+    <string name="download">Download</string>
+    <string name="download_fail">Download Failed</string>
+    <string name="cancel_install_msp">You have cancelled the installation of mobile quick payment services</string>
+    <string name="cancel_install_alipay">You have cancelled the installation of Alipay</string>
+    <string name="redo">Try again</string>
+    <string name="install_msp">Please install mobile quick payment services</string>
+    <string name="install_alipay">Please install Alipay first</string>
+    <string name="rule_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\\|`¬!"£$¥€%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+    <string name="back">Back</string>
+
+    <string name="cloudalbum_rename_tip">Uploaded photos\n
+                                           are here\n
+                                         You can change the name of album</string>
+    <string name="cloudalbum_rename_btn">Rename</string>
+    <string name="cloudalbum_create_new_album_tip">No album yet\nClick to create one</string>
+    <string name="cloudalbum_icon_text">
+                                       No photo yet </string>
+
+    <string name="pull_to_refresh">Pull down to refresh</string>
+
+    <string name="bootimgpage_skip_btn">Skip</string>
+
+    <string name="homepage_sdcard_volume_tip">Less than 100MB of storage will cause app error </string>
+
+    <string name="beautify4page_clip_btn">Crop</string>
+    <string name="beautify4page_face_btn">Beautify</string>
+    <string name="beautify4page_beautify_btn">Edit</string>
+    <string name="beautify4page_meiyan_btn">Skin</string>
+    <string name="beautify4page_shoushen_btn">Slim</string>
+    <string name="beautify4page_qudou_btn">Acne</string>
+    <string name="beautify4page_dayan_btn">Enlarge</string>
+    <string name="beautify4page_quyandai_btn">DarkCircle</string>
+    <string name="beautify4page_liangyan_btn">Brighten</string>
+    <string name="beautify4page_zenggao_btn">Taller</string>
+    <string name="beautify4page_weixiao_btn">Smile</string>
+    <string name="beautify4page_meiya_btn">TeethWhiten</string>
+    <string name="beautify4page_shoubi_btn">NarrowNose</string>
+    <string name="beautify4page_gaobiliang_btn">Shadow</string>
+    <string name="beautify4page_yijianmengzhuang_btn">Cosplay</string>
+    <string name="beautify4page_caizhuang_btn">Makeup</string>
+    <string name="beautify4page_lvjing_btn">Filters</string>
+    <string name="beautify4page_xiangkuang_btn">Frame</string>
+    <string name="beautify4page_tietu_btn">Stickers</string>
+    <string name="beautify4page_maoboli_btn">Glass</string>
+    <string name="beautify4page_masaike_btn">Mosaic</string>
+    <string name="beautify4page_zhijianmofa_btn">FingerMagic</string>
+    <string name="beautify4page_pintu_btn">Collage</string>
+    <string name="beautify4page_save_fail">Save Failed</string>
+    <string name="beautify4page_img_err">Open image failed</string>
+    <string name="beautify4page_noface_help">Face detection failed, \nplease manually identify the face</string>
+    <string name="beautify4page_noface_help_btn">manually identify</string>
+
+    <!-- 拼图 -->
+    <string name="goto_use">Try it now</string>
+    <string name="goto_download">Download</string>
+    <string name="no_longer_tips">No more notification</string>
+
+    <!-- 相册 -->
+    <string name="system_album">Local Album</string>
+    <string name="album">Album</string>
+    <plurals name="repeat_select_tip">
+        <item quantity="one">%1$d photo(s) selected (%2$d photos at most)</item>
+        <item quantity="other">%1$d photo(s) selected (%2$d photos at most)</item>
+    </plurals>
+    <string name="album_add_photo">Add</string>
+    <string name="over_max_photo_tip">Select %d photos at most</string>
+    <string name="less_min_photo_tip">Select %d photos at least</string>
+    <plurals name="has_select_photo">
+        <item quantity="one">%d photo(s) selected</item>
+        <item quantity="other">%d photo(s) selected</item>
+    </plurals>
+    <string name="upload">Upload</string>
+    <string name="upload_to_cloud_album_tip">Add photos to “%s”</string>
+    <string name="repeat_tip">Tips</string>
+    <string name="repeat_message">This photo has been selected, \n continue to add it?</string>
+    <string name="add">Add</string>
+    <string name="photo_not_exist">The photo does not exist</string>
+    <string name="video_not_exist">The video does not exist</string>
+
+    <string name="video_album_title">The videos &lt;60M have been sifted</string>
+
+    <!-- 内存提示 -->
+    <string name="memory_error_message">Cannot save image \n Please check your device storage</string>
+    <string name="memory_error_positive">OK</string>
+
+    <string name="memory_no_space_message">No enough storage.\n Release storage capacity please.</string>
+    <string name="memory_no_space_positive">Check storage capacity</string>
+    <string name="memory_no_space_negative">OK</string>
+
+    <string name="memory_warning_message">Your storage is less than 200MB. \n Some functions may not work properly. \n Release storage capacity please.</string>
+    <string name="memory_warning_positive">Check storage capacity</string>
+    <string name="memory_warning_negative">OK</string>
+
+    <!-- 贴图 -->
+    <string name="pendant_number_limit">The number of decorations has exceeded the upper limit</string>
+    <string name="pendant_unlock_success">Unlock Successful</string>
+    <string name="download_pendant">Downloading</string>
+    <string name="download_pendant_failed">Download Failed</string>
+    <string name="decorate_can_not_delete">Delete Failed</string>
+
+    <!-- 祛痘 -->
+    <string name="remove_acne">Acne</string>
+    <string name="acne_tip">Tap to remove acne</string>
+
+    <string name="remove_eye_bag">Remove eye bag</string>
+    <string name="high_nose">Shadow</string>
+    <string name="smile">Smile</string>
+
+    <string name="share">Share</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+    <string name="camerapage_camera_permissions_not_turned_on"> Camera permission is not authorized \n Please enable it in the settings</string>
+    <string name="camerapage_camera_error_to_re_open">Camera error \n Please quit and turn on the camera again</string>
+    <string name="camerapage_camera_permission_limit"> Camera permissions are forbidden</string>
+    <string name="camerapage_camera_open_fail"> Camera cannot be turned on. \n Please check your camera permission in the system settings and try again</string>
+    <string name="camerapage_camera_open_permission_method">Methods of access permission</string>
+    <string name="camerapage_camera_open_sticker_record_tips"> Sorry, dynamic stickers need 4.3 or higher version of Android</string>
+    <string name="camerapage_camera_open_gif_record_tips">很抱歉，表情包功能需要4.3版本以上\n安卓手机系统方可适用</string>
+    <string name="camerapage_camera_open_video_record_tips">很抱歉，视频功能需要4.3版本以上\n安卓手机系统方可适用</string>
+    <string name="camerapage_camera_open_sticker_record_tips_ensure">OK</string>
+    <string name="camerapage_sticker_share_wx_to_activation">Share to Wechat to unlock this template</string>
+    <string name="camerapage_check_record_permission">Can not record the sound, please turn on microphone permission</string>
+    <string name="camerapage_preview_size">Preview size:</string>
+    <string name="camerapage_adjust_volume_level">Your phone is muted,  please turn up the volume</string>
+    <string name="camerapage_zipai_volume_open">The voice prompt of selfie is turned on</string>
+    <string name="camerapage_zipai_volume_close">The voice prompt of selfie is turned off</string>
+    <string name="camerapage_to_take_photo">Take photo</string>
+
+    <string name="camerapage_setting_capture_time_off">The timer function is off</string>
+    <string name="camerapage_setting_capture_time_1s">Timed 1 second</string>
+    <string name="camerapage_setting_capture_time_2s">Timed 2 seconds</string>
+    <string name="camerapage_setting_capture_time_3s">Timed 3 seconds</string>
+    <string name="camerapage_setting_capture_time_10s">Timed 10 seconds</string>
+    <string name="camerapage_setting_touch_capture_on">Touch screen to take photo</string>
+    <string name="camerapage_setting_touch_capture_off">Normal mode</string>
+    <string name="camerapage_setting_beauty_on">Intelligent beautify</string>
+    <string name="camerapage_setting_beauty_off">Normal beautify</string>
+
+    <string name="camerapage_exposure_value">brightness%d</string>
+    <string name="camerapage_exposure_value_up">brightness+%d</string>
+
+    <string name="camerapage_sticker_face_action_tip_open_mouth">Open your mouth</string>
+    <string name="camerapage_sticker_face_action_tip_blink">Blink your eyes</string>
+    <string name="camerapage_sticker_face_action_tip_eyebrow">Raise your eyebrows</string>
+    <string name="camerapage_sticker_face_action_tip_nod_head">Nod your head</string>
+
+    <string name="camerapage_sticker_unlock_loading_data">Data acquiring</string>
+    <string name="camerapage_sticker_unlock_loading_data_fail">Data acquirement is failed</string>
+    <string name="camerapage_sticker_unlock_loading_data_no_connect">Network connection is failed,please check and try again</string>
+
+    <string name="camerapage_record_tips">Touch to photograph\nHold to recording</string>
+
+    <string name="camerapage_patch_view_tips_type_0_title">Camera direction correction tool</string>
+    <string name="camerapage_patch_view_tips_type_0_content">If your camera direction is always wrong, \n this guide may help you</string>
+    <string name="camerapage_patch_view_tips_type_0_content2">(May access it in \”settings\”)</string>
+    <string name="camerapage_patch_view_tips_type_0_btn_left">OK</string>
+    <string name="camerapage_patch_view_tips_type_0_btn_right">Correct</string>
+    <string name="camerapage_patch_view_tips_type_1_title">Firstly,  keep your phone upright</string>
+    <string name="camerapage_patch_view_tips_type_1_content">Is the direction of camera preview image right?</string>
+    <string name="camerapage_patch_view_tips_type_1_btn_left">Wrong</string>
+    <string name="camerapage_patch_view_tips_type_1_btn_right">Right</string>
+    <string name="camerapage_patch_view_tips_type_2_title">Correct photo direction</string>
+    <string name="camerapage_patch_view_tips_type_2_content">Is the photo direction right?</string>
+    <string name="camerapage_patch_view_tips_type_3_title">Correction Completed</string>
+    <string name="camerapage_camera_time_take_1">1 second</string>
+    <string name="camerapage_camera_touch_take">Shoot</string>
+    <string name="camerapage_camera_time_beauty">Real-time Beautify</string>
+    <string name="camerapage_camera_voice_tips">Voice\n prompt</string>
+    <string name="camerapage_camera_intelligent_customization">Shape Customized</string>
+    <string name="camerapage_camera_time_take_manual">Manual</string>
+    <string name="camerapage_camera_time_take_2">2\nseconds</string>
+    <string name="camerapage_camera_time_take_3">3\nseconds</string>
+    <string name="camerapage_camera_time_take_10">10\nseconds</string>
+    <string name="camera_flash_open">On</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_close">Off</string>
+    <string name="camera_flash_light">Flash\nLight</string>
+    <string name="camerapage_camera_intelligent_tips_default">Hi, this is personalized beautify. \n Please adjust to the default level you like</string>
+    <string name="camerapage_camera_intelligent_tips_beauty">Set up your personal [Beautify] parameters\n System will remember and continue to use it</string>
+    <string name="camerapage_camera_intelligent_tips_shoulian">Set up your personal [Slim] parameters\n System will remember and continue to use it</string>
+    <string name="camerapage_camera_intelligent_tips_dayan_1">Set up your [Enlarg] parameters</string>
+    <string name="camerapage_camera_intelligent_tips_dayan_2">will</string>
+    <string name="camerapage_camera_intelligent_tips_dayan_3">be personal mood</string>
+    <string name="camerapage_camera_intelligent_tips_dayan_4">You can access top [Settings] to change them</string>
+    <string name="camerapage_camera_intelligent_btn_next">Next</string>
+    <string name="camerapage_camera_intelligent_btn_preview">Back</string>
+
+    <string name="camerapage_camera_intelligent_tips3">You can choose again by top [Settings]-->[Shape Customized]</string>
+    <string name="camerapage_sdk_out_of_date_update_tip">Notice of updates</string>
+    <string name="camerapage_sdk_out_of_date_tip_msg">Dynamic stickers of this version is off! \n Please update to the latest version, \n and try the newest stickers.</string>
+    <string name="camerapage_sdk_out_of_date_tip_download">Update now</string>
+    <string name="camerapage_sdk_out_of_date_tip_cancel">Next time</string>
+    <string name="camerapage_record_video_invalid_tip">The recording time is too short</string>
+    <string name="camerapage_invalid_video">Video file is damaged or gone</string>
+    <string name="camera_video_duration_ten_second">The video duration is 10 seconds</string>
+    <string name="camera_video_duration_three_minute">The video duration is 3 minutes</string>
+    <string name="camera_gif_title">GIF</string>
+    <string name="camera_photo_title">HD PHOTO</string>
+    <string name="camera_meng_zhuang_title">CUTE</string>
+    <string name="camera_video_title">VIDEO</string>
+    <string name="camera_clear_all_video_tips">Video not saved, whether to exit ?</string>
+    <string name="camera_clear_all_video_not_abandon">Cancel</string>
+    <string name="camera_clear_all_video_abandon">Exit</string>
+    <string name="camera_setting_front_flash_text">Fill light</string>
+
+    <string name="not_installed_app_store">Not installed app market, please install</string>
+
+    <string name="unlock_download">Download</string>
+    <string name="unlock_download_unlock">Unlock to download</string>
+    <string name="unlock_download_limit">Limited Download</string>
+    <string name="unlock_downloading">Downloading</string>
+    <string name="unlock_cancel">Skip</string>
+    <string name="unlock_share_to_weixin">Share to Wechat to unlock this template</string>
+    <string name="unlock_share_to_market">5 stars review to unlock the template</string>
+    <string name="unlock_use_credit">Use 60 points to exchange the template</string>
+    <string name="unlock_credit_redeem_failed">Redeem Failed</string>
+    <string name="unlock_credit_not_enough">Your points is less than 60</string>
+    <string name="unlock_user_current_credit">Your Points:</string>
+    <string name="unlock_user_login_tip">You haven\'t logged in yet. Click to login</string>
+    <string name="unlock_limit_res_success">Unlock Successful</string>
+    <string name="beauty">Beautify</string>
+    <string name="shoulian">Slim</string>
+    <string name="filterpage_filter">Filters</string>
+    <string name="filterpage_watermark">Watermark</string>
+    <string name="brushpage_brush">Finger Magic</string>
+    <string name="is_it_emptied">Wipe out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="tips">Tips</string>
+    <string name="error">Error</string>
+    <string name="brushpage_edit_mode_to_back_tip">The editing content will be abandoned. Confirm to go back?</string>
+    <string name="brushpage_loading_img">Loading</string>
+    <string name="filterpendantpage_pendant">Stickers</string>
+    <string name="filterpendantpage_shape">Shape</string>
+    <string name="framepage_theme">Theme</string>
+    <string name="framepage_simple">Simple</string>
+    <string name="clippage_clip">Crop</string>
+    <string name="clippage_clip_reset">Reset</string>
+    <string name="clippage_clip_rotate">Rotate</string>
+    <string name="clippage_clip_mirror">Mirror</string>
+    <string name="clippage_clip_free">Free</string>
+    <string name="clippage_clip_1_1">1:1</string>
+    <string name="clippage_clip_4_3">4:3</string>
+    <string name="clippage_clip_3_4">3:4</string>
+    <string name="clippage_clip_16_9">16:9</string>
+    <string name="clippage_clip_9_16">9:16</string>
+    <string name="mosaicpage_doodle">Graffiti</string>
+    <string name="mosaicpage_paint">Paint</string>
+    <string name="mosaicpage_paint_vangogh">Van Gogh</string>
+    <string name="mosaicpage_paint_crayon">Crayon</string>
+    <string name="mosaicpage_paint_charcoal">Charcoal</string>
+    <string name="mosaicpage_paint_splash">Splash</string>
+    <string name="mosaicpage_paint_sketches1">Sketches</string>
+    <string name="mosaicpage_paint_sketches2">Circles</string>
+    <string name="mosaicpage_paint_sketches3">Fantasy</string>
+    <string name="mosaicpage_paint_sketches4">Draw</string>
+    <string name="mosaicpage_paint_mosaic">Mosaic</string>
+
+
+    <!-- 新版首页 -->
+    <string name="clickToLogin">Log In</string>
+    <string name="taskHall">Mission Hall</string>
+    <string name="cloudAlbum">Cloud Album</string>
+    <string name="printingPhotos">Photo Printing</string>
+    <string name="myCredit">Points</string>
+    <string name="wallet">Wallet</string>
+    <string name="beautyMall">Welfare Agency</string>
+    <string name="changeSkin">Skin Theme</string>
+    <string name="setting">Settings</string>
+    <string name="aboutUs">About Us</string>
+    <string name="appRecommendation">Explore</string>
+    <string name="rateUs">Rate &amp; Review</string>
+    <string name="shareWithFriends">Share</string>
+
+    <string name="customBeauty">Customization</string>
+    <string name="generalSetting">Settings</string>
+    <string name="helpAndFeedback">Q&amp;A</string>
+    <string name="beautyService">Service</string>
+    <string name="personalityManagement">Individuation</string>
+    <string name="moreSupport">More</string>
+    <string name="recommendationForYou">Commend</string>
+    <string name="loginHint">Log in</string>
+
+    <string name="homepage_live_entry">Live</string>
+    <string name="homepage_beauty_entry">Beautify</string>
+    <string name="homepage_open_album1">美颜</string>
+    <string name="homepage_open_album2">美图</string>
+    <string name="homepage_open_album">Album</string>
+    <string name="homepage_undo">Recall</string>
+    <string name="homepage_top_tip">Pull Down</string>
+    <string name="homepage_left_tip">Pull Right</string>
+    <string name="homepage_right_tip">Pull Left</string>
+    <string name="homepage_welfare">Welfare</string>
+    <string name="homepage_material">Material</string>
+
+
+    <string name="saving">Saving</string>
+    <string name="loading_img">Loading</string>
+    <string name="processing">Loading</string>
+    <!--美颜-->
+    <string name="beauty_sub_title">Skin</string>
+    <string name="beauty_def_buffing">Smooth</string>
+    <string name="beauty_def_whitening">Skins</string>
+    <string name="beauty_def_complexion">Hue</string>
+    <string name="beauty_effect_default">Tender</string>
+    <string name="beauty_effect_clear">Clear</string>
+    <string name="beauty_effect_newbee">Detail</string>
+    <string name="beauty_effect_little">Mild</string>
+    <string name="beauty_effect_middle">Light</string>
+    <string name="beauty_effect_nature">Natural</string>
+    <string name="beauty_effect_user">Custom</string>
+    <string name="beauty_effect_none">Original</string>
+    <string name="beauty_effect_moonlight">Dim</string>
+
+    <!--瘦脸瘦身-->
+    <string name="slim_manual">Manual</string>
+    <string name="slim_auto">Shape</string>
+    <string name="slim_tools">Tool</string>
+    <string name="slim_oval_face">Oval Face</string>
+    <string name="slim_egg_face">Oblong Face</string>
+    <string name="slim_awl_face">Awl Face</string>
+    <string name="known">OK</string>
+
+    <!--主题换肤-->
+    <string name="theme_sub_title">Theme</string>
+
+
+    <!--彩妆-->
+    <string name="makeup_title">Makeup</string>
+    <string name="makeups_title">Cosplay</string>
+    <string name="makeup_changepoint_help_tips1">Lock to drag</string>
+    <string name="makeup_changepoint_content1">Drag the points above with the left schematic to recognize Lip</string>
+    <string name="makeup_chnagepoint_content2">Drag the 10 points above with the left schematic to recognize eyes</string>
+    <string name="makeup_changepoint_content3">Drag the 8 points above with the left schematic to recognize eyebrow</string>
+    <string name="makeup_changepoint_content4">Drag the 2 points above with the left schematic to recognize cheek</string>
+    <string name="makeup_changepoint_content5">Drag the 2 points above with the left schematic to recognize nose</string>
+    <string name="makeup_changepoint_content6">Drag the 3 points above with the left schematic to recognize cheek</string>
+    <string name="makeup_changepoint_title1">Intelligent beautify ---- Anchor point correction</string>
+    <string name="makeup_changepoint_title2">Drag the 3 points above to recognize left eye, right eye and mouth</string>
+    <string name="makeup_changepoint_title3">Anchor point correction</string>
+    <string name="makeup_saihong_item1_name">Style</string>
+    <string name="makeup_changepoint_zuichun_name">Lips</string>
+    <string name="makeup_changepoint_zuoyan_name">Eyes</string>
+    <string name="makeup_changepoint_youyan_name">Right Eye</string>
+    <string name="makeup_changepoint_meimao_name">Eyebrow</string>
+    <string name="makeup_chnagepoint_lianjia_name">Cheek</string>
+    <string name="makeup_chnagepoint_nose_name">Nose</string>
+    <string name="makeup_chnagepoint_chin_name">Chin</string>
+
+    <string name="makeup_multiface_tips">More people are detected, please choose one to edit</string>
+    <string name="makeup_theme_name">Makeup theme</string>
+    <string name="makeup_fendi_name">Foundation</string>
+    <string name="makeup_saihong_name">Blush</string>
+    <string name="makeup_chuncai_name">Lip Gloss</string>
+    <string name="makeup_meimao_name">Eyebrow</string>
+    <string name="makeup_yanying_name">Eye Shadow</string>
+    <string name="makeup_yanxian_name">Eyeliner</string>
+    <string name="makeup_jiemao_name">Eyelash</string>
+    <string name="makeup_meitong_name">Cosmetic contact lenses</string>
+    <string name="filterbeautify_page_advanced_tip">Beautify</string>
+    <!-- 美颜大眼start -->
+    <string name="bigeyes_multiple_face_detect">More people are detected, please choose one to edit</string>
+
+    <!-- 美颜大眼stop -->
+
+    <!-- 运营专区start -->
+    <string name="campaigncenter_title">Community</string>
+    <string name="refresh_finish">Refreshed</string>
+    <string name="noMoreData">No more content</string>
+    <string name="poor_network">Network error, please check your network</string>
+    <string name="poor_network2">Network error</string>
+    <string name="check_network_configuration">Please check your network</string>
+    <string name="fail_get_file">Load file failed</string>
+    <string name="can_not_find_file">Cannot find the file</string>
+    <string name="pulldown_to_refresh">Pull down to refresh</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="completed">Refreshed</string>
+    <string name="no_more_content">No more content</string>
+    <!-- 运营专区end -->
+
+    <!--CampaignCenter WebViewPage start -->
+    <string name="share_to">Share to</string>
+    <string name="webviewpage_cancel">Cancel</string>
+    <string name="try_rightnow">Try it now</string>
+    <string name="share_successfully">Share Successful</string>
+    <string name="fail_to_share">Share Failed</string>
+    <string name="user_cancel_share">Share Canceled</string>
+
+    <string name="friends_circle">Moments</string>
+    <string name="wechat_friends">Wechat</string>
+    <string name="sina_weibo">Weibo</string>
+    <string name="QQZone">Qzone</string>
+    <string name="QQ">QQ</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Community">BeautyClub</string>
+
+
+    <!--CampaignCenter WebViewPage end -->
+
+    <string name="login_first">Please login first</string>
+    <string name="know">OK</string>
+
+    <string name="saving_picture_failed">Save Failed</string>
+
+    <string name="material">Store</string>
+    <string name="material_frame">Theme Frame</string>
+    <string name="material_frame2">Simple Frame</string>
+    <string name="material_makeup">Makeup</string>
+    <string name="material_decorate">Stickers</string>
+    <string name="material_glass">Frosted Glass</string>
+    <string name="material_mosaic">Mosaic</string>
+    <string name="material_brush">Finger Magic</string>
+    <string name="material_download_all">Download All</string>
+    <string name="material_downloading">Downloading</string>
+    <string name="material_download_complete">Downloaded</string>
+    <string name="material_download_failed">Download Failed</string>
+    <string name="material_manage">Manage</string>
+    <string name="material_manage_title">Manage</string>
+    <string name="material_manage_delete">Delete</string>
+    <string name="material_manage_select_all">Select all</string>
+    <string name="material_manage_cancel_select_all">Cancel</string>
+    <string name="material_manage_none_tip">No downloaded material yet</string>
+    <string name="material_downloading_tip">Material is downloading, please wait a moment</string>
+    <string name="material_download_this">Download this material?</string>
+    <string name="material_download">Yes</string>
+    <string name="material_cancel">No</string>
+    <string name="material_use">Try it now</string>
+    <string name="material_download_continue">Continue downloading</string>
+    <string name="material_download_none_tip">All materials are downloaded</string>
+
+    <string name="unlock_success">Unlock Successful</string>
+    <string name="download_failed_title">Cannot get data</string>
+    <string name="download_failed_content">Network error, please check your network</string>
+    <string name="net_weak_tip">Network error, please check your network</string>
+
+    <string name="material_filter">Filters</string>
+
+    <string name="filter_type_none">Original</string>
+    <string name="filter_type_jasmine">Jasmine</string>
+    <string name="filter_type_camelliaa">Camellia</string>
+    <string name="filter_type_rosa">Rosa</string>
+    <string name="filter_type_lavender">Lavender</string>
+    <string name="filter_type_sunflower">Sunflower</string>
+    <string name="filter_type_clover">Clover</string>
+    <string name="filter_type_peach">Peach</string>
+    <string name="filter_type_dandelion">Dandelion</string>
+    <string name="filter_type_lilac">Lilac</string>
+    <string name="filter_type_tulip">Tulip</string>
+
+    <string name="recommend_download_more">More</string>
+    <string name="recommend_material_more">More</string>
+
+    <!-- 分享 -->
+    <string name="share_poco_cancel_bind">Confirm to unlink POCO account?</string>
+    <string name="share_poco_sending">Sending</string>
+    <string name="share_poco_unbind">Link POCO account first</string>
+    <string name="share_poco_binding">Linking</string>
+    <string name="share_poco_bind_fail">Link Failed</string>
+    <string name="share_poco_share_success">Link Successful</string>
+    <string name="share_poco_share_fail">Send Failed</string>
+    <string name="share_sina_cancel_bind">Confirm to unlink Weibo account?</string>
+    <string name="share_sina_error_clinet_no_install">You haven’t install latest Weibo app.</string>
+    <string name="share_sina_unbind">Link Weibo account first</string>
+    <string name="share_sina_bind_fail">Link Failed</string>
+    <string name="share_qq_cancel_bind">Confirm to unlink QQ account?</string>
+    <string name="share_qq_error_clinet_no_install">You haven’t install latest QQ app. Please install it to continue sharing.</string>
+    <string name="share_qq_bind_fail">Link Failed</string>
+    <string name="share_content_default">I created a photo by Beauty Camera</string>
+    <string name="share_pic_error">Image error, please check whether the image is deleted</string>
+    <string name="share_icon_camera">Continue</string>
+    <string name="share_icon_beautify">Beautify</string>
+    <string name="share_icon_edit_next">Edit next</string>
+    <string name="share_icon_share_community">Share to Club</string>
+    <string name="share_ui_top_title">Saved</string>
+    <string name="share_ui_bottom_title">Share with high quality</string>
+    <string name="share_weixin_error_client_version_low1">Your Wechat need update to latest version</string>
+    <string name="share_weixin_error_client_version_low2">Your Wechat need update to latest version</string>
+    <string name="share_weixin_error_client_no_install">You haven’t install Wechat, please install it to continue sharing</string>
+    <string name="share_facebook_client_no_install">You haven’t install Facebook, please install it to continue sharing</string>
+    <string name="share_twitter_client_no_install">You haven’t install Twitter, please install it to continue sharing</string>
+    <string name="share_instagram_client_no_install">You haven’t install instagram, please install it to continue sharing</string>
+    <string name="share_circle_client_no_install">You haven’t install Circle app, please install it to continue sharing</string>
+    <string name="share_circle_without_data">No Share Data</string>
+    <string name="share_circle_unsupport_version">Sharing to Circle app is not supported for this version</string>
+    <string name="share_circle_without_image">The shared photo does not exist</string>
+    <string name="share_circle_unsupport_video">Sharing video to Circle app is not supported for this version</string>
+    <string name="share_circle_illegal_video">Video must not be less than 2 seconds</string>
+    <string name="share_send_repeat">Send duplicate content</string>
+    <string name="share_error_image_too_large">Image size exceeded limit</string>
+    <string name="share_error_image_is_null">Image does not exist, please check it</string>
+    <string name="share_error_video_is_null">Video does not exist, please check it</string>
+    <string name="share_error_context_is_null">Send content cannot be blank</string>
+    <string name="share_error_url">Url error</string>
+    <string name="share_error_thumb">Preview image error</string>
+    <string name="share_error_file_is_null">File url cannot be blank</string>
+    <string name="share_default_title">Beauty Camera</string>
+    <string name="share_server_uploading">Uploading</string>
+    <string name="share_server_upload_fail">Upload Failed</string>
+    <string name="share_sending">Sending</string>
+    <string name="share_send_success">Share Successful</string>
+    <string name="share_send_fail">Share Failed</string>
+    <string name="share_send_cancel">Share Canceled</string>
+    <string name="share_sendblogpage_default_text">Say something</string>
+    <string name="share_sendblogpage_title_poco">Share to POCO</string>
+    <string name="share_sendblogpage_title_sina">Share to Weibo</string>
+    <string name="share_sendblogpage_title_qq">Share to QQ</string>
+    <string name="share_sendblogpage_title_qzone">Share to QZONE</string>
+    <string name="share_sendblogpage_send">Send</string>
+    <string name="share_sendblogpage_hot_topic">#Hot Tag#</string>
+    <string name="share_sendblogpage_content_limit">Weibo content should not exceed 140 words</string>
+    <string name="share_together_tip_text">My best work\nis my life</string>
+    <string name="share_facebook_client_start_fail">Facebook application error, please check it</string>
+    <string name="share_facebook_client_call">Please Wait a second</string>
+    <string name="share_error_start_application_fail">Start application error</string>
+    <string name="QQZoneAlias">Qzone</string>
+    <string name="QQFriends">QQ</string>
+
+    <!-- WebViewPage -->
+    <string name="webviewpage_album">Album</string>
+    <string name="webviewpage_camera">Camera</string>
+    <string name="webviewpage_select_image_source">Image Source</string>
+    <string name="webviewpage_select_image">Select</string>
+    <string name="webviewpage_get_data_fail">Get data failed</string>
+
+    <!-- 动态贴纸 -->
+    <string name="lightapp06_share_title">My video</string>
+    <string name="lightapp06_share_description">Cute Stickers</string>
+    <string name="lightapp06_share_text">#Beauty Camera# My Video</string>
+    <string name="lightapp06_text_share">Share to</string>
+    <string name="lightapp06_text_save">Saved</string>
+    <string name="lightapp06_not_exist_pic">Image does not exist</string>
+    <string name="lightapp06_not_exist_video">Video does not exist</string>
+    <string name="lightapp06_video_upload_fail">Upload Failed</string>
+    <string name="lightapp06_save_done">Save to</string>
+    <string name="lightapp06_video_save_fail">Save Error</string>
+    <string name="lightapp06_video_uploading">Uploading</string>
+    <string name="lightapp06_share_type_title1">Direct Share</string>
+    <string name="lightapp06_share_type_please">Please</string>
+    <string name="lightapp06_share_type_wexin">open Wechat</string>
+    <string name="lightapp06_share_type_sina">open Weibo</string>
+    <string name="lightapp06_share_type_qzone">open QQ</string>
+    <string name="lightapp06_share_type_after">and then</string>
+    <string name="lightapp06_share_type_description1">select the video from the album you wanna share</string>
+    <string name="lightapp06_share_type_title2">Share by Link</string>
+    <string name="lightapp06_share_type_description2">Upload video to our server \n and generate a link which you can share </string>
+    <string name="lightapp06_share_type_upload">Upload</string>
+    <string name="lightapp06_video_bgm_non">None</string>
+    <string name="lightapp06_video_bgm_local">Local</string>
+    <string name="lightapp06_video_bgm_un_support">The music is unavailable</string>
+    <string name="lightapp06_share_mic_error">No access to microphone permissions, the video not record audio</string>
+    <string name="lightapp06_share_mic_mute">Record audio off</string>
+    <string name="lightapp06_share_mic_unmute">Record audio on</string>
+    <string name="lightapp06_video_bgm_select_music">Select music</string>
+    <string name="lightapp06_share_mix_video">Video synthesizing</string>
+    <string name="lightapp06_share_mix_video_fail">Composite video failed</string>
+    <string name="lightapp06_video_bgm_short_audio"> The music is too short to be used</string>
+    <string name="lightapp06_video_bgm_short_audio_tip">The music is too short to be edited</string>
+    <string name="lightapp06_share_saving_video">Processing...</string>
+    <string name="lightapp06_share_saving_video_tips">For saving video successful，\nplease don’t lock the screen or switch to other apps</string>
+    <string name="lightapp06_share_video_time_limit">You can only share video within 10 seconds</string>
+    <string name="lightapp06_share_together_video_time_limit">It can only be Shared more than 2 seconds video</string>
+
+    <!-- 设置 -->
+    <string name="setting_topbar_title">Settings</string>
+    <string name="setting_title_camera">Camera</string>
+    <string name="setting_camera_actual_camera">Real-time Beautify</string>
+    <string name="setting_camera_tailor_made">Shape Customization</string>
+    <string name="setting_camera_no_sound">Shutter Sound</string>
+    <string name="setting_camera_auto_open_camera">Fast Selfie Mode</string>
+    <string name="setting_camera_auto_save_sdcard">Save Original Photo</string>
+    <string name="setting_camera_tick_sound">Sound Effect</string>
+    <string name="setting_camera_camera_rotate">Camera direction correction</string>
+    <string name="setting_camera_reset">Reset</string>
+    <string name="setting_title_photo">Image</string>
+    <string name="setting_photo_watermark_set">Watermark</string>
+    <string name="setting_photo_hd_photo">HD Quality</string>
+    <string name="setting_photo_remember_beautify_mode">Remember last beautify edit</string>
+    <string name="setting_photo_attach_date">Add Time</string>
+    <string name="setting_title_other">Other</string>
+    <string name="setting_other_feedback">Help &amp; Feedback</string>
+    <string name="setting_other_clear_cache">Clear Cache</string>
+    <string name="setting_other_about">About</string>
+    <string name="setting_text_camera_reset">About to reset camera settings</string>
+    <string name="setting_beauty_auto_thinface">Real-time Face-lifting</string>
+    <string name="setting_reset_complete">Reset camera settings complete</string>
+    <string name="setting_clear_cache_text">Clear data cache?</string>
+    <string name="setting_clear_cache_button">Clear</string>
+    <string name="setting_clear_cache_toast">Cache is cleared</string>
+
+    <!-- 精彩推荐 -->
+    <string name="appmarket_topbar_title">Explore</string>
+    <string name="appmarket_title1">Goodies</string>
+    <string name="appmarket_title2">Special</string>
+    <string name="appmarket_network_error">Network error, please check it</string>
+    <string name="appmarket_webview_app_installed">The application has been installed</string>
+
+    <!-- 商业通用通道 -->
+    <string name="business_download_res_error">Data Error</string>
+    <string name="business_signup_btn_name">Try it now</string>
+    <string name="business_camera_btn_name">Take a photo</string>
+    <string name="business_photo_btn_name">Select from Album</string>
+    <string name="business_submit_btn_name">Submit</string>
+
+    <!-- 绑定poco -->
+    <string name="pocologin_login_fail">Login Failed</string>
+    <string name="pocologin_register_success">Sign up Successful</string>
+    <string name="pocologin_register_account_effective">Congratulations! Your POCO ID is:</string>
+    <string name="pocologin_login_on_network"> Also you can login www.poco.cn with this ID</string>
+    <string name="pocologin_login_hint_account">Name/E-mail/POCO ID</string>
+    <string name="pocologin_hint_password">Password</string>
+    <string name="pocologin_login_title">POCO Login</string>
+    <string name="pocologin_login_button">Login</string>
+    <string name="pocologin_free_registration">Sign up</string>
+    <string name="pocologin_invalid_account">Invalid Name or Email</string>
+    <string name="pocologin_invalid_password">Password cannot be blank</string>
+    <string name="pocologin_register_fail">Sign up Failed</string>
+    <string name="pocologin_register_hint_account">E-mail Please input Email</string>
+    <string name="pocologin_register_title">POCO Sign up</string>
+    <string name="pocologin_register_button">Sign Up</string>
+    <string name="pocologin_check_other_weibo">You have link other Weibo account\nClick to login with it</string>
+    <string name="pocologin_other_weibo_login">Login with\nother account</string>
+    <string name="pocologin_ensure">OK</string>
+    <string name="pocologin_exit">NO</string>
+
+    <!-- 云相册 -->
+    <string name="unable_to_get_info">Cloud Album Data Error</string>
+    <string name="fail_to_update_info">Update Error</string>
+    <string name="refreshed_finish">Refreshed</string>
+    <string name="ok_text">OK</string>
+    <string name="account_login_other_device">Your account has been logged in another device</string>
+    <string name="relogin">Login again</string>
+    <string name="succeed_do_something">Successful</string>
+    <string name="shortcut_travel">Travel</string>
+    <string name="shortcut_delicous_food"> Food</string>
+    <string name="shortcut_selfish">Selfie</string>
+    <string name="shortcut_family">Family</string>
+    <string name="shortcut_baby">Baby</string>
+    <string name="shortcut_pets">Pet</string>
+    <string name="album_name_taken">This name is already in use</string>
+    <string name="cloud_album">Cloud Album</string>
+    <string name="creating">Creating</string>
+    <string name="album_name_can_not_empty">The name cannot be blank</string>
+    <string name="fali_to_craete_album">Create Failed</string>
+    <string name="succeed_creating_album">Create Successful</string>
+    <string name="upload_photoes_rightnow">Upload Photo Now</string>
+    <string name="go_back_home_page">Back Home</string>
+    <string name="good">OK</string>
+    <string name="not_select_category_yet">Please choose a category first</string>
+    <string name="same_name_album_exist">Cannot create an album of the same name</string>
+    <string name="album_exist">The album already exists</string>
+    <string name="succeed_save">Save Successful</string>
+    <string name="succeed_save2">Saved</string>
+    <string name="cancel_save">Cancel</string>
+    <string name="fail_to_save">Save failed</string>
+    <string name="close_wifi_notify">Turn off Wifi and use cellular data</string>
+    <string name="close_wifi_notify2">Continue or not</string>
+    <string name="go_on">Continue</string>
+    <string name="uploading_number_limit">Upload %d photos at most</string>
+    <string name="downloading_number_limit">Download %d photos at most</string>
+    <string name="uploading_and_downloading_tip">%1$d Photos Are Being Uploaded,%2$ Photos Are Being Downloaded</string>
+    <string name="uploading_tip">%d Photos Are Being Uploaded</string>
+    <string name="downloading_tip">%d Photos Are Being Downloaded</string>
+    <string name="waiting_wifi_to_transport">%d Photos Are Waiting Transfe Through Wi-Fi</string>
+    <string name="waiting_wifi_to_upload">%d Photos Are Waiting Upload Through Wi-Fi</string>
+    <string name="waiting_wifi_to_download">%d Photos Are Waiting Download Through Wi-Fi</string>
+    <string name="all_photo_upload_success">All Photos Uploaded Successfully</string>
+    <string name="all_photo_download_success">All Photos Downloaded Successfully</string>
+    <string name="upload_error">%d Photos Failed To Upload，Click To View List.</string>
+    <string name="download_error">%d Photos Failed To Download，Click To View List.</string>
+    <string name="upload_to_album">Upload To Album：%s</string>
+    <string name="upload_error_title">Upload Fail（%d）</string>
+    <string name="wait_to_upload_title">Wait For Upload（%d）</string>
+    <string name="download_from_album">Download From %s</string>
+    <string name="download_error_title">Download Failed（%d）</string>
+    <string name="wait_to_download_title">Wait For Download（%d）</string>
+
+    <!-- gif文字编辑 -->
+    <string name="gif_edit_add_text_tip">Add Text</string>
+    <string name="gif_text_number_tip">More words than limit</string>
+    <string name="gif_recommend">Recommend</string>
+    <string name="gif_edittext_hint">Please input</string>
+    <string name="gif_edit_save">OK</string>
+    <string name="gif_edit_title">Edit</string>
+
+    <string name="sticker_pager_network_error">The network is not available</string>
+    <string name="sticker_pager_manager">Manage</string>
+    <string name="sticker_pager_manager_local_non_delete">Built-in material cannot be deleted</string>
+    <string name="sticker_pager_manager_material">Management</string>
+    <string name="sticker_page_manager_delete_tip">Select Sticker you wanna delete</string>
+    <string name="camera_type_video">Video</string>
+    <string name="camera_type_photo">Photo</string>
+    <string name="camera_type_cute">Cute</string>
+    <string name="camera_type_gif">GIF</string>
+
+    <!-- 美形定制 -->
+    <string name="ding_zhi_first_text">Thinner and more beautiful?</string>
+    <string name="ding_zhi_second_text">Customize your personal\nbeauty shape parameters</string>
+    <string name="ding_zhi_third_text">System will remember them to help\n you beautify quickly</string>
+    <string name="ding_zhi_bottom_text">Setting</string>
+    <string name="ding_zhi_skip_text">Skip</string>
+    <string name="ding_zhi_forth_text">You can change settings at any time</string>
+    <string name="tailor_title">Shape Customization</string>
+    <string name="sticker_shutter_gif_text">GIF</string>
+    <string name="bgm_center_name">Sound</string>
+    <string name="tailor_close_switch_text">Shape Customized Off</string>
+    <string name="tailor_open_switch_text">Shape Customized On</string>
+    <string name="tailor_beauty_text">Beautify</string>
+    <string name="tailor_thin_face_text">Slim</string>
+    <string name="tailor_big_eye_text">Enlarge</string>
+    <string name="tailor_thin_nose_text">Narrow\n Nose</string>
+    <string name="tailor_beauty_tooth_text">Teeth\n Whiten</string>
+    <string name="bgm_down_load_failed">Network error</string>
+
+    <string name="updateRightNow">Update now</string>
+    <string name="sdkUpdateText">The current version needs to update to latest</string>
+    <string name="importantUpdate">Update now</string>
+    <string name="updateLater">Next time</string>
+
+    <!-- 图片、视频预览 -->
+    <string name="preview_pic_delete">Image does not exist</string>
+    <string name="preview_video_delete">Video does not exist</string>
+
+    <!-- 关于我们 -->
+    <string name="about_title">About Us</string>
+    <string name="about_introduction">　　Beauty Camera is the first app for female self timer in China. We currently have more than 350 million female users. We hope to help more people to find confidence, keep beauty and enjoy the life.</string>
+
+
+    <!--登陆注册-->
+    <string name="bindphonepage_getting">Loading...</string>
+    <string name="bindphonepage_sendsuccess">Verification code has been sent</string>
+    <string name="bindphonepage_chooseareanum">Please select the international code</string>
+    <string name="bindphonepage_writerightnum">Please input your phone number</string>
+    <string name="bindphonepage_operafrequently">Try again later</string>
+    <string name="bindphonepage_senderror">Send Failed. Please try again</string>
+    <string name="bindphonepage_reigstertips">This phone number is registered for Beauty Passport.Do you want to logout and use the phone number to login?</string>
+    <string name="bindphonepage_logintips">Login</string>
+    <string name="bindphonepage_cancel">Cancel</string>
+    <string name="bindphonepage_reget">Get</string>
+    <string name="bindphonepage_networkerror">Failed to get the verification code</string>
+    <string name="bindphonepage_othererror">Failed to get the verification code</string>
+
+    <string name="choosecountrypage_title">Select Country or region</string>
+    <string name="choosecountrypage_country">"AFGHANISTAN_阿富汗_93", "ALBANIA_阿尔巴尼亚_355", "ALGERIA_阿尔及利亚_213", "ANDORRA_安道尔_376", "ANGOLA_安哥拉_244", "ANGULLIAIS_安圭拉岛_1264", "ANTIGUAANDBARBUDA_安提瓜岛和巴布达_1268", "ARGENTINA_阿根廷_54",
+	"ARMENIA_亚美尼亚_374", "ASCENSION_阿森松_247", "AUSTRALIA_澳大利亚_61", "AUSTRIA_奥地利_43", "AZERBAIJAN_阿塞拜疆_994", "BAHAMAS_巴哈马群岛_1242", "BAHRANI_巴林_973", "BANGLADESH_孟加拉国_880", "BARBADOS_巴巴多斯_1246",
+	"BELARUS_白俄罗斯_375", "BELGIUM_比利时_32", "BELIZE_伯利兹_501", "BENIN_贝宁_229", "BERMUDAIS_百慕大群岛_1441", "BHUTAN_不丹_975", "BOLIVIA_玻利维亚_591", "BOSNIA&amp;HERZEGOVINA_波黑_387", "BOTSWANA_博茨瓦纳_267", "BRAZIL_巴西_55",
+	"BRUNEI_文莱_673", "BULGARIA_保加利亚_359", "BURKINAFASO_布基纳法索_226", "BURUNDI_布隆迪_257", "CAMBODIA_柬埔寨_855", "CAMEROON_喀麦隆_237", "CANADA_加拿大_1", "CAPEVERDE_佛得角_238", "CAYMANIS_开曼群岛_1345",
+	"CENTRALAFRICA_非洲中部_236", "CHAD_乍得_235", "CHILE_智利_56", "CHINA_中国_86", "COLOMBIA_哥伦比亚_57", "COMORO_科摩罗_269", "CONGO_刚果_242", "Congo(DemRep)_刚果(金)_243", "COOKIS_库克群岛_682", "COSTARICA_哥斯达黎加_506",
+	"CROATIA_克罗地亚_385", "CUBA_古巴_53", "CYPRUS_塞浦路斯_357", "CZECH_捷克_420", "DENMARK_丹麦_45", "DIEGOGARCIA_迪戈加西亚岛_246", "DJIBOUTI_吉布提_253", "DOMINICA(COMMOMWEALTHOF)_多米尼克_1767", "DOMINICANREP_多米尼加_1809",
+	"ECUADOR_厄瓜多尔_593", "EGYPT_埃及_20", "ELSALVADOR_萨尔瓦多_503", "EQUATORIALGUINEA_赤道几内亚_240", "ERITREA_厄立特里亚_291", "ESTIONIA_爱沙尼亚_372", "ETHIOPIA_埃塞俄比亚_251", "FALKLANDIS_福克兰群岛_500", "FAROEIS_法罗群岛_298",
+	"FIJI_斐济_679", "FINLAND_芬兰_358", "FRANCE_法国_33", "FRENCHGUIANA_法属圭亚那_594", "FRENCHPOLYNESIA_法属波利尼西亚_689", "GABON_加蓬_241", "GAMBIA_冈比亚_220", "GEORGIA_乔治亚州_995", "GERMANY_德国_49", "GHANA_加纳_233",
+	"GIBRALTAR_直布罗陀_350", "GREECE_希腊_30", "GREENLANDIS_格陵兰岛_299", "GRENADA_格林纳达_1473", "GUADELOUPEIS_瓜德罗普岛_590", "GUAM_关岛_1671", "GUATEMAILA_危地马拉_502", "GUINEA_几内亚_224", "GUINEABISSAU_几内亚比绍_245",
+	"GUYANY_圭亚那_592", "HAITI_海地_509", "HONDURAS_洪都拉斯_504", "HONGKONG_香港_852", "HUNGARY_匈牙利_36", "ICELAND_冰岛_354", "INDIA_印度_91", "INDONESIA_印尼_62", "IRAN_伊朗_98", "IRAQ_伊拉克_964", "IRELAND_爱尔兰_353", "ISRAFI_以色列_972",
+	"ITALY_意大利_39", "IVORYCOAST_科特迪瓦_225", "JAMAICA_牙买加_1876", "JAPAN_日本_81", "JORDAN_约旦_962", "KENYA_肯尼亚_254", "KIRIBATI_基里巴斯_686", "KOREA_韩国_82", "KOREA（DPROF）_朝鲜_850", "KUWAIT_科威特_965",
+	"KYRGYZSTAN_吉尔吉斯斯坦_996", "LAOS_老挝_856", "LATVIA_拉脱维亚_371", "LEBANON_黎巴嫩_961", "LESOTHO_莱索托_266", "LIBERIA_利比里亚_231", "LIBYA_利比亚_218", "LIECHTENSTEIN_列支敦斯登_4175", "LITHUANIA_立陶宛_370",
+	"LUXEMBOURG_卢森堡_352", "MACAU_澳门_853", "MACEDONIJA_马其顿_389", "MADAGASCAR_马达加斯加_261", "MALAWI_马拉维_265", "MALAYSIA_马来西亚_60", "MALDIVE_马尔代夫_960", "MALI_马里_223", "MALTA_马耳他_356", "MARIANAIS_马里亚纳群岛_1670",
+	"MARSHALLIS_马歇尔群岛_692", "MARTINIQUE_马提尼克岛_596", "MAURITANIA_毛利塔尼亚_222", "MAURITIUS_毛里求斯_230", "MEXICO_墨西哥_52", "MICRONESIA_密克罗尼西亚_691", "MILDOVA_摩尔多瓦_373", "MONACO_摩纳哥_377", "MONGOLIA_蒙古_976",
+	"MONTSERRATIS_蒙特塞拉特岛_1664", "MOROCCO_摩洛哥_212", "MOZAMBIQUE_莫桑比克_258", "MYANMAR_缅甸_95", "NAMIBIA_纳米比亚_264", "NAURU_瑙鲁_674", "NEPAL_尼泊尔_977", "NETHERLANDS_荷兰_31", "NEWZEALAND_新西兰_64", "NICARAGUA_尼加拉瓜_505",
+	"NIGER_尼日尔_227", "NIGERIA_尼日利亚_234", "NIUEIS_纽埃岛_683", "NORFOLKIS_诺福克岛_672", "NORWAY_挪威_47", "OMAN_阿曼_968", "PAKISTAN_巴基斯坦_92", "PALAU_帕劳_680", "PANAMA_巴拿马_507", "PAPUANEWGUINEA_巴布亚新几内亚_675",
+	"PARAGUAY_巴拉圭_595", "PERU_秘鲁_51", "PHILIPPINES_菲律宾_63", "POLAND_波兰_48", "PORTUGAL_葡萄牙_351", "PUERTORICO_波多黎各_1787", "QATAR_卡塔尔_974", "REUNIONIS_留尼旺岛_262", "RUMANIA_罗马尼亚_40", "RUSSIA_俄罗斯_7",
+	"RWANDA_卢旺达_250", "SAMOA(EASTERN)_萨摩亚(东部)_684", "SAMOA(WESTERN)_萨摩亚(西部)_685", "SANMARINO_圣马力诺_378", "SAOTOME&amp;PRINCIPE_圣多美和普林西比_239", "SAUDIARABIA_沙特阿拉伯_966", "SENEGAL_塞内加尔_221",
+	"SEYCHELLIES_塞舌尔共和国_248", "SIERRALEONE_塞拉利昂_232", "SINGAPORE_新加坡_65", "SLOVAK_斯洛伐克_421", "SLOVENIA_斯洛文尼亚_386", "SOLOMONIS_所罗门群岛_677", "SOMAIL_索马里_252", "SOUTHAFRICA_南非_27", "SPAIN_西班牙_34",
+	"SRILANKA_斯里兰卡_94", "ST.CHRISTOPHER&amp;NEVISIS_圣基茨和尼维斯_1869", "ST.HELENA_圣赫勒拿_290", "ST.LUCIA_圣卢西亚_1784", "ST.PIERRE&amp;MIQUELON_圣皮埃尔和密克隆群岛_508", "SUDAN_苏丹_249", "SURINAME_苏里南_597", "SWAZILAND_斯威士兰_268",
+	"SWEDEN_瑞典_46", "SWITZERLAND_瑞士_41", "SYRIA_叙利亚_963", "TAIWAN_台湾_886", "TANZANIA_坦桑尼亚_255", "THAILAND_泰国_66", "TOGO_多哥_228", "TOKELAUIS_托克劳岛_690", "TONGA_汤加_676", "TRINIDAD&amp;TOBAGO_特立尼达和多巴哥_1868",
+	"TUISIA_突尼斯_216", "TURKEY_土耳其_90", "TURKMENISTAN_土库曼斯坦_993", "TURKS&amp;CAICOSIS_特克斯和凯科斯群岛_1649", "TUVALU_图瓦卢_688", "U.K._英国_44", "UGANDA_乌干达_256", "UKRAINE_乌克兰_380", "UNITEDARABEMIRATES_阿联酋_971",
+	"URUGUAY_乌拉圭_598", "U.S.A_美国_1", "UZBEKISTAN_乌兹别克斯坦_998", "VANUATU_瓦努阿图_678", "VENEZUELA_委内瑞拉_58", "VIETNAM_越南_84", "VIRGINIS.(BRITISH)_维珍群岛（英属）_1284", "VIRGINIS.(U.S.A)_维珍群岛(美属)_1340",
+	"WAKEIS_威克岛_1808", "WALLSANDFUTUNA_瓦利斯群岛和富图纳群岛_1681", "YEMEN_也门_967", "YUGOSLAVIA_南斯拉夫_381", "ZAMBIA_赞比亚_260", "ZANZIBAR_桑给巴尔岛_259", "ZIMBABWE_津巴布韦_263"</string>
+    <string name="choosecountrypage_taiwan">Taiwan</string>
+    <string name="choosecountrypage_macau">Macau</string>
+    <string name="choosecountrypage_hongkong">Hong Kong</string>
+    <string name="choosecountrypage_china">China</string>
+    <string name="choosecountrypage_commonuse">Common</string>
+
+
+    <string name="commonview_writephonenum">Mobile Number</string>
+    <string name="commonview_verificationcode">Verification Code</string>
+    <string name="commonview_geting">Get Verification Code</string>
+    <string name="commonview_sure">OK</string>
+    <string name="commonview_agreeprotocol1">Click to agree to</string>
+    <string name="commonview_agreeprotocol2">&#160;terms of service and privacy policy of Beauty Camera </string>
+    <string name="commonview_tips">Beauty Passport can be used to login for all app of Beauty Inc.</string>
+    <string name="commonview_writeverificationcode">Please input verification code</string>
+    <string name="commonview_writephonenumtips">Please enter phone number！</string>
+    <string name="commonview_regettime">sGet</string>
+    <string name="commonview_reget">Get</string>
+    <string name="commonview_verificationcodeerror">Wrong Verification Code</string>
+    <string name="commonview_networkerror">Network Error</string>
+    <string name="commonview_bindphone">Link phone number</string>
+
+    <string name="editheadiconpage_uploadtips">Uploading avatar image</string>
+    <string name="editheadiconpage_nonetwork">No network</string>
+    <string name="editheadiconpage_uploading">Uploading...</string>
+    <string name="editheadiconpage_uploadfail">Upload Failed</string>
+    <string name="editheadiconpage_uploadfail2">Upload Failed</string>
+    <string name="editheadiconpage_uploadsuccess">Upload Successful</string>
+    <string name="editheadiconpage_uploadfailed">Upload Failed</string>
+
+    <string name="loginutil_dailogtips">Waiting</string>
+    <string name="loginutil_modifypasswordsuccess">Change Password Successful</string>
+    <string name="loginutil_parametererror">Parameter Error</string>
+    <string name="loginutil_passwordformaterror">Password Format Error</string>
+    <string name="loginutil_notfound">Use does not exist</string>
+    <string name="loginutil_operafail">Failed</string>
+    <string name="loginutil_unknowerror">Unknown Error</string>
+    <string name="loginutil_loginutil_modifypasswordfail">Change Password Failed</string>
+    <string name="loginutil_bindphoneing">Linking...</string>
+    <string name="loginutil_writepassword">Password!</string>
+    <string name="loginutil_bindphonefail">Link Failed</string>
+    <string name="loginutil_registering">Signing up...</string>
+    <string name="loginutil_registered">The account has been registered</string>
+    <string name="loginutil_registerfail">Sign Up Failed</string>
+    <string name="loginutil_networkerror">Network Error</string>
+
+    <string name="loginpage_country">China</string>
+    <string name="loginpage_passwordtips">Password！</string>
+    <string name="loginpage_passwordtips2">Wrong Password</string>
+    <string name="loginpage_passwordtips3">Password can not contain Chinese</string>
+    <string name="loginpage_notfound">User does not exist</string>
+    <string name="loginpage_phonenumhint">Mobile Number</string>
+    <string name="loginpage_passwordhint">Password</string>
+    <string name="loginpage_login">Log In</string>
+    <string name="loginpage_forgetpassword">Forgot Password?</string>
+    <string name="loginpage_createAccount">Sign Up</string>
+    <string name="loginpage_networderror">Network Error</string>
+    <string name="loginpage_binding">Linking...</string>
+    <string name="loginpage_loginsuccess">Successfully Login!</string>
+
+    <string name="loginstyle_sinatips">You haven’t installed Sina Weibo. Please install it and link phone number</string>
+    <string name="loginstyle_sinabinderror">Link Failed</string>
+    <string name="loginstyle_wechattips">You haven’t installed Wechat</string>
+    <string name="loginstyle_wechattips2">Your Wechat needs to update to latest version</string>
+    <string name="loginstyle_wechatbinderror">Link Failed</string>
+    <string name="loginstyle_binding">Linking...</string>
+    <string name="loginstyle_loginfail">Failed Login!</string>
+    <string name="loginstyle_networderrorloginfail">Login Failed!</string>
+    <string name="loginstyle_phonenumtips">Mobile Number</string>
+    <string name="loginstyle_passwordtips">Password</string>
+    <string name="loginstyle_notfound">User does not exist</string>
+    <string name="loginstyle_accountlimit">Your account is disabled</string>
+    <string name="loginstyle_passworderror">Wrong password, please input again</string>
+    <string name="loginstyle_logining">Logging in...</string>
+    <string name="loginstyle_parametererror">Parameter Error</string>
+    <string name="loginstyle_tokenfail">Authorization Failed</string>
+
+    <string name="registerloginpage_getting">Loading...</string>
+    <string name="registerloginpage_sendverificationcodesuccess">Verification code has been sent</string>
+    <string name="registerloginpage_countrynumtips">Please select the international code</string>
+    <string name="registerloginpage_phonenumtips">Please input phone number</string>
+    <string name="registerloginpage_operatfrequent">Try again later</string>
+    <string name="registerloginpage_senderror">Sent Failed</string>
+    <string name="registerloginpage_registertips">This phone number is registered for Beauty Passport</string>
+    <string name="registerloginpage_gologin">Login</string>
+    <string name="registerloginpage_cancel">Cancel</string>
+    <string name="registerloginpage_getverificationcodefail">Failed to get the verification code</string>
+    <string name="registerloginpage_reget">Get</string>
+    <string name="registerloginpage_networkerror">Failed to get the verification code</string>
+
+
+    <string name="resetloginpage_getting">Waiting...</string>
+    <string name="resetloginpage_notregister">The phone number is not registered</string>
+    <string name="resetloginpage_sendsuccess">Verification code has been sent</string>
+    <string name="resetloginpage_chooseareanum">Please input phone number</string>
+    <string name="resetloginpage_writephonenum">Please input correct phone number</string>
+    <string name="resetloginpage_oparefrequent">Please try again later</string>
+    <string name="resetloginpage_sendfail">Send Failed</string>
+    <string name="resetloginpage_getvcodefail">Failed to get the verification code</string>
+    <string name="resetloginpage_reget">Get</string>
+    <string name="resetloginpage_networkerror">Failed to get the verification code</string>
+
+    <string name="resetpage_pswtips">Password length should be 8-20</string>
+    <string name="resetpage_pswemptytips">Password cannot be blank</string>
+    <string name="resetpage_newpsw">New Password</string>
+    <string name="resetpage_finish">Complete</string>
+    <string name="resetpage_setpsw">Password</string>
+    <string name="resetpage_writepsw">Password</string>
+
+
+    <string name="resgisterpage_pswtips">Password length should be 8-20</string>
+    <string name="resgisterpage_pswemptytips">Password cannot be blank</string>
+    <string name="resgisterpage_uploadhead">Please upload profile image</string>
+    <string name="resgisterpage_nicknametips">The name cannot bo blank</string>
+    <string name="resgisterpage_setheadicon">Profile Image</string>
+    <string name="resgisterpage_nickname">Nickname</string>
+    <string name="resgisterpage_setpsw">Password</string>
+    <string name="resgisterpage_finish">Complete</string>
+    <string name="resgisterpage_registering">Signing up...</string>
+
+    <string name="textutils_nicknametips">The name cannot contain spaces</string>
+    <string name="textutils_overlimit">Exceed input limit</string>
+
+    <string name="tipspage_logintips">Login</string>
+    <string name="tipspage_cancel">Cancel</string>
+
+    <string name="tipspage2_sure">OK</string>
+
+    <string name="wheeldata_year">year</string>
+    <string name="wheeldata_month">month</string>
+    <string name="wheeldata_day">date</string>
+
+    <string name="userinfopage_networkerror">Network Error</string>
+    <string name="userinfopage_modifysuccess">Changed</string>
+    <string name="userinfopage_paramdataerror">Parameter Error</string>
+    <string name="userinfopage_oldpswerror">Wrong original password</string>
+    <string name="userinfopage_operafail">Failed</string>
+    <string name="userinfopage_modifypswfail">Change Password Failed</string>
+    <string name="userinfopage_networkerror2">Network Error</string>
+    <string name="userinfopage_modifyfail">Change Failed</string>
+    <string name="userinfopage_loginoverdata"> User information expired. Please log in again</string>
+    <string name="userinfopage_sure">OK</string>
+    <string name="userinfopage_nickname">Nickname</string>
+    <string name="userinfopage_phonenum">Phone</string>
+    <string name="userinfopage_sex">Gender</string>
+    <string name="userinfopage_bird">Birthday</string>
+    <string name="userinfopage_area">Region</string>
+    <string name="userinfopage_modifypsw">Change Password</string>
+    <string name="userinfopage_exitlogin">Logout</string>
+    <string name="userinfopage_nicknametips">The name cannot bo blank</string>
+    <string name="userinfopage_saving">Saving</string>
+    <string name="userinfopage_writeoripsw">Please enter original Password</string>
+    <string name="userinfopage_write_new_psw">Please enter new Password</string>
+    <string name="userinfopage_pswtips">Password length should be 8 to 20 characters!</string>
+    <string name="userinfopage_man">Male</string>
+    <string name="userinfopage_women">Female</string>
+    <string name="userinfopage_bindphonetips">Please link phone</string>
+    <string name="userinfopage_modifynickname">Edit Name</string>
+    <string name="userinfopage_integraltitle">How to get points</string>
+    <string name="userinfopage_integraltips1">1.First login can get 10 points</string>
+    <string name="userinfopage_integraltips2">2.First sign up by phone can get 60 points</string>
+    <string name="userinfopage_integraltips3">3.Fill in gender, region and birthday information can get each 10 points</string>
+    <string name="userinfopage_integraltips4">4.Use App everyday can get 1-6 points continuously</string>
+    <string name="userinfopage_integraltips5">5.Download one app from “Explore” can get 100 points</string>
+    <string name="userinfopage_integraltips6">6.Accepted feedback can get 50-100 points</string>
+    <string name="userinfopage_integraltips7">7.Uploading first image to Cloud Album can get 80 points</string>
+    <string name="userinfopage_integraltips8">8.First time to use Cloud Album by linking mobile phone can get 50 points</string>
+    <string name="userinfopage_modifysex">Edit Gender</string>
+    <string name="userinfopage_finish">Complete</string>
+    <string name="userinfopage_nobind">Not Linked</string>
+    <string name="userinfopage_nowrite">None</string>
+    <string name="userinfopage_oldpassword">Original password</string>
+    <string name="userinfopage_newpassword">New password</string>
+
+    <string name="makeup1downItem_downmore">More</string>
+    <string name="shrinknose_title">Narrow\n Nose</string>
+    <string name="whiteteeth_title">Teeth\n Whiten</string>
+
+    <!--分享给好友-->
+    <string name="share_with_friends_title">【Recommend】BeautyCamera - Selfie cam &amp; Cute stickers</string>
+
+    <!--首次安装镜头提示-->
+    <string name="camera_use_tips_ratio_text">Switch Scale</string>
+    <string name="camera_use_tips_video_logo_text">Cute stickers\n are here</string>
+    <string name="camera_use_tips_shutter_text">Click to start</string>
+    <string name="camera_use_tips_duration_text">Switch the\n video duration</string>
+    <string name="video_preview_clip_title">Clip</string>
+    <string name="video_preview_vol_title">Volume</string>
+    <string name="video_preview_clip_record">Record</string>
+    <string name="video_preview_clip_music">Music</string>
+    <string name="camera_use_tip_beauty_text">Makeup</string>
+    <string name="rise_page_title">Taller</string>
+    <string name="rise_page_no_scale_tip">Image scaling unsupported </string>
+    <string name="rise_page_sel_area_text">The area is selected</string>
+    <string name="gif_pre_back_text">back</string>
+
+    <!--美颜美型-->
+    <string name="entry_beauty_face">Beautify</string>
+    <string name="entry_beauty_tool">Edit</string>
+    <string name="entry_beauty_tailor">Crop</string>
+    <string name="tailor_skin_beauty_text">Skin</string>
+    <string name="sticker_mgr_page_null_text">No downloaded material yet</string>
+
+    <!--美颜美肤脸型控件-->
+    <string name="beauty_selector_view_tab_beauty">Beautify</string>
+    <string name="beauty_selector_view_tab_shape">Feature</string>
+    <string name="beauty_selector_view_tab_filter">Filter</string>
+
+    <!--脸型-->
+    <string name="beauty_selector_view_shape_thinface">Lift</string>
+    <string name="beauty_selector_view_shape_littleface">Short</string>
+    <string name="beauty_selector_view_shape_shavedface">Slim</string>
+    <string name="beauty_selector_view_shape_forehead">Forehead</string>
+    <string name="beauty_selector_view_shape_cheekbones">Cheekbones</string>
+    <string name="beauty_selector_view_shape_bigeye">Enlarge</string>
+    <string name="beauty_selector_view_shape_canthus">Corner</string>
+    <string name="beauty_selector_view_shape_eyespan">Span</string>
+    <string name="beauty_selector_view_shape_shrinknose">Narrow</string>
+    <string name="beauty_selector_view_shape_nosewing">Alar</string>
+    <string name="beauty_selector_view_shape_noseheight">Length</string>
+    <string name="beauty_selector_view_shape_chin">Chin</string>
+    <string name="beauty_selector_view_shape_mouth">Mouth</string>
+    <string name="beauty_selector_view_shape_overallheight">Length</string>
+    <string name="beauty_selector_view_shape_reset_params">Reset</string>
+    <string name="beauty_selector_view_shape_saved_params">Saved</string>
+    <string name="beauty_selector_view_shape_unsaved_params">Save</string>
+    <string name="beauty_selector_view_shape_reset_params_success">Reset succeeded</string>
+    <string name="beauty_selector_view_shape_save_login">Login</string>
+    <string name="beauty_selector_view_shape_save_next_time">Next time</string>
+    <string name="beauty_selector_view_shape_save_login_tips">Features saved,\ndata will be uploaded after login</string>
+
+    <!--脸型-->
+    <string name="shape_cus_defaule_non">None</string>
+    <string name="shape_cus_mine_sync">Mine</string>
+    <string name="shape_cus_id_ziranxiushi">Nature</string>
+    <string name="shape_cus_id_babigongzhu">Princess</string>
+    <string name="shape_cus_id_jingzhiwanghong">Sharp chin</string>
+    <string name="shape_cus_id_jimengshaonv">Young girl</string>
+    <string name="shape_cus_id_modengnvwang">Goddess</string>
+    <string name="shape_cus_id_daimengtianxin">Cutie</string>
+    <string name="shape_cus_id_dudutongyan">Baby face</string>
+    <string name="shape_cus_id_xiaoliannvshen">Tiny face</string>
+
+    <!--美颜-->
+    <string name="shape_cus_beauty_skin_beauty">Smooth</string>
+    <string name="shape_cus_beauty_whiten_teeth">Teeth</string>
+    <string name="shape_cus_beauty_skin_color">Skin</string>
+
+    <!-- AR祝福 -->
+    <string name="arwish_upload_video">Uploading...</string>
+    <string name="arwish_upload_video_tips">For uploading successfully,\nplease don\'t lock the screen or switch to other apps</string>
+    <string name="arwish_hidewish_share_hide_complete_text1">你的祝福贺卡已生成，点击分享送给Ta吧</string>
+    <string name="arwish_hidewish_share_hide_complete_text2">扫描图示物品就能收到你的祝福啦</string>
+    <string name="arwish_hidewish_share_button_call">喊人来玩</string>
+    <string name="arwish_hidewish_share_button_finish">完成</string>
+    <string name="arwish_findwish_title">找祝福</string>
+    <string name="arwish_findwish_nowish">哎呦，附近还没有祝福哦~</string>
+    <string name="arwish_findwish_location">正在获取位置信息</string>
+    <string name="arwish_findwish_nearwish">正在获取附近的祝福</string>
+    <string name="arwish_findwish_location_fail">获取当前位置失败，请检查网络及权限后重试</string>
+    <string name="arwish_findwish_load_fail">加载失败</string>
+    <string name="arwish_findwish_findtips">找到这个物品，即可收到祝福</string>
+    <string name="arwish_findwish_inputpw">请输入口令</string>
+    <string name="arwish_hidewish_share_location_fail">无法获取位置</string>
+    <string name="arwish_hidewish_share_save">Image has saved to album</string>
+    <string name="arwish_hidewish_share_upload_fail">Network error, please try again</string>
+    <string name="arwish_hidewish_share_no_image">The gift photo doesn\'t exist，please scan again</string>
+    <string name="arwish_hidewish_share_no_video">The selected video doesn\'t exist</string>
+    <string name="ar_find_preview_saved">Saved</string>
+    <string name="ar_find_preview_cancel_save">Canceled</string>
+    <string name="ar_find_preview_download">Downloading...</string>
+    <string name="ar_find_preview_save_failed">Failed</string>
+    <string name="ar_find_preview_confirm">Confirm</string>
+    <string name="ar_find_preview_cancel">Cancel</string>
+    <string name="ar_find_preview_photo_net_tips_one">You are using cellular data</string>
+    <string name="ar_find_preview_photo_net_tips_two">Play it or not?</string>
+    <string name="ar_find_preview_no_video">Sorry, the video does not exist</string>
+    <string name="ar_find_preview_video_exit">Video exists</string>
+    <string name="ar_find_preview_net_error">Network Error</string>
+
+    <string name="ar_camera_page_aimed_tips">Focus on the gift</string>
+    <string name="ar_camera_page_hide_title">Prepare for Blessing</string>
+    <string name="ar_camera_page_find_title">Scan the Gift</string>
+    <string name="ar_wish_scan_tips_one">Please put the gift in the frame</string>
+    <string name="ar_wish_scan_tips_two">AR Camera is scanning</string>
+    <string name="ar_wish_password_tips_one">Please enter the password</string>
+    <string name="ar_wish_password_tips_two">to see the blessing</string>
+
+    <string name="ar_hide_from_album">From Album</string>
+    <string name="ar_hide_record">Record</string>
+    <string name="ar_hide_cancel">Cancel</string>
+    <string name="ar_album_preview_go_on">Go on</string>
+    <string name="ar_hide_done">Done</string>
+    <string name="ar_find_password_ok">OK</string>
+    <string name="ar_find_password_cancel">Cancel</string>
+    <string name="ar_find_password_hint">Please enter</string>
+    <string name="ar_wish_find_net_error">Network error, please try again</string>
+    <string name="ar_wish_find_clue">Click to view clue</string>
+    <string name="ar_hide_pre_exit_tips">Blessing not saved</string>
+    <string name="ar_hide_pre_exit_stay">Stay</string>
+    <string name="ar_hide_pre_exit">Exit</string>
+    <string name="ar_hide_pre_step_one">Step1: Take a photo of your gift</string>
+    <string name="ar_hide_pre_step_two">Step2: Record a blessing video</string>
+
+    <string name="ar_find_intro_near_btn">附近线索</string>
+    <string name="ar_find_intro_album_btn">从相册选</string>
+    <string name="ar_create_intro_album_btn">从相册选</string>
+    <string name="ar_create_intro_video_btn">录制视频</string>
+    <string name="arwish_findwish_publish">我来送祝福</string>
+    <string name="arwish_findwish_findbtn">马上寻找</string>
+
+    <!--ar活动首页-->
+    <string name="ar_index_intro_title">会说话的礼物</string>
+    <string name="ar_index_intro_create_btn">贴</string>
+    <string name="ar_index_intro_find_btn">扫</string>
+    <string name="ar_index_intro_create_btn_tips">送出礼物的你，请戳</string>
+    <string name="ar_index_intro_find_btn_tips">收到礼物的你，请戳</string>
+    <string name="ar_activities_intro_page_title_scanning">扫</string>
+    <string name="ar_activities_intro_page_title_paste">贴</string>
+    <string name="ar_command_rule">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--直播-->
+    <string name="live_intro_title">美人直播助手</string>
+    <string name="live_start_live">开始直播</string>
+    <string name="live_live_description">手机变成摄像头，直播最佳美颜</string>
+    <string name="live_start_class">查看教程</string>
+    <string name="live_class_description">教你如何连接美人相机与电脑</string>
+    <string name="live_tips_text1">1.在电脑搜索美人直播助手，在官网下载美人直播助手PC端</string>
+    <string name="live_tips_text2">2.将手机和电脑用数据线连接起来</string>
+    <string name="live_tips_text3">3.打开PC端的直播助手，\n点击"马上连接"即可完成手机摄像头效果的同步</string>
+    <string name="live_tips_btngo">点击查看详细教程</string>
+    <string name="live_tips_btnok">确定</string>
+    <string name="live_tips_title">连接教程</string>
+    <string name="live_connect_tips">请打开PC端直播助手进行同步</string>
+    <string name="live_auto_focus_tips">自动曝光/自动对焦锁定</string>
+
+</resources>

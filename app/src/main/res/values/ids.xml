@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="prompt_fr" type="id"/>
+    <item name="prompt_join" type="id"/>
+
+	<item name="registerokframe_success" type="id"/>
+    <item name="registerokframe_help" type="id"/>
+    <item name="registerokframe_account" type="id"/>
+
+	<item name="setting_arrowbtn_arrowicon" type="id"/>
+    <item name="settingpage_captionbar" type="id"/>
+    <item name="settingpage_text_camera" type="id"/>
+    <item name="settingpage_setting_camera" type="id"/>
+    <item name="settingpage_text_beautify" type="id"/>
+    <item name="settingpage_setting_beautify" type="id"/>
+	<item name="settingpage_text_other" type="id"/>
+    <item name="settingpage_setting_other" type="id"/>
+    <item name="settingpage_line1" type="id"/>
+    <item name="settingpage_line2" type="id"/>
+	<item name="settingpage_line4" type="id"/>
+
+    <item name="app_market_icon" type="id"/>
+    <item name="app_market_layout" type="id"/>
+    <item name="app_market_tex_app_name" type="id"/>
+    <item name="app_market_download_btn" type="id"/>
+    <item name="app_market_find" type="id"/>
+    <item name="app_market_boutique" type="id"/>
+    <item name="app_market_back" type="id"/>
+    <item name="app_market_banner" type="id"/>
+
+    <item name="business_sign_up_single_sel_text" type="id"/>
+    <item name="business_sign_up_single_sel_group" type="id"/>
+    <item name="business_sign_up_multi_sel_text" type="id"/>
+    <item name="business_sign_up_multi_sel_group" type="id"/>
+    <item name="business_sign_up_combo_text" type="id"/>
+    <item name="business_sign_up_combo_box" type="id"/>
+    <item name="business_sign_up_input_text" type="id"/>
+    <item name="business_sign_up_input_edit" type="id"/>
+    <item name="business_sign_up_important" type="id"/>
+
+    <item name="bless_edit_btn_close" type="id"/>
+    <item name="bless_edit_btn_input" type="id"/>
+    <item name="bless_edit_btn_bless" type="id"/>
+    <item name="bless_edit_btn_ok" type="id"/>
+    <item name="bless_edit_btn_people" type="id"/>
+    <item name="bless_edit_layout_top_bar" type="id"/>
+    <item name="bless_edit_layout_bottom_bar" type="id"/>
+    <item name="bless_edit_img_split_top" type="id"/>
+    <item name="bless_edit_text_view" type="id"/>
+    <item name="bless_edit_img_split_bottom" type="id"/>
+    <item name="bless_edit_layout_top_bar2" type="id"/>
+    <item name="bless_edit_btn_return" type="id"/>
+
+	<!-- 镜头页控件id start -->
+	<item name="camera_bottom_page_close" type="id"/>
+    <item name="camera_bottom_shutter" type="id"/>
+    <item name="camera_bottom_open_photo_picker" type="id"/>
+    <item name="camera_top_camera_switch" type="id"/>
+    <item name="camera_top_beauty_setting" type="id"/>
+    <item name="camera_top_camera_flash" type="id"/>
+    <item name="camera_top_setting" type="id"/>
+    <item name="camera_top_camera_patch" type="id"/>
+    <item name="camera_top_camera_flash_group" type="id"/>
+    <item name="camera_pop_item_icon" type="id"/>
+    <item name="camera_pop_timer" type="id"/>
+    <item name="camera_pop_touch_capture" type="id"/>
+    <item name="camera_pop_intelligent" type="id"/>
+	<item name="camera_pop_voice_tip" type="id"/>
+    <item name="camera_pop_more" type="id"/>
+    <item name="camera_layout_camera_preview" type="id"/>
+    <item name="camera_layout_top_control" type="id"/>
+    <item name="camera_layout_bottom_control" type="id"/>
+	<item name="camera_layout_preview_ratio_switch" type="id"/>
+    <item name="camera_color_filter_selector_mid" type="id"/>
+
+	<item name="camera_bottom_btn_layout" type="id"/>
+    <item name="camera_bottom_more_sticker" type="id"/>
+	<item name="camera_bottom_change_page_mode" type="id"/>
+    <item name="camera_bottom_color_filter_select" type="id"/>
+    <item name="camera_bottom_color_filter_listview" type="id"/>
+    <item name="camera_bottom_close_sticker" type="id"/>
+    <item name="camera_bottom_toggle_sticker_list" type="id"/>
+
+    <!-- 美形定制id start -->
+    <item name="ding_zhi_first_tv" type="id"></item>
+    <item name="ding_zhi_second_tv" type="id"></item>
+    <item name="ding_zhi_third_tv" type="id"></item>
+    <item name="ding_zhi_forth_tv" type="id"></item>
+    <item name="ding_zhi_setting" type="id"></item>
+    <item name="ding_zhi_skip_tv" type="id"></item>
+    <item name="ding_zhi_adjust_title" type="id"></item>
+
+    <item name="ding_zhi_item_iv" type="id"></item>
+    <item name="ding_zhi_item_tv" type="id"></item>
+    <!-- 美形定制id end -->
+
+    <!-- 镜头页控件id end -->
+
+	<item name="login_loginpage_rlout1" type="id" />
+    <item name="login_loginpage_rlout1_changecode_icon" type="id"/>
+    <item name="login_loginpage_rlout2" type="id" />
+    <item name="login_loginpage_bottomseparationtv" type="id" />
+    <item name="login_loginpage_bottomloginicontable" type="id" />
+    <item name="login_choosecountrypage_mrlayouttitle" type="id" />
+	<item name="login_commenview_centerlogincon" type="id" />
+	<item name="login_commenview_rlout1" type="id" />
+    <item name="login_commenview_centerverificationcodetx" type="id" />
+	<item name="login_commenview_centerverificationcodedivide" type="id" />
+    <item name="login_commenview_rlout2" type="id" />
+	<item name="login_registerinfopage_centerpswicon" type="id" />
+    <item name="login_registerinfopage_centernickicon" type="id" />
+    <item name="login_registerinfopage_userheadcon" type="id" />
+	<item name="login_resetpswpage_centersetpswicon" type="id" />
+    <item name="login_tipsdialog_titletext" type="id" />
+    <item name="login_tipsdialog_line" type="id" />
+
+    <item name="printer_toolbar_tool" type="id"/>
+    <item name="printer_toolbar_seek" type="id"/>
+    <item name="printer_drop_list_new_print" type="id"/>
+    <item name="printer_drop_list_all_print" type="id"/>
+    <item name="printer_drop_list_discount_print" type="id"/>
+    <item name="printer_drop_list_order_print" type="id"/>
+    <item name="printer_drop_list_ticket_print" type="id"/>
+    <item name="printer_layout_topbar" type="id"/>
+    <item name="printer_btn_return" type="id"/>
+    <item name="printer_probar_bar" type="id"/>
+    <item name="printer_title_bar" type="id"/>
+    <item name="printer_upload_prog" type="id"/>
+    <item name="printer_success_img" type="id"/>
+    <item name="printer_topbar_lay" type="id"/>
+    <item name="printer_order_btn" type="id"/>
+    <item name="printer_topbar_lay2" type="id"/>
+    <item name="printer_order_btn2" type="id"/>
+    <item name="printer_topbar_lay3" type="id"/>
+    <item name="printer_title_img" type="id"/>
+    <item name="printer_title_text1" type="id"/>
+    <item name="printer_tip_lay" type="id"/>
+    <item name="printer_wheel_view_lay" type="id"/>
+    <item name="printer_connect_tips" type="id"/>
+    <item name="printer_topbar_lay4" type="id"/>
+    <item name="printer_image_view" type="id"/>
+    <item name="printer_text1" type="id"/>
+    <item name="printer_text2" type="id"/>
+    <item name="printer_text3" type="id"/>
+    <item name="printer_layout_top_bar" type="id"/>
+    <item name="printer_btn_return2" type="id"/>
+    <item name="printer_probar_bar2" type="id"/>
+    <item name="printer_details_btn" type="id"/>
+    <item name="printer_topbar_lay5" type="id"/>
+    <item name="printer_order_btn5" type="id"/>
+    <item name="printer_view_lay" type="id"/>
+
+    <item name="categoryCellImage" type="id"/>
+    <item name="categoryCellName" type="id"/>
+
+    <!-- 美化页面ID  start-->
+	<!-- 美化页面ID  end-->
+
+
+	<!--滤镜-->
+    <item name="filter_btn_blur" type="id"/>
+    <item name="filter_btn_dark" type="id"/>
+
+    <!--主题换肤-->
+    <item name="theme_color_text" type="id"/>
+    <item name="theme_color_hook" type="id"/>
+    <item name="theme_color_parent" type="id"/>
+
+    <!--主页-->
+	<item name="usermenu_avatar_container" type="id"/>
+    <item name="usermenu_avatar_name" type="id"/>
+    <item name ="usermenu_text" type="id"/>
+    <item name = "usermenu_badgeview" type="id"/>
+    <item name="featuremenu_cell_container" type="id"/>
+    <item name="featuremenu_icon" type="id"/>
+    <item name="featuremenu_title" type="id"/>
+
+
+
+    <!--动态贴纸-->
+	<item name="sticker_label_text" type="id"/>
+    <item name="sticker_label_bottom_line" type="id"/>
+    <item name="sticker_label_logo" type="id"/>
+    <item name="sticker_label_point_bottom" type="id"/>
+    <item name="sticker_label_point_right_top" type="id"/>
+    <item name="sticker_local_label_text" type="id"/>
+    <item name="sticker_local_label_bottom_line" type="id"/>
+    <item name="sticker_image_view" type="id"/>
+
+    <!--文字编辑-->
+    <item name="edit_page_list_text" type="id"/>
+
+    <item name="pintu_content" type="id" />
+
+    <item name="camera_tab_text" type="id"/>
+
+    <!-- BGM -->
+    <item name="bgm_item_view" type="id"/>
+    <item name="bgm_icon" type="id"/>
+    <item name="bgm_state" type="id"/>
+    <item name="camera_pop_setting_logo" type="id"/>
+    <item name="camera_pop_setting_text" type="id"/>
+
+    <item name="shape_selector_beauty_seek_bar_fr_sb" type="id"/>
+    <item name="shape_selector_beauty_seek_bar_fr_wh" type="id"/>
+    <item name="shape_selector_beauty_seek_bar_fr_sc" type="id"/>
+
+    <item name="filter_beautify_btn_back" type="id"/>
+    <item name="filter_beautify_btn_filter" type="id"/>
+    <item name="filter_beautify_btn_save" type="id"/>
+    <item name="filter_beautify_btn_beauty" type="id"/>
+    <item name="filter_beautify_btn_share" type="id"/>
+
+    <item name="beauty_video_btn_save" type="id"/>
+    <item name="beauty_video_btn_back" type="id"/>
+    <item name="beauty_video_btn_music" type="id"/>
+    <item name="beauty_video_btn_record" type="id"/>
+
+    <item name="beauty_selector_view_pager" type="id"/>
+    <item name="beauty_selector_view_indicator" type="id"/>
+    <item name="beauty_selector_view_reset_btn" type="id"/>
+    <item name="beauty_selector_view_save_btn" type="id"/>
+
+    <item name="ar_camera_page_scan_tips" type="id"/>
+    <item name="ar_camera_page_password_error" type="id"/>
+    <item name="ar_camera_page_password_tips" type="id"/>
+    <item name="ar_camera_page_password_et" type="id"/>
+    <item name="ar_camera_page_password_confirm" type="id"/>
+
+</resources>

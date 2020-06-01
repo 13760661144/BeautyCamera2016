@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 积分 -->
+    <integer name="积分_第三方登录">1001</integer>
+    <integer name="积分_手机注册">1002</integer>
+    <integer name="积分_补充资料_性别">1003</integer>
+    <integer name="积分_补充资料_地区">1004</integer>
+    <integer name="积分_补充资料_生日">1005</integer>
+    <integer name="积分_每天使用">1006</integer>
+    <!--<integer name="积分_签到成功">1007</integer> 美人没这个只有1006-->
+    <integer name="积分_第一次使用云相册">1010</integer>
+    <integer name="积分_关联手机">1011</integer>
+    <integer name="积分_下载_美人相机">1008</integer>
+    <integer name="积分_下载_简拼">1009</integer>
+    <integer name="积分_云相册首次上传图片">1010</integer>
+    <integer name="积分_下载_简客">1012</integer>
+    <integer name="积分_下载_POCO相机">1013</integer>
+    <integer name="积分_下载_图片合成器">1014</integer>
+    <integer name="积分_下载_亲子相机">1015</integer>
+    <integer name="积分_分享照片到第三方平台">1017</integer>
+    <integer name="积分_首次使用更新功能">1018</integer>
+    <integer name="积分_首次使用新素材">1019</integer>
+    <integer name="积分_邀请好友下载app">1020</integer>
+    <integer name="积分_云相册新建文件夹">1021</integer>
+    <integer name="积分_看广告">1060</integer>
+    <integer name="积分_解锁素材">1049</integer>
+
+</resources>

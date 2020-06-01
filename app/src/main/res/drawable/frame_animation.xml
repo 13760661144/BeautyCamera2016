@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:duration="200"
+          android:drawable="@drawable/featuremenu_speaker1"/>
+
+    <item android:duration="200"
+          android:drawable="@drawable/featuremenu_speaker2"/>
+
+    <item android:duration="200"
+          android:drawable="@drawable/featuremenu_speaker3"/>
+
+    <item android:duration="200"
+          android:drawable="@drawable/featuremenu_speaker4"/>
+
+</animation-list>

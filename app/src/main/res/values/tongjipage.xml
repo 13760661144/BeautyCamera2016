@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="开机广告">开机广告</string>
+	<string name="开机引导">开机引导</string>
+	<string name="全屏广告">全屏广告</string>
+	<string name="首页">首页</string>
+	<string name="个人中心">个人中心</string>
+
+	<string name="素材中心">素材中心</string>
+	<string name="素材中心_管理">素材中心_管理</string>
+	<string name="素材中心_管理_详情">素材中心_管理_详情</string>
+	<string name="素材中心_详情">素材中心_详情</string>
+	<string name="素材中心_详情_滤镜">素材中心_详情_滤镜</string>
+
+	<string name="运营专区">运营专区</string>
+	<string name="运营专区_详情">运营专区_详情</string>
+
+	<string name="商业_马上参加">商业_马上参加</string>
+	<string name="商业_选一张拍一张">商业_选一张拍一张</string>
+	<string name="通用商业">通用商业</string>
+
+	<string name="选图">选图</string>
+
+	<string name="登录">登录</string>
+	<string name="注册">注册</string>
+	<string name="发送验证码">发送验证码</string>
+	<string name="忘记密码">忘记密码</string>
+	<string name="上传头像">上传头像</string>
+	<string name="登录注册_用户协议">登录注册_用户协议</string>
+	<string name="绑定手机">绑定手机</string>
+	<string name="选择地区">选择地区</string>
+
+	<string name="个人主页">个人主页</string>
+
+	<string name="云相册">云相册首页</string>
+	<string name="云相册_设置">云相册_设置</string>
+	<string name="云相册_设置_传输列表">云相册_设置_传输列表</string>
+	<string name="云相册_上传_选择相册">云相册_上传_选择相册</string>
+	<string name="云相册_新建相册">云相册_新建相册</string>
+	<string name="云相册_移动_选择相册">云相册_移动_选择相册</string>
+	<string name="云相册_编辑相册">云相册_编辑相册</string>
+	<string name="云相册_相册分类">云相册_相册分类</string>
+
+	<string name="任务大厅">任务大厅</string>
+	<string name="任务大厅_积分协议">任务大厅_积分协议</string>
+
+	<string name="照片冲印">照片冲印</string>
+	<string name="主题换肤">主题换肤</string>
+	<string name="个人中心_设置">个人中心_设置</string>
+	<string name="关于我们">关于我们</string>
+	<string name="精品推荐">精品推荐</string>
+
+	<string name="拍照">拍照</string>
+	<string name="拍照_滤镜">拍照_滤镜</string>
+	<string name="动态贴纸_预览">动态贴纸_预览</string>
+	<string name="动态贴纸_分享">动态贴纸_分享</string>
+
+	<string name="表情包_预览">表情包_预览</string>
+	<string name="表情包_文字编辑">表情包_文字编辑</string>
+	<string name="表情包_分享">表情包_分享</string>
+
+	<string name="一键萌妆">一键萌妆</string>
+
+	<string name="美化">美化</string>
+	<string name="编辑">编辑</string>
+	<string name="美颜">美颜</string>
+	<string name="瘦脸瘦身">瘦脸瘦身</string>
+	<string name="祛痘">祛痘</string>
+	<string name="大眼">大眼</string>
+	<string name="祛眼袋">祛眼袋</string>
+	<string name="亮眼">亮眼</string>
+	<string name="微笑">微笑</string>
+	<string name="高鼻梁">高鼻梁</string>
+	<string name="彩妆">彩妆</string>
+	<string name="滤镜">滤镜</string>
+	<string name="相框">相框</string>
+	<string name="贴图">贴图</string>
+	<string name="毛玻璃">毛玻璃</string>
+	<string name="马赛克">马赛克</string>
+	<string name="指尖魔法">指尖魔法</string>
+	<string name="美牙">美牙</string>
+	<string name="瘦鼻">瘦鼻</string>
+	<string name="定点">定点</string>
+	<string name="下载更多">下载更多</string>
+	<string name="下载更多_管理">下载更多_管理</string>
+
+	<string name="分享">分享</string>
+	<string name="预览图片">预览图片</string>
+
+	<string name="冲印MINI相册">冲印MINI相册</string>
+	<string name="冲印抽奖">冲印抽奖</string>
+	<string name="冲印填订单信息">冲印填订单信息</string>
+	<string name="冲印5寸">冲印5寸</string>
+	<string name="冲印LOMO">冲印LOMO</string>
+	<string name="冲印展示">冲印展示</string>
+</resources>

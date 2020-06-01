@@ -1,0 +1,83 @@
+include ':app'
+
+include ':pocolibs'
+project (':pocolibs').projectDir = new File('../PocoLibs2016/pocolibs/')
+
+include ':bloglibs'
+project (':bloglibs').projectDir = new File('../BlogLibs2016/bloglibs/')
+
+include ':pocogllibs'
+project (':pocogllibs').projectDir = new File('../PocoGLLibs2016/pocogllibs/')
+
+include ':cameralibs'
+project (':cameralibs').projectDir = new File('../Camera2016/')
+
+include ':pocointerfacelibs'
+project (':pocointerfacelibs').projectDir = new File('../PocoInterface2016/pocointerfacelibs/')
+
+include ':loginlibs'
+project (':loginlibs').projectDir = new File('../LoginSystem2016/loginlibs/')
+
+include ':cloudalbumlibs'
+project (':cloudalbumlibs').projectDir = new File('../CloudAlbum2016/cloudalbumlibs/')
+
+include ':scorelibs'
+project (':scorelibs').projectDir = new File('../ScoreSystem2016/scorelibs/')
+
+include ':storagesystemlibs'
+project (':storagesystemlibs').projectDir = new File('../StorageSystem2016/storagesystemlibs/')
+
+include ':statisticlibs'
+project (':statisticlibs').projectDir = new File('../StatisticLibs2017/statisticlibs/')
+
+include ':resourcelibs'
+project (':resourcelibs').projectDir = new File('../ResourceLibs2017/resourcelibs/')
+
+include ':admasterlibs'
+project (':admasterlibs').projectDir = new File('../AdMasterLibs2017/admasterlibs/')
+
+include ':missionHall'
+project (':missionHall').projectDir = new File('../missionHall4beautyCamera/missionHall/')
+
+include ':pickphotoview'
+project (':pickphotoview').projectDir = new File('../missionHall4beautyCamera/pickphotoview/')
+
+include ':OkHttpProgressListenerLib'
+project (':OkHttpProgressListenerLib').projectDir = new File('../missionHall4beautyCamera/OkHttpProgressListenerLib/')
+
+include ':hzbeautycommonlib'
+project (':hzbeautycommonlib').projectDir = new File('../missionHall4beautyCamera/hzbeautycommonlib/')
+
+include ':beautyMall'
+project (':beautyMall').projectDir = new File('../missionHall4beautyCamera/beautyMall/')
+
+include ':pickerview-release'
+project (':pickerview-release').projectDir = new File('../missionHall4beautyCamera/pickerview-release/')
+
+include ':beautylogin'
+project (':beautylogin').projectDir = new File('../missionHall4beautyCamera/beautylogin/')
+
+include ':communitylib'
+project (':communitylib').projectDir = new File('../Community2017_BeautyCamera/communitylib/')
+
+include ':imsdk'
+project (':imsdk').projectDir = new File('../IMSDK/imsdk/')
+
+include ':videoPluslibs'
+project (':videoPluslibs').projectDir = new File('../VideoPlusLib/videoPluslibs/')
+
+include ':beautyaccount-release'
+project (':beautyaccount-release').projectDir = new File('../missionHall4beautyCamera/beautyaccount-release/')
+
+include ':communityskinlib'
+project(':communityskinlib').projectDir = new File('../CommunitySkin/beautycommunityskinlibs/')
+
+include ':facedetectlibs'
+project(':facedetectlibs').projectDir = new File('../FaceDetection/facedetectlibs/')
+
+include ':imageprocessjni'
+project(':imageprocessjni').projectDir = new File('../BeautyImageProcess/imageprocessjni/')
+
+include ':PocoARSDKlibs'
+project(':PocoARSDKlibs').projectDir = new File('../BeautyImageProcess/PocoARSDKlibs/')
+

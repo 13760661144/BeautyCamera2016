@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="my.beautyCamera"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <!-- activity 和dialog同时存在的bug -->
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <!-- 预防腾讯SDK跳转回来时出现的bug -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <!-- 高德地图定位 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+
+    <!--<uses-permission android:name="com.qti.permission.PROFILER"/>-->
+
+    <application
+        android:name="cn.poco.exception.MyApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name_main"
+        android:supportsRtl="false"
+        android:theme="@style/MyAppTheme"
+        tools:replace="android:theme,android:allowBackup,android:supportsRtl,android:label">
+
+        <!--全面屏适配 18.5:9 -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.056"/>
+
+        <activity
+            android:name=".PocoCamera"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainAppTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <intent-filter>
+                <data android:scheme="beautycamera"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="goto"
+                    android:scheme="beautycamerasns"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 通过设置图片加载框架Glide的Module达到用ARGB8888来decode图片 -->
+        <meta-data
+            android:name="cn.poco.campaignCenter.utils.BitmapQualityGlideModule"
+            android:value="GlideModule"/>
+
+        <activity
+            android:name=".CallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name_recommend"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+
+                <data android:mimeType="image/*"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <data android:mimeType="image/*"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="beauty"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+
+                <data android:mimeType="image/*"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="cn.poco.mall.MallRouterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="beautymall"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="cn.poco.login.activity.LoginActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="my.beautyCamera.action.LOGIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="beautylogin"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="cn.poco.camera.activity.CameraActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainAppTheme">
+        </activity>
+        <activity
+            android:name="com.adnonstop.changeface.ChangeFaceIntroActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainAppTheme">
+        </activity>
+        <activity
+            android:name="com.adnonstop.changeface.ChangeFaceBackToCameraActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainAppTheme">
+        </activity>
+
+
+        <!-- 百度统计 -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="${MY_BAIDU_KEY}"/>
+        <!-- 渠道商编号 -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="BEAUTY.INC"/>
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="false"/>
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START"/>
+        <!-- 日志发送策略 为SET_TIME_INTERVAL时，需设定时间间隔(取消下行注释)。取值为1-24的整数，默认为1 -->
+        <!-- <meta-data android:name="BaiduMobAd_TIME_INTERVAL" android:value="2" /> -->
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false"/>
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true"/>
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true"/>
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true"/>
+        <!-- 百度统计结束 -->
+
+        <!-- 高德地图需要 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="${MY_AMAP_KEY}"/>
+        <service android:name="com.amap.api.location.APSService"/>
+
+        <!--记录打包日期时间-->
+        <meta-data
+            android:name="MY_PACK_TIME"
+            android:value="${MY_PACK_TIME}"/>
+        <!--应用渠道号-->
+        <meta-data
+            android:name="MY_CHANNEL_VALUE"
+            android:value="${MY_CHANNEL_VALUE}"/>
+        <!--控制启动页LOGO的显示 true显示 其余隐藏-->
+        <meta-data
+            android:name="MY_SHOW_CHANNEL_LOGO"
+            android:value="${MY_SHOW_CHANNEL_LOGO}"/>
+        <!--控制市场入口的显示 true隐藏 其余显示-->
+        <meta-data
+            android:name="MY_HIDE_APP_MARKET"
+            android:value="${MY_HIDE_APP_MARKET}"/>
+        <!--控制商业的显示 true隐藏 其余显示-->
+        <meta-data
+            android:name="MY_HIDE_BUSINESS"
+            android:value="${MY_HIDE_BUSINESS}"/>
+
+        <!-- 微信 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay"/>
+        <activity
+            android:name="com.adnonstop.beautyCamera.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay"/>
+
+        <!-- 腾讯sdk -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="@string/tencent_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <!-- 腾讯sdk -->
+
+        <!-- 新浪微博sdk -->
+        <activity
+            android:name="cn.poco.share.SinaRequestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+         <!--   <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter> -->
+        </activity>
+        <!-- 新浪微博sdk -->
+
+        <!-- 支付宝支付 -->
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen"/>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen"/>
+        <!-- alipay sdk end -->
+
+        <!-- facebook sdk -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider${MY_FACEBOOK_ID}"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:ignore="ManifestResource"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/fb_app_name"
+            tools:ignore="ManifestResource"/>
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:scheme="@string/fb_login_protocol_scheme"
+                    tools:ignore="ManifestResource"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Circle -->
+        <activity
+            android:name=".circleapi.CircleReceiveActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay"/>
+        <activity
+            android:name="com.adnonstop.beautyCamera.circleapi.CircleReceiveActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay"/>
+
+        <activity
+            android:name="cn.poco.taskCenter.SendBlogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="cn.poco.share.BlogLoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="beautylogin.action.LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 异常收集服务 -->
+        <!--<service-->
+            <!--android:name="cn.poco.exception.ExceptionService"-->
+            <!--android:enabled="true"-->
+            <!--android:process=".uploadLog"/>-->
+
+        <!-- 云相册上传/下载 -->
+        <service
+            android:name="cn.poco.storage.StorageService"
+            android:process=":CloudStorage"/>
+        <receiver android:name="cn.poco.storage.StorageReceiver">
+            <intent-filter>
+                <action android:name="cn.poco.storagesystem2016.MSG2"/>
+                <action android:name="${applicationId}.MYMSG2"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="cn.poco.statistics.MyStatService"
+            android:enabled="true"
+            android:process=".myStat"/>
+
+        <!-- 积分判断程序是否安装 -->
+        <receiver
+            android:name="cn.poco.credits.AppInstallReceiver"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,398 @@
+apply plugin: 'com.android.application'
+
+android {
+	signingConfigs {
+		mySigned {
+			keyAlias 'poco365'
+			keyPassword 'poco365'
+			storeFile file('poco365key')
+			storePassword 'poco365'
+            v1SigningEnabled true
+            v2SigningEnabled true
+		}
+
+		mySigned_google {
+			keyAlias 'adnonstop2017'
+			keyPassword 'adnonstop2017'
+			storeFile file('adnonstop.jks')
+			storePassword 'adnonstop(2017;'
+            v1SigningEnabled true
+            v2SigningEnabled true
+		}
+	}
+	compileSdkVersion 26
+	defaultConfig {
+		applicationId "my.beautyCamera"
+		minSdkVersion 18
+		targetSdkVersion 22
+		versionCode 209
+		versionName '4.2.1'
+		multiDexEnabled true
+
+		//新浪微博
+		resValue 'string', 'sina_app_key', '2059939591'
+		resValue 'string', 'sina_app_secret', '4bb869136045525a8426d6a24b299293'
+
+		//腾讯
+		def TENCENT_ID = '100734819'
+		resValue 'string', 'tencent_app_id', TENCENT_ID
+		resValue 'string', 'tencent_scheme', 'tencent' + TENCENT_ID
+		resValue 'string', 'tencent_app_secret', 'dc9fcf673d6186d9685cd1589eeef94a'
+
+		//微信
+		resValue 'string', 'weixin_app_id', 'wx7a5a2c298900b133'
+		resValue 'string', 'weixin_app_secret', '96b3ff3f02693fb56203891d11e8a87a'
+
+		//facebook
+		resValue 'string', 'fb_app_name', 'Beauty Camera'
+		def FACEBOOK_ID = '1330223230341403'
+		resValue 'string', 'facebook_app_id', FACEBOOK_ID
+		resValue 'string', 'fb_login_protocol_scheme', 'fb' + FACEBOOK_ID
+
+		//默认打包配置
+		manifestPlaceholders = ['MY_PACK_TIME'        : new Date().format('yyyy-MM-dd HH:mm'),//记录打包时间
+								'MY_CHANNEL_VALUE'    : '',//应用渠道号
+								'MY_SHOW_CHANNEL_LOGO': false,//是否显示渠道logo
+								'MY_HIDE_APP_MARKET'  : false,//是否隐藏市场入口
+								'MY_HIDE_BUSINESS'    : false,//是否隐藏商业
+								'MY_FACEBOOK_ID'      : FACEBOOK_ID,//facebook id
+								'MY_BAIDU_KEY'        : 'a556974087',//百度统计key
+								'MY_AMAP_KEY'         : 'da6643587cdf6859df7ba7b0394e0c25',//高德key
+		]
+
+		//支持renderscript
+		renderscriptTargetApi 18
+		renderscriptSupportModeEnabled true  //兼容低版本
+
+		ndk {
+			abiFilters "armeabi-v7a"//,"arm64-v8a"//,指定要ndk需要兼容的架构(这样其他依赖包里armeabi-v7a，arm64-v8a，mips,x86,armeabi,arm-v8之类的so会被过滤掉)
+		}
+	}
+	buildTypes {
+		release {
+            debuggable false
+            minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			proguardFile project(':pocolibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':bloglibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':pocogllibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':cameralibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':pocointerfacelibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':loginlibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':cloudalbumlibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':scorelibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':storagesystemlibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':statisticlibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':resourcelibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':missionHall').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':pickphotoview').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':OkHttpProgressListenerLib').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':hzbeautycommonlib').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':beautyMall').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			//proguardFile project(':pickerview-release').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':beautylogin').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':communitylib').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':facedetectlibs').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			proguardFile project(':imageprocessjni').getProjectDir().toString() + File.separator + 'proguard-rules.pro'
+			signingConfig signingConfigs.mySigned
+		}
+		debug {
+			minifyEnabled false
+			signingConfig signingConfigs.mySigned
+		}
+		release_google {
+			matchingFallbacks = ['release']
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			signingConfig signingConfigs.mySigned_google
+		}
+		debug_google {
+			matchingFallbacks = ['debug']
+			minifyEnabled false
+			signingConfig signingConfigs.mySigned_google
+			debuggable true
+		}
+	}
+	lintOptions {
+		disable 'MissingTranslation'
+	}
+
+	packagingOptions {
+		exclude 'META-INF/DEPENDENCIES'
+		exclude 'META-INF/NOTICE'
+		exclude 'META-INF/LICENSE'
+		exclude 'META-INF/LICENSE.txt'
+		exclude 'META-INF/NOTICE.txt'
+	}
+
+	flavorDimensions "config", "prod"
+	productFlavors {
+		//配置
+        defCfg {
+            dimension "config"
+        }
+        gooCfg {
+            dimension "config"
+        }
+
+		//渠道
+        _dev {//开发版本,最低设置为21加快运行,低于21的机器请注释掉
+            dimension "prod"
+            minSdkVersion 21
+        }
+		poco {//官方渠道
+			dimension "prod"
+		}
+        google_r1 {//google play
+            dimension "prod"
+            applicationId "com.adnonstop.beautyCamera"
+
+            //新浪微博
+            resValue 'string', 'sina_app_key', '1003093282'
+            resValue 'string', 'sina_app_secret', '7164481fe940fedc5db214a7befa5e6a'
+
+            //腾讯
+            def TENCENT_ID = '1106002365'
+            resValue 'string', 'tencent_app_id', TENCENT_ID
+            resValue 'string', 'tencent_scheme', 'tencent' + TENCENT_ID
+            resValue 'string', 'tencent_app_secret', 'kbbGM7OGbXmtMCin'
+
+            //微信
+            resValue 'string', 'weixin_app_id', 'wxbdbeba70300f4b77'
+            resValue 'string', 'weixin_app_secret', '43c7d4756772101bdb3cc7fec56e447c'
+
+            //facebook
+            resValue 'string', 'fb_app_name', 'Beauty Camera Pro'
+            def FACEBOOK_ID = '290630188025454'
+            resValue 'string', 'facebook_app_id', FACEBOOK_ID
+            resValue 'string', 'fb_login_protocol_scheme', 'fb' + FACEBOOK_ID
+
+            manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r1',
+                                    'MY_SHOW_CHANNEL_LOGO': false,
+                                    'MY_HIDE_APP_MARKET'  : true,
+                                    'MY_HIDE_BUSINESS'    : false,
+                                    'MY_FACEBOOK_ID'      : FACEBOOK_ID,
+                                    'MY_BAIDU_KEY'        : '0adabb4887',
+                                    'MY_AMAP_KEY'         : 'eff39abfef9797436d502b07f360ea7f',
+            ]
+        }
+        baidu_r3 {//百度
+            dimension "prod"
+            manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r3',
+                                    'MY_SHOW_CHANNEL_LOGO': false,
+                                    'MY_HIDE_APP_MARKET'  : false,
+                                    'MY_HIDE_BUSINESS'    : false,
+            ]
+        }
+        anzhi_r10 {//安智
+            dimension "prod"
+            manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r10',
+                                    'MY_SHOW_CHANNEL_LOGO': false,
+                                    'MY_HIDE_APP_MARKET'  : false,
+                                    'MY_HIDE_BUSINESS'    : false,
+            ]
+        }
+		lianxiang_r12 {//联想
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r12',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+
+        a360_r18 {//360
+            dimension "prod"
+            manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r18',
+                                    'MY_SHOW_CHANNEL_LOGO': false,
+                                    'MY_HIDE_APP_MARKET'  : false,
+                                    'MY_HIDE_BUSINESS'    : false,
+            ]
+        }
+
+		yingyongbao_r19 {//应用宝
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r19',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+
+		xiaomi_r20 {//小米
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r20',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+		meizu_r30 {//魅族
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r30',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+		huawei_r31 {//华为
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r31',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+		oppo_r32 {//oppo
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r32',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+		pp_r33 {//pp助手
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r33',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+		jinli_r34 {//金立
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r34',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+//		leshi_r35 {//乐视
+//			dimension "prod"
+//			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r35',
+//									'MY_SHOW_CHANNEL_LOGO': false,
+//									'MY_HIDE_APP_MARKET'  : false,
+//									'MY_HIDE_BUSINESS'    : false,
+//			]
+//		}
+		vivo_r36 {//vivo
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r36',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : true,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+        chuizi_r37 {//锤子
+            dimension "prod"
+            manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r37',
+                                    'MY_SHOW_CHANNEL_LOGO': false,
+                                    'MY_HIDE_APP_MARKET'  : false,
+                                    'MY_HIDE_BUSINESS'    : false,
+            ]
+        }
+        aiqiyi_r38 {//爱奇艺
+            dimension "prod"
+            manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r38',
+                                    'MY_SHOW_CHANNEL_LOGO': false,
+                                    'MY_HIDE_APP_MARKET'  : false,
+                                    'MY_HIDE_BUSINESS'    : false,
+            ]
+        }
+		sanxing_r39 {//三星
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r39',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+		sougou_r40 {//搜狗
+			dimension "prod"
+			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r40',
+									'MY_SHOW_CHANNEL_LOGO': false,
+									'MY_HIDE_APP_MARKET'  : false,
+									'MY_HIDE_BUSINESS'    : false,
+			]
+		}
+//		jufeng_r41 {//聚丰
+//			dimension "prod"
+//			manifestPlaceholders = ['MY_CHANNEL_VALUE'    : '_r41',
+//									'MY_SHOW_CHANNEL_LOGO': false,
+//									'MY_HIDE_APP_MARKET'  : false,
+//									'MY_HIDE_BUSINESS'    : false,
+//			]
+//		}
+
+	}
+
+    applicationVariants.all { variant ->
+        if (variant.buildType.name.contains('release')) {
+            variant.outputs.all { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {                
+                    def time = new Date().format('yyyyMMddHHmm')
+                    //variant.productFlavors[0].name == defCfg
+                    // 应用名_版本名称_渠道名_时间.apk
+                    outputFileName = "BeautyCamera_v${defaultConfig.versionName}_${variant.productFlavors[1].name}_${time}.apk"
+                }
+            }
+        }
+    }
+}
+
+repositories {
+	flatDir {
+		dirs 'libs'
+	}
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:multidex:1.0.2'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    compile 'com.google.android.exoplayer:exoplayer-core:2.6.1'
+    compile project(':pocolibs')
+    compile project(':bloglibs')
+    compile project(':cameralibs')
+    compile project(':pocogllibs')
+    compile project(':cloudalbumlibs')
+    compile project(':loginlibs')
+    compile project(':pocointerfacelibs')
+    compile project(':scorelibs')
+    compile project(':storagesystemlibs')
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile project(':statisticlibs')
+    compile project(':resourcelibs')
+    compile(name: 'circleSDKv2.2.0', ext: 'aar')
+    compile project(':missionHall')
+    compile project(':beautyMall')
+    compile project(':beautylogin')
+    compile project(':admasterlibs')
+    compile project(':communitylib')
+    compile project(':facedetectlibs')
+    compile project(':imageprocessjni')
+    compile 'org.greenrobot:eventbus:3.1.1'
+    implementation project(':PocoARSDKlibs')
+
+    //---换脸sdk start---
+    compile(name: 'changeface_beauty_v', ext: 'aar')
+    compile(name: 'changeface_mp', ext: 'aar')
+    //compile 'com.android.support:recyclerview-v7:25.3.1'
+    //compile 'com.github.bumptech.glide:glide:3.8.0'
+    //compile 'com.squareup.okhttp3:okhttp:3.8.0'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:retrofit-mock:2.3.0'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    // 二维码
+    compile 'com.google.zxing:core:3.3.0'
+    //---换脸sdk end---
+
+}

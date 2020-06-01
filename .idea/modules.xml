@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeautyCamera2016.iml" filepath="$PROJECT_DIR$/BeautyCamera2016.iml" group="BeautyCamera2016" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/OkHttpProgressListenerLib/OkHttpProgressListenerLib.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/OkHttpProgressListenerLib/OkHttpProgressListenerLib.iml" group="BeautyCamera2016/OkHttpProgressListenerLib" />
+      <module fileurl="file://$PROJECT_DIR$/../BeautyImageProcess/PocoARSDKlibs/PocoARSDKlibs.iml" filepath="$PROJECT_DIR$/../BeautyImageProcess/PocoARSDKlibs/PocoARSDKlibs.iml" group="BeautyCamera2016/PocoARSDKlibs" />
+      <module fileurl="file://$PROJECT_DIR$/../AdMasterLibs2017/admasterlibs/admasterlibs.iml" filepath="$PROJECT_DIR$/../AdMasterLibs2017/admasterlibs/admasterlibs.iml" group="BeautyCamera2016/admasterlibs" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BeautyCamera2016/app" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/beautyMall/beautyMall.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/beautyMall/beautyMall.iml" group="BeautyCamera2016/beautyMall" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/beautyaccount-release/beautyaccount-release.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/beautyaccount-release/beautyaccount-release.iml" group="BeautyCamera2016/beautyaccount-release" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/beautylogin/beautylogin.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/beautylogin/beautylogin.iml" group="BeautyCamera2016/beautylogin" />
+      <module fileurl="file://$PROJECT_DIR$/../BlogLibs2016/bloglibs/bloglibs.iml" filepath="$PROJECT_DIR$/../BlogLibs2016/bloglibs/bloglibs.iml" group="BeautyCamera2016/bloglibs" />
+      <module fileurl="file://$PROJECT_DIR$/../Camera2016/cameralibs.iml" filepath="$PROJECT_DIR$/../Camera2016/cameralibs.iml" group="BeautyCamera2016/cameralibs" />
+      <module fileurl="file://$PROJECT_DIR$/../CloudAlbum2016/cloudalbumlibs/cloudalbumlibs.iml" filepath="$PROJECT_DIR$/../CloudAlbum2016/cloudalbumlibs/cloudalbumlibs.iml" group="BeautyCamera2016/cloudalbumlibs" />
+      <module fileurl="file://$PROJECT_DIR$/../Community2017_BeautyCamera/communitylib/communitylib.iml" filepath="$PROJECT_DIR$/../Community2017_BeautyCamera/communitylib/communitylib.iml" group="BeautyCamera2016/communitylib" />
+      <module fileurl="file://$PROJECT_DIR$/../CommunitySkin/beautycommunityskinlibs/communityskinlib.iml" filepath="$PROJECT_DIR$/../CommunitySkin/beautycommunityskinlibs/communityskinlib.iml" group="BeautyCamera2016/communityskinlib" />
+      <module fileurl="file://$PROJECT_DIR$/../FaceDetection/facedetectlibs/facedetectlibs.iml" filepath="$PROJECT_DIR$/../FaceDetection/facedetectlibs/facedetectlibs.iml" group="BeautyCamera2016/facedetectlibs" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/hzbeautycommonlib/hzbeautycommonlib.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/hzbeautycommonlib/hzbeautycommonlib.iml" group="BeautyCamera2016/hzbeautycommonlib" />
+      <module fileurl="file://$PROJECT_DIR$/../BeautyImageProcess/imageprocessjni/imageprocessjni.iml" filepath="$PROJECT_DIR$/../BeautyImageProcess/imageprocessjni/imageprocessjni.iml" group="BeautyCamera2016/imageprocessjni" />
+      <module fileurl="file://$PROJECT_DIR$/../IMSDK/imsdk/imsdk.iml" filepath="$PROJECT_DIR$/../IMSDK/imsdk/imsdk.iml" group="BeautyCamera2016/imsdk" />
+      <module fileurl="file://$PROJECT_DIR$/../LoginSystem2016/loginlibs/loginlibs.iml" filepath="$PROJECT_DIR$/../LoginSystem2016/loginlibs/loginlibs.iml" group="BeautyCamera2016/loginlibs" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/missionHall/missionHall.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/missionHall/missionHall.iml" group="BeautyCamera2016/missionHall" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/pickerview-release/pickerview-release.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/pickerview-release/pickerview-release.iml" group="BeautyCamera2016/pickerview-release" />
+      <module fileurl="file://$PROJECT_DIR$/../missionHall4beautyCamera/pickphotoview/pickphotoview.iml" filepath="$PROJECT_DIR$/../missionHall4beautyCamera/pickphotoview/pickphotoview.iml" group="BeautyCamera2016/pickphotoview" />
+      <module fileurl="file://$PROJECT_DIR$/../PocoGLLibs2016/pocogllibs/pocogllibs.iml" filepath="$PROJECT_DIR$/../PocoGLLibs2016/pocogllibs/pocogllibs.iml" group="BeautyCamera2016/pocogllibs" />
+      <module fileurl="file://$PROJECT_DIR$/../PocoInterface2016/pocointerfacelibs/pocointerfacelibs.iml" filepath="$PROJECT_DIR$/../PocoInterface2016/pocointerfacelibs/pocointerfacelibs.iml" group="BeautyCamera2016/pocointerfacelibs" />
+      <module fileurl="file://$PROJECT_DIR$/../PocoLibs2016/pocolibs/pocolibs.iml" filepath="$PROJECT_DIR$/../PocoLibs2016/pocolibs/pocolibs.iml" group="BeautyCamera2016/pocolibs" />
+      <module fileurl="file://$PROJECT_DIR$/../ResourceLibs2017/resourcelibs/resourcelibs.iml" filepath="$PROJECT_DIR$/../ResourceLibs2017/resourcelibs/resourcelibs.iml" group="BeautyCamera2016/resourcelibs" />
+      <module fileurl="file://$PROJECT_DIR$/../ScoreSystem2016/scorelibs/scorelibs.iml" filepath="$PROJECT_DIR$/../ScoreSystem2016/scorelibs/scorelibs.iml" group="BeautyCamera2016/scorelibs" />
+      <module fileurl="file://$PROJECT_DIR$/../StatisticLibs2017/statisticlibs/statisticlibs.iml" filepath="$PROJECT_DIR$/../StatisticLibs2017/statisticlibs/statisticlibs.iml" group="BeautyCamera2016/statisticlibs" />
+      <module fileurl="file://$PROJECT_DIR$/../StorageSystem2016/storagesystemlibs/storagesystemlibs.iml" filepath="$PROJECT_DIR$/../StorageSystem2016/storagesystemlibs/storagesystemlibs.iml" group="BeautyCamera2016/storagesystemlibs" />
+      <module fileurl="file://$PROJECT_DIR$/../VideoPlusLib/videoPluslibs/videoPluslibs.iml" filepath="$PROJECT_DIR$/../VideoPlusLib/videoPluslibs/videoPluslibs.iml" group="BeautyCamera2016/videoPluslibs" />
+    </modules>
+  </component>
+</project>

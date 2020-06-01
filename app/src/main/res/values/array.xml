@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_color_title">
+        //1-6
+        <item>Begonia</item>
+        <item>Sakura</item>
+        <item>Fragrans</item>
+        <item>Datura</item>
+        <item>Mimosa</item>
+        <item>Tiffany</item>
+        //7-12
+        <item>Mint</item>
+        <item>Jasmine</item>
+        <item>Tulip</item>
+        <item>Daylily</item>
+        <!--<item>Azalea</item>-->
+        <item>Peony</item>
+        //13-18
+        <item>Violet</item>
+        <item>Cymbidium</item>
+        <item>Peach</item>
+        <item>Canna</item>
+        <item>Gardenia</item>
+        <item>Bamboo</item>
+        //19-24
+        <item>Coral</item>
+        <item>Lilac</item>
+        <item>Pansy</item>
+        <item>Ivy</item>
+        <item>Sunflower</item>
+        <item>Calendula</item>
+        //25-30
+        <item>Epiphyllum</item>
+        <item>Statice</item>
+        <item>Aloe</item>
+        <item>Daffodil</item>
+        <item>Iris</item>
+        <item>Hyacinth</item>
+    </string-array>
+
+    <string-array name="theme_color_top">
+        // 1-6  Coral
+        <item>#fcdcd3</item>
+        <item>#ffe9d5</item>
+        <item>#fff7a2</item>
+        //  Datura
+        <item>#c1e4f7</item>
+        <item>#ffe5b6</item>
+        <item>#c9ece5</item>
+        //7-12
+        <item>#fefbd4</item>
+        <item>#ffc8e6</item>
+        <item>#feab99</item>
+        <item>#fdc7b5</item>
+        <!--<item>#ffb186</item>-->
+        <item>#efbaa2</item>
+        //13-18 violet
+        <item>#5cc1fc</item>
+        <item>#d3eba5</item>
+        <item>#ffa1a2</item>
+        <item>#ffb59b</item>
+        <item>#63b2ff</item>
+        <item>#0cb4be</item>
+        //19-24
+        <item>#ffdfd8</item>
+        <item>#a5e3ed</item>
+        <item>#c3acfc</item>
+        //ivy
+        <item>#e6c6fe</item>
+        <item>#f6e589</item>
+        <item>#f0dac2</item>
+
+        //25-30
+        <item>#a9e2ff</item>
+        <item>#b7faf1</item>
+        <item>#7898ef</item>
+        <item>#adf1ce</item>
+        <item>#83c0f9</item>
+        <item>#feccc1</item>
+
+    </string-array>
+
+    <string-array name="theme_color_bottom">
+        //1-6
+        <item>#ef7491</item>
+        <item>#f9afca</item>
+        <item>#fbb99f</item>
+        //Datura
+        <item>#7fd3f3</item>
+        <item>#6bdeff</item>
+        <item>#6dc1c1</item>
+        // 7 -12
+        <item>#48c3be</item>
+        <item>#e2ccff</item>
+        <item>#fdb078</item>
+        <item>#fd8269</item>
+        <!--<item>#f82970</item>-->
+        <item>#ef629f</item>
+
+        //13- 18 violet
+        <item>#fcc7f3</item>
+        <item>#64d7d2</item>
+        <item>#ff9ac2</item>
+        <item>#fe6873</item>
+        <item>#e097ff</item>
+        <item>#b7e35c</item>
+        //19-24
+        <item>#f19a91</item>
+        <item>#cdadfd</item>
+        <item>#5fc9df</item>
+        //ivy
+        <item>#16cabe</item>
+        <item>#fecc69</item>
+        <item>#f5cbb5</item>
+        //25-30
+        <item>#78a7ff</item>
+        <item>#7978f7</item>
+        <item>#6ce2d6</item>
+        <item>#009ff3</item>
+        <item>#ac95e5</item>
+        <item>#7f8be9</item>
+    </string-array>
+
+    <string-array name="theme_color_icon">
+        //1-6   Coral
+        <item>#e75988</item>
+        <item>#f75a93</item>
+        <item>#ff7200</item>
+        //Datura
+        <item>#018be3</item>
+        <item>#018be3</item>
+        <item>#03b2c5</item>
+
+        //7-12
+        <item>#0cadb5</item>
+        <item>#bf65e5</item>
+        <item>#e8340f</item>
+        <item>#ee6c52</item>
+        <!--<item>#ef176c</item>-->
+        <item>#e75988</item>
+
+        //13-18 violet
+        <item>#1c9ae0</item>
+        <item>#03ad8b</item>
+        <item>#f63666</item>
+        <item>#f1526b</item>
+        <item>#967adc</item>
+        <item>#15ad60</item>
+        //19-24
+        <item>#ff7147</item>
+        <item>#8979dc</item>
+        <item>#6e6aef</item>
+        //ivy
+        <item>#05a79e</item>
+        <item>#fc913a</item>
+        <item>#eb974e</item>
+        //25-30
+        <item>#4289e3</item>
+        <item>#6977fc</item>
+        <item>#6894f1</item>
+        <item>#4289e3</item>
+        <item>#9637c8</item>
+        <item>#7d65e7</item>
+    </string-array>
+    
+    <integer-array name="theme_color_type"> // 左上-右下    中心垂直 右上-左下         0  1  2
+        //1  6
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+
+        //7-12
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <!--<item>2</item>-->
+        <item>1</item>
+
+        //13-18
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+
+        //19-24
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+
+        //25-30
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+
+    </integer-array>
+</resources>

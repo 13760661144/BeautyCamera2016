@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    android:id="@+id/psw">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/oldPsw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="#999999"
+            android:textColor="#333333"
+            android:textSize="18dp"
+            android:maxLength="30"
+            android:background="#ffffff"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/oldPswScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="34dp"
+            android:src="@drawable/userinfo_psw_hide" />
+    </FrameLayout>
+    
+    <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_gravity="center_vertical|left"
+            android:background="#f6f6f5" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/newPsw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#999999"
+            android:textColor="#333333"
+            android:textSize="18dp"
+            android:maxLength="30"
+            android:background="#ffffff"
+            android:inputType="textPassword" >
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/newPswScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="34dp"
+            android:src="@drawable/userinfo_psw_hide" />
+    </FrameLayout>
+
+</LinearLayout>

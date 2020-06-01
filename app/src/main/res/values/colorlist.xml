@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="dialog_translucence">#99000000</color>
+
+    <!--传输列表进度条背景色-->
+	<!--传输列表进度条背景色-->
+    <color name="cloudalbum_transports_state_bar_bg_green">#07c34e</color>
+    <color name="cloudalbum_transports_state_bar_bg_red">#fe4c4c</color>
+
+    <!--云相册文字颜色-->
+
+	<drawable name="dialog_button">#eaeaea</drawable>
+
+    <!--云相册创建按钮文字选中颜色-->
+    <color name="album_name_select">#e5e5e5</color>
+    <color name="album_name_default">#ffffff</color>
+
+    <!--提示更新Dialog的按钮文字颜色-->
+    <color name="update_version_detail_default">#000000</color>
+    <color name="update_version_detail_selected">#66000000</color>
+
+    <color name="update_version_update_default">#ffffffff</color>
+    <color name="update_version_update_selected">#66ffffff</color>
+
+    <color name="update_version_ignore_default">#ff808080</color>
+    <color name="update_version_ignore_selected">#66808080</color>
+
+    <color name="white_pressed">#e3e3e3</color>
+
+</resources>

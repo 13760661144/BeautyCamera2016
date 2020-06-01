@@ -1,0 +1,1133 @@
+﻿<resources>
+	<string name="app_name_main">美人相机</string>
+	<string name="app_name_recommend">美人相机(推荐)</string>
+
+	<string name="app_sd_card_warning">存储空间少于100MB，程序运行可能异常</string>
+	<string name="app_sd_card_out_of_space">存储空间不足</string>
+	<string name="app_sd_card_err">存储设备异常</string>
+
+	<string name="press_again_and_quit">再按一次返回键将退出</string>
+
+	<string name="printerpage_details_btn_name">我的订单</string>
+	<string name="printalbumpage_next_btn_name">下一步</string>
+	<string name="lotter_tip1">分享晒单成功后，便可参与抽奖！</string>
+	<string name="lotter_tip2">每一订单只有一次机会哦，</string>
+	<string name="lotter_reconnect_tip">网络似乎不太给力!请重试!</string>
+	<string name="weibo_send_sina">正在发送到新浪微博…</string>
+	<string name="confirm_title">提示</string>
+	<string name="ensure">确定</string>
+	<string name="cancel">取消</string>
+	<string name="confirm_back">返回上一级将不保存本次修改</string>
+	<string name="content_description_icon">icon</string>
+	<string name="refresh">刷新</string>
+	<string name="loading">加载中</string>
+	<string name="download">下载</string>
+	<string name="download_fail">下载安装包失败</string>
+	<string name="cancel_install_msp">你已取消安装移动快捷支付服务</string>
+	<string name="cancel_install_alipay">你已取消安装支付宝钱包</string>
+	<string name="redo">重试</string>
+	<string name="install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
+	<string name="install_alipay">你尚未安装支付宝钱包，请立即安装</string>
+	<string name="rule_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\\|`¬!"£$¥€%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+	<string name="back">返回</string>
+
+	<string name="cloudalbum_rename_tip">旧版本上传的照片\n
+                                           都在这里了哦\n
+                                         你可以修改相册名</string>
+	<string name="cloudalbum_rename_btn">重命名</string>
+	<string name="cloudalbum_create_new_album_tip">  还未创建相册\n点击创建新的相册</string>
+	<string name="cloudalbum_icon_text">你的相册还没有照片哦
+                                       </string>
+
+	<string name="pull_to_refresh">下拉可以刷新</string>
+
+	<string name="bootimgpage_skip_btn">跳过</string>
+
+	<string name="homepage_sdcard_volume_tip">存储空间小于100MB，程序运行可能有问题</string>
+
+	<string name="beautify4page_clip_btn">编辑</string>
+	<string name="beautify4page_face_btn">美颜美形</string>
+	<string name="beautify4page_beautify_btn">素材美化</string>
+	<string name="beautify4page_meiyan_btn">美颜</string>
+	<string name="beautify4page_shoushen_btn">瘦脸瘦身</string>
+	<string name="beautify4page_qudou_btn">祛痘</string>
+	<string name="beautify4page_dayan_btn">大眼</string>
+	<string name="beautify4page_quyandai_btn">祛眼袋</string>
+	<string name="beautify4page_liangyan_btn">亮眼</string>
+	<string name="beautify4page_zenggao_btn">增高</string>
+	<string name="beautify4page_weixiao_btn">微笑</string>
+	<string name="beautify4page_meiya_btn">美牙</string>
+	<string name="beautify4page_shoubi_btn">瘦鼻</string>
+	<string name="beautify4page_gaobiliang_btn">高鼻梁</string>
+	<string name="beautify4page_yijianmengzhuang_btn">一键萌妆</string>
+	<string name="beautify4page_caizhuang_btn">彩妆</string>
+	<string name="beautify4page_lvjing_btn">滤镜</string>
+	<string name="beautify4page_xiangkuang_btn">相框</string>
+	<string name="beautify4page_tietu_btn">贴图</string>
+	<string name="beautify4page_maoboli_btn">毛玻璃</string>
+	<string name="beautify4page_masaike_btn">马赛克</string>
+	<string name="beautify4page_zhijianmofa_btn">指尖魔法</string>
+	<string name="beautify4page_pintu_btn">拼图</string>
+	<string name="beautify4page_save_fail">保存失败</string>
+	<string name="beautify4page_img_err">打开图片失败!</string>
+	<string name="beautify4page_noface_help">检测不到人脸，请手动定点</string>
+	<string name="beautify4page_noface_help_btn">手动定点</string>
+
+	<!-- 拼图 -->
+	<string name="goto_use">马上使用</string>
+	<string name="goto_download">马上下载</string>
+	<string name="no_longer_tips">不再提示</string>
+
+	<!-- 相册 -->
+	<string name="system_album">系统相册</string>
+	<string name="album">相册</string>
+	<plurals name="repeat_select_tip">
+		<item quantity="one">当前选中%1$d张 (最多%2$d张)</item>
+		<item quantity="other">当前选中%1$d张 (最多%2$d张)</item>
+	</plurals>
+	<string name="album_add_photo">添加</string>
+	<string name="over_max_photo_tip">最多选择%d张照片</string>
+	<string name="less_min_photo_tip">最少选择%d张照片</string>
+	<plurals name="has_select_photo">
+		<item quantity="one">已选择%d张照片</item>
+		<item quantity="other">已选择%d张照片</item>
+	</plurals>
+	<string name="upload">上传</string>
+	<string name="upload_to_cloud_album_tip">将照片添加到“%s”</string>
+	<string name="repeat_tip">提示</string>
+	<string name="repeat_message">这张图刚才已经选过了，\n是否继续添加？</string>
+	<string name="add">添加</string>
+	<string name="photo_not_exist">该图片不存在</string>
+	<string name="video_not_exist">该视频不存在</string>
+
+
+	<string name="video_album_title">已筛选&lt;60M的视频</string>
+
+	<!-- 内存提示 -->
+	<string name="memory_error_message">存储设备异常，无法存储照片\n请检查您的设备</string>
+	<string name="memory_error_positive">知道了</string>
+
+	<string name="memory_no_space_message">您的手机内存严重不足，\n无法进行操作，\n请及时释放更多内存。</string>
+	<string name="memory_no_space_positive">查看手机内存</string>
+	<string name="memory_no_space_negative">我知道了</string>
+
+	<string name="memory_warning_message">您的手机内存不足200MB，\n可能导致无法正常使用，\n请及时释放更多内存。</string>
+	<string name="memory_warning_positive">查看手机内存</string>
+	<string name="memory_warning_negative">我知道了</string>
+
+	<!-- 贴图 -->
+	<string name="pendant_number_limit">装饰数量已超过内存使用上限</string>
+	<string name="pendant_unlock_success">解锁成功</string>
+	<string name="download_pendant">下载素材</string>
+	<string name="download_pendant_failed">下载失败</string>
+	<string name="decorate_can_not_delete">无法删除</string>
+
+	<!-- 祛痘 -->
+	<string name="remove_acne">祛痘</string>
+	<string name="acne_tip">点击面部即可祛痘</string>
+
+	<string name="remove_eye_bag">祛眼袋</string>
+	<string name="high_nose">高鼻梁</string>
+	<string name="smile">微笑</string>
+
+	<string name="share">分享</string>
+	<string name="close">关闭</string>
+	<string name="ok">确定</string>
+	<string name="camerapage_camera_permissions_not_turned_on">相机权限未开启，\n请在系统权限管理中开启权限</string>
+	<string name="camerapage_camera_error_to_re_open">相机出错了，\n请关闭页面后重新打开</string>
+	<string name="camerapage_camera_permission_limit">相机权限被禁止了</string>
+	<string name="camerapage_camera_open_fail">镜头无法启动，可能是因为你的系统设置或者其他安全管理软件关闭了相机权限。\n请开启相机权限，并重启试试。</string>
+	<string name="camerapage_camera_open_permission_method">开启权限方法</string>
+	<string name="camerapage_camera_open_sticker_record_tips">很抱歉，动态贴纸功能需要4.3版本以上安卓手机系统方可适用</string>
+	<string name="camerapage_camera_open_gif_record_tips">很抱歉，表情包功能需要4.3版本以上\n安卓手机系统方可适用</string>
+	<string name="camerapage_camera_open_video_record_tips">很抱歉，视频功能需要4.3版本以上\n安卓手机系统方可适用</string>
+	<string name="camerapage_camera_open_sticker_record_tips_ensure">我知道了</string>
+	<string name="camerapage_sticker_share_wx_to_activation">分享到微信朋友圈，就能激活这个模版哦！</string>
+	<string name="camerapage_check_record_permission">无法录音，请开启麦克风权限</string>
+	<string name="camerapage_preview_size">预览大小：</string>
+	<string name="camerapage_adjust_volume_level">您的手机处于静音状态，请调大音量</string>
+	<string name="camerapage_zipai_volume_open">自拍语音提示已开启</string>
+	<string name="camerapage_zipai_volume_close">自拍语音提示已关闭</string>
+	<string name="camerapage_to_take_photo">开始拍照</string>
+
+	<string name="camerapage_setting_capture_time_off">定时功能已关闭</string>
+	<string name="camerapage_setting_capture_time_1s">定时1秒已开启</string>
+	<string name="camerapage_setting_capture_time_2s">定时2秒已开启</string>
+	<string name="camerapage_setting_capture_time_3s">定时3秒已开启</string>
+	<string name="camerapage_setting_capture_time_10s">定时10秒已开启</string>
+	<string name="camerapage_setting_touch_capture_on">触屏拍摄已开启</string>
+	<string name="camerapage_setting_touch_capture_off">触屏拍摄已关闭</string>
+	<string name="camerapage_setting_beauty_on">智能美颜已开启</string>
+	<string name="camerapage_setting_beauty_off">智能美颜已关闭</string>
+
+	<string name="camerapage_exposure_value">亮度%d</string>
+	<string name="camerapage_exposure_value_up">亮度+%d</string>
+
+	<string name="camerapage_sticker_face_action_tip_open_mouth">张开嘴巴</string>
+	<string name="camerapage_sticker_face_action_tip_blink">眨下眼睛</string>
+	<string name="camerapage_sticker_face_action_tip_eyebrow">挑眉试试</string>
+	<string name="camerapage_sticker_face_action_tip_nod_head">点头试试</string>
+
+	<string name="camerapage_sticker_unlock_loading_data">获取数据中</string>
+	<string name="camerapage_sticker_unlock_loading_data_fail">数据获取失败</string>
+	<string name="camerapage_sticker_unlock_loading_data_no_connect">网络连接失败，请检查你的网络后重试</string>
+
+	<string name="camerapage_record_tips">点击拍照\n长按录像</string>
+
+	<string name="camerapage_patch_view_tips_type_0_title">拍照方向修正工具</string>
+	<string name="camerapage_patch_view_tips_type_0_content">如果你遇到拍照方向总是不对的问题，\n此向导可帮助解决。</string>
+	<string name="camerapage_patch_view_tips_type_0_content2">(也可以在\"设置\"进入)</string>
+	<string name="camerapage_patch_view_tips_type_0_btn_left">知道了</string>
+	<string name="camerapage_patch_view_tips_type_0_btn_right">开始校正</string>
+	<string name="camerapage_patch_view_tips_type_1_title">第一步，请保持手机竖直</string>
+	<string name="camerapage_patch_view_tips_type_1_content">现在看到的图像预览方向正确吗？</string>
+	<string name="camerapage_patch_view_tips_type_1_btn_left">不对，旋转</string>
+	<string name="camerapage_patch_view_tips_type_1_btn_right">方向正确</string>
+	<string name="camerapage_patch_view_tips_type_2_title">照片方向校正</string>
+	<string name="camerapage_patch_view_tips_type_2_content">现在看到的照片方向正确吗？</string>
+	<string name="camerapage_patch_view_tips_type_3_title">好了，校正完成</string>
+	<string name="camerapage_camera_time_take_1">定时1秒</string>
+	<string name="camerapage_camera_touch_take">触屏拍摄</string>
+	<string name="camerapage_camera_time_beauty">实时美颜</string>
+	<string name="camerapage_camera_voice_tips">语音提示</string>
+	<string name="camerapage_camera_intelligent_customization">美形定制</string>
+	<string name="camerapage_camera_time_take_manual">手动</string>
+	<string name="camerapage_camera_time_take_2">定时2秒</string>
+	<string name="camerapage_camera_time_take_3">定时3秒</string>
+	<string name="camerapage_camera_time_take_10">定时10秒</string>
+	<string name="camerapage_camera_intelligent_tips_default">Hi，为您提供个性化美形\n请调整到喜欢的默认程度</string>
+	<string name="camerapage_camera_intelligent_tips_beauty">定制你的个人[美颜]参数\n系统将记住并持续使用</string>
+	<string name="camerapage_camera_intelligent_tips_shoulian">定制你的个人[瘦脸]参数\n系统将记住并持续使用</string>
+	<string name="camerapage_camera_intelligent_tips_dayan_1">调整你的[大眼]参数</string>
+	<string name="camerapage_camera_intelligent_tips_dayan_2">将在</string>
+	<string name="camerapage_camera_intelligent_tips_dayan_3">后成为个人模式</string>
+	<string name="camerapage_camera_intelligent_tips_dayan_4">如需更改请再次进入顶部[设置]</string>
+	<string name="camerapage_camera_intelligent_btn_next">下一步</string>
+	<string name="camerapage_camera_intelligent_btn_preview">上一步</string>
+
+	<string name="camerapage_camera_intelligent_tips3">你可以在镜头上方[设置]的\n[美形定制]重新选择</string>
+	<string name="camerapage_sdk_out_of_date_update_tip">重要更新</string>
+	<string name="camerapage_sdk_out_of_date_tip_msg">当前版本过低\n部分功能将失效，请及时更新</string>
+	<string name="camerapage_sdk_out_of_date_tip_download">马上升级</string>
+	<string name="camerapage_sdk_out_of_date_tip_cancel">暂不升级</string>
+	<string name="camerapage_record_video_invalid_tip">录制时长过短</string>
+	<string name="camerapage_invalid_video">视频文件已损坏或不存在</string>
+	<string name="not_installed_app_store">还没有安装安卓市场，请先安装</string>
+
+	<string name="unlock_download">下载</string>
+	<string name="unlock_download_unlock">解锁下载</string>
+	<string name="unlock_download_limit">限量下载</string>
+	<string name="unlock_downloading">正在下载</string>
+	<string name="unlock_cancel">跳过</string>
+	<string name="unlock_share_to_weixin">分享到微信朋友圈，就能激活这个模板哦！</string>
+	<string name="unlock_share_to_market">给5分好评，就能激活这个模板哦！</string>
+	<string name="unlock_use_credit">"使用60积分即可兑换该模板！"</string>
+	<string name="unlock_credit_not_enough">你目前的积分余额不足60！</string>
+	<string name="unlock_credit_redeem_failed">扣除失败</string>
+	<string name="unlock_user_current_credit">你目前的积分余额为：</string>
+	<string name="unlock_user_login_tip">您还没有登录，点击登录</string>
+	<string name="unlock_limit_res_success">您已成功解锁！</string>
+	<string name="beauty">美颜</string>
+	<string name="shoulian">瘦脸</string>
+	<string name="filterpage_filter">滤镜</string>
+	<string name="filterpage_watermark">水印</string>
+	<string name="brushpage_brush">指尖魔法</string>
+	<string name="is_it_emptied">是否清空？</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="tips">提示</string>
+	<string name="error">错误</string>
+	<string name="brushpage_edit_mode_to_back_tip">正在编辑的内容将会丢失,确定要返回上一级吗?</string>
+	<string name="brushpage_loading_img">载入图片中</string>
+	<string name="filterpendantpage_pendant">贴纸</string>
+	<string name="filterpendantpage_shape">形状</string>
+	<string name="framepage_theme">主题</string>
+	<string name="framepage_simple">简约</string>
+	<string name="clippage_clip">编辑</string>
+	<string name="clippage_clip_reset">重置</string>
+	<string name="clippage_clip_rotate">旋转</string>
+	<string name="clippage_clip_mirror">镜像</string>
+	<string name="clippage_clip_free">Free</string>
+	<string name="clippage_clip_1_1">1:1</string>
+	<string name="clippage_clip_4_3">4:3</string>
+	<string name="clippage_clip_3_4">3:4</string>
+	<string name="clippage_clip_16_9">16:9</string>
+	<string name="clippage_clip_9_16">9:16</string>
+	<string name="mosaicpage_doodle">涂鸦</string>
+	<string name="mosaicpage_paint">画风</string>
+	<string name="mosaicpage_paint_vangogh">梵高画笔</string>
+	<string name="mosaicpage_paint_crayon">幻彩蜡笔</string>
+	<string name="mosaicpage_paint_charcoal">文艺布印</string>
+	<string name="mosaicpage_paint_splash">彩色喷墨</string>
+	<string name="mosaicpage_paint_sketches1">彩素描</string>
+	<string name="mosaicpage_paint_sketches2">光圈涂笔</string>
+	<string name="mosaicpage_paint_sketches3">奇幻布印</string>
+	<string name="mosaicpage_paint_sketches4">素描印画</string>
+	<string name="mosaicpage_paint_mosaic">马赛克</string>
+
+
+	<!-- 新版首页 -->
+	<string name="clickToLogin">点击登录</string>
+	<string name="taskHall">任务大厅</string>
+	<string name="cloudAlbum">云相册</string>
+	<string name="printingPhotos">照片冲印</string>
+	<string name="myCredit">我的积分</string>
+	<string name="wallet">我的钱包</string>
+	<string name="beautyMall">福利社</string>
+	<string name="changeSkin">主题换肤</string>
+	<string name="setting">相机设置</string>
+	<string name="aboutUs">关于</string>
+	<string name="appRecommendation">精品推荐</string>
+	<string name="rateUs">给个好评</string>
+	<string name="shareWithFriends">推荐给好友</string>
+
+	<string name="customBeauty">美形定制</string>
+	<string name="generalSetting">相机设置</string>
+	<string name="helpAndFeedback">帮助与反馈</string>
+	<string name="beautyService">美人服务</string>
+	<string name="personalityManagement">个性管理</string>
+	<string name="moreSupport">更多支持</string>
+	<string name="recommendationForYou">为你推荐</string>
+	<string name="loginHint">登录/注册</string>
+
+
+	<string name="homepage_beauty_entry">美颜美化</string>
+	<string name="homepage_open_album1">美颜</string>
+	<string name="homepage_open_album2">美图</string>
+	<string name="homepage_open_album">打开相册</string>
+	<string name="homepage_undo">撤回</string>
+	<string name="homepage_top_tip">向 下 滑</string>
+	<string name="homepage_left_tip">向右滑</string>
+	<string name="homepage_welfare">福利社</string>
+	<string name="homepage_right_tip">向左滑</string>
+	<string name="homepage_material">素材店</string>
+
+
+	<string name="saving">正在保存...</string>
+	<string name="loading_img">正在加载图片</string>
+	<string name="processing">正在处理</string>
+	<!--美颜-->
+	<string name="beauty_sub_title">美颜</string>
+	<string name="beauty_def_buffing">磨皮</string>
+	<string name="beauty_def_whitening">美白</string>
+	<string name="beauty_def_complexion">肤色</string>
+	<string name="beauty_effect_default">嫩白</string>
+	<string name="beauty_effect_clear">净白</string>
+	<string name="beauty_effect_newbee">细节</string>
+	<string name="beauty_effect_little">轻微</string>
+	<string name="beauty_effect_middle">亮白</string>
+	<string name="beauty_effect_nature">自然</string>
+	<string name="beauty_effect_user">自定义</string>
+	<string name="beauty_effect_none">无</string>
+	<string name="beauty_effect_moonlight">朦胧</string>
+
+	<!--瘦脸瘦身-->
+	<string name="slim_manual">手动</string>
+	<string name="slim_auto">脸型</string>
+	<string name="slim_tools">工具</string>
+	<string name="slim_oval_face">瓜子脸</string>
+	<string name="slim_egg_face">鹅蛋脸</string>
+	<string name="slim_awl_face">锥子脸</string>
+	<string name="known">知道了</string>
+
+	<!--主题换肤-->
+	<string name="theme_sub_title">主题</string>
+
+
+	<!--彩妆-->
+	<string name="makeup_title">彩妆</string>
+	<string name="makeups_title">一键萌妆</string>
+	<string name="makeup_changepoint_help_tips1">锁定即可拖动整体</string>
+	<string name="makeup_changepoint_content1">请参照左边示意图来拖动上面多个点分别定位唇彩</string>
+	<string name="makeup_chnagepoint_content2">请参照左边示意图来拖动上面10个点分别定位眼睛</string>
+	<string name="makeup_changepoint_content3">请参照左边示意图来拖动上面八个点分别定位眉毛</string>
+	<string name="makeup_changepoint_content4">请参照左边示意图来拖动上面两个点分别定位脸颊</string>
+	<string name="makeup_changepoint_content5">请参照左边示意图来拖动上面两个点分别定位鼻子</string>
+	<string name="makeup_changepoint_content6">请参照左边示意图来拖动上面三个点分别定位脸颊</string>
+	<string name="makeup_changepoint_title1">智能美形 ---- 定点修正</string>
+	<string name="makeup_changepoint_title2">请拖动上面三个点分别定位到左眼、右眼、嘴巴</string>
+	<string name="makeup_changepoint_title3">定点修正</string>
+	<string name="makeup_saihong_item1_name">样式</string>
+	<string name="makeup_changepoint_zuichun_name">嘴唇</string>
+	<string name="makeup_changepoint_zuoyan_name">眼睛</string>
+	<string name="makeup_changepoint_youyan_name">右眼</string>
+	<string name="makeup_changepoint_meimao_name">眉毛</string>
+	<string name="makeup_chnagepoint_lianjia_name">脸颊</string>
+	<string name="makeup_chnagepoint_nose_name">鼻子</string>
+	<string name="makeup_chnagepoint_chin_name">下巴</string>
+
+	<string name="makeup_multiface_tips">检测到多人，请选择一位进行操作。</string>
+	<string name="makeup_theme_name">主题妆容</string>
+	<string name="makeup_fendi_name">粉底</string>
+	<string name="makeup_saihong_name">腮红</string>
+	<string name="makeup_chuncai_name">唇彩</string>
+	<string name="makeup_meimao_name">眉毛</string>
+	<string name="makeup_yanying_name">眼影</string>
+	<string name="makeup_yanxian_name">眼线</string>
+	<string name="makeup_jiemao_name">睫毛</string>
+	<string name="makeup_meitong_name">美瞳</string>
+	<string name="filterbeautify_page_advanced_tip">美颜美化</string>
+	<!-- 美颜大眼start -->
+	<string name="bigeyes_multiple_face_detect">检测到多人，请选择一位进行操作</string>
+
+	<!-- 美颜大眼stop -->
+
+	<!-- 运营专区start -->
+	<string name="campaigncenter_title">美人誌</string>
+	<string name="refresh_finish">刷新完成</string>
+	<string name="noMoreData">没有更多内容了</string>
+	<string name="poor_network">网络不好，请检查你的网络配置</string>
+	<string name="poor_network2">网络不好</string>
+	<string name="check_network_configuration">请检查你的网络配置</string>
+	<string name="fail_get_file">获取文件失败</string>
+	<string name="can_not_find_file">无法找到文件</string>
+	<string name="pulldown_to_refresh">下拉刷新</string>
+	<string name="release_to_refresh">释放刷新</string>
+	<string name="refreshing">正在刷新</string>
+	<string name="completed">刷新完成</string>
+	<string name="no_more_content">没有更多内容了</string>
+	<!-- 运营专区end -->
+
+	<!--CampaignCenter WebViewPage start -->
+	<string name="share_to">分享到</string>
+	<string name="webviewpage_cancel">取消</string>
+	<string name="try_rightnow">马上试试</string>
+	<string name="share_successfully">分享成功</string>
+	<string name="fail_to_share">分享失败</string>
+	<string name="user_cancel_share">用户取消分享</string>
+
+	<string name="friends_circle">朋友圈</string>
+	<string name="wechat_friends">微信好友</string>
+	<string name="sina_weibo">微博</string>
+	<string name="QQZone">Qzone</string>
+	<string name="QQ">QQ</string>
+	<string name="Facebook">Facebook</string>
+	<string name="Instagram">Instagram</string>
+	<string name="Twitter">Twitter</string>
+	<string name="Community">BeautyClub</string>
+
+
+	<!--CampaignCenter WebViewPage end -->
+
+	<string name="login_first">请先登录</string>
+	<string name="know">我知道了</string>
+
+	<string name="saving_picture_failed">保存图片失败</string>
+
+	<string name="material">素材商店</string>
+	<string name="material_frame">主题相框</string>
+	<string name="material_frame2">简约相框</string>
+	<string name="material_makeup">彩妆</string>
+	<string name="material_decorate">贴图</string>
+	<string name="material_glass">毛玻璃</string>
+	<string name="material_mosaic">马赛克</string>
+	<string name="material_brush">指尖魔法</string>
+	<string name="material_download_all">全部下载</string>
+	<string name="material_downloading">正在下载</string>
+	<string name="material_download_complete">已下载</string>
+	<string name="material_download_failed">下载失败</string>
+	<string name="material_manage">管理</string>
+	<string name="material_manage_title">素材管理</string>
+	<string name="material_manage_delete">删除</string>
+	<string name="material_manage_select_all">全选</string>
+	<string name="material_manage_cancel_select_all">全不选</string>
+	<string name="material_manage_none_tip">你还没有下载到本地的素材哦</string>
+	<string name="material_downloading_tip">素材正在下载，请等待</string>
+	<string name="material_download_this">要下载这组素材吗？</string>
+	<string name="material_download">下载</string>
+	<string name="material_cancel">取消</string>
+	<string name="material_use">马上使用</string>
+	<string name="material_download_continue">继续下载</string>
+	<string name="material_download_none_tip">已经没有了，全部都下载完了哦</string>
+
+	<string name="unlock_success">解锁成功</string>
+	<string name="download_failed_title">无法获取数据</string>
+	<string name="download_failed_content">你的网络出错啦，请检查网络设置</string>
+	<string name="net_weak_tip">你的网络出错啦，请检查网络设置</string>
+
+	<string name="material_filter">滤镜</string>
+
+	<string name="filter_type_none">原图</string>
+	<string name="filter_type_jasmine">Jasmine</string>
+	<string name="filter_type_camelliaa">Camellia</string>
+	<string name="filter_type_rosa">Rosa</string>
+	<string name="filter_type_lavender">Lavender</string>
+	<string name="filter_type_sunflower">Sunflower</string>
+	<string name="filter_type_clover">Clover</string>
+	<string name="filter_type_peach">Peach</string>
+	<string name="filter_type_dandelion">Dandelion</string>
+	<string name="filter_type_lilac">Lilac</string>
+	<string name="filter_type_tulip">Tulip</string>
+
+	<string name="recommend_download_more">下载更多</string>
+	<string name="recommend_material_more">更多素材</string>
+
+	<!-- 分享 -->
+	<string name="share_poco_cancel_bind">是否要取消绑定POCO微博吗?</string>
+	<string name="share_poco_sending">正在分享到Poco...</string>
+	<string name="share_poco_unbind">未绑定POCO微博</string>
+	<string name="share_poco_binding">绑定Poco微博中...</string>
+	<string name="share_poco_bind_fail">绑定Poco微博失败</string>
+	<string name="share_poco_share_success">发送POCO微博成功</string>
+	<string name="share_poco_share_fail">发送失败</string>
+	<string name="share_sina_cancel_bind">是否要取消绑定新浪微博吗?</string>
+	<string name="share_sina_error_clinet_no_install">还没有安装最新的新浪微博客户端</string>
+	<string name="share_sina_unbind">未绑定新浪微博</string>
+	<string name="share_sina_bind_fail">绑定新浪微博失败</string>
+	<string name="share_qq_cancel_bind">是否要取消绑定QQ空间吗?</string>
+	<string name="share_qq_error_clinet_no_install">还没有安装最新手机QQ，需要安装后才能发送</string>
+	<string name="share_qq_bind_fail">绑定QQ失败</string>
+	<string name="share_content_default">我正在用美人相机拍照片发微博。</string>
+	<string name="share_pic_error">无效图片文件,请确认图片是否被删除</string>
+	<string name="share_icon_camera">继续拍摄</string>
+	<string name="share_icon_beautify">美颜美化</string>
+	<string name="share_icon_edit_next">编辑下一张</string>
+	<string name="share_icon_share_community">分享到Club</string>
+	<string name="share_ui_top_title">已保存到相册</string>
+	<string name="share_ui_bottom_title">从这里分享，画质比较好哦</string>
+	<string name="share_weixin_error_client_version_low1">微信版本低请更新到最新版本</string>
+	<string name="share_weixin_error_client_version_low2">微信版本低请更新到最新版本</string>
+	<string name="share_weixin_error_client_no_install">还没有安装微信，需要安装后才能分享。</string>
+	<string name="share_facebook_client_no_install">还没有安装Facebook客户端，需要安装后才能发送</string>
+	<string name="share_twitter_client_no_install">还没有安装Twitter客户端，需要安装后才能发送</string>
+	<string name="share_instagram_client_no_install">还没有安装Instagram客户端，需要安装后才能发送</string>
+	<string name="share_circle_client_no_install">还没有安装在一起客户端，需要安装后才能发送</string>
+	<string name="share_circle_without_data">没有要分享的数据</string>
+	<string name="share_circle_unsupport_version">当前版本在一起不支持分享</string>
+	<string name="share_circle_without_image">分享的图片不存在</string>
+	<string name="share_circle_unsupport_video">当前版本在一起不支持视频分享</string>
+	<string name="share_circle_illegal_video">视频时长不能小于2秒</string>
+	<string name="share_send_repeat">发送内容重复</string>
+	<string name="share_error_image_too_large">发送的图片容量超过限制</string>
+	<string name="share_error_image_is_null">图片为空或不存在，请检查图片路径。</string>
+	<string name="share_error_video_is_null">视频为空或不存在，请检查视频路径。</string>
+	<string name="share_error_context_is_null">发送内容不能为空</string>
+	<string name="share_error_url">URL地址出现问题。</string>
+	<string name="share_error_thumb">缩略图出现问题。</string>
+	<string name="share_error_file_is_null">文件路径不能为空</string>
+	<string name="share_default_title">美人相机</string>
+	<string name="share_server_uploading">正在上传图片到服务器...</string>
+	<string name="share_server_upload_fail">上传图片到服务器失败</string>
+	<string name="share_sending">发送中...</string>
+	<string name="share_send_success">分享成功</string>
+	<string name="share_send_fail">分享失败</string>
+	<string name="share_send_cancel">取消分享</string>
+	<string name="share_sendblogpage_default_text">想说点什么？</string>
+	<string name="share_sendblogpage_title_poco">分享到POCO</string>
+	<string name="share_sendblogpage_title_sina">分享到SINA微博</string>
+	<string name="share_sendblogpage_title_qq">分享到QQ</string>
+	<string name="share_sendblogpage_title_qzone">分享到QZONE</string>
+	<string name="share_sendblogpage_send">发送</string>
+	<string name="share_sendblogpage_hot_topic">#热门标签#</string>
+	<string name="share_sendblogpage_content_limit">微博内容不能超过140个字</string>
+	<string name="share_together_tip_text">我最好的作品\n就是我的生活</string>
+	<string name="share_facebook_client_start_fail">唤起Facebook客户端失败，请确认Facebook处于启动状态后再重试发送</string>
+	<string name="share_facebook_client_call">正在唤起Facebook，请稍等...</string>
+	<string name="share_error_start_application_fail">启动应用失败</string>
+	<string name="QQZoneAlias">QQ空间</string>
+	<string name="QQFriends">QQ好友</string>
+
+	<!-- WebViewPage -->
+	<string name="webviewpage_album">相册</string>
+	<string name="webviewpage_camera">相机</string>
+	<string name="webviewpage_select_image_source">选择图片来源</string>
+	<string name="webviewpage_select_image">选择图片</string>
+	<string name="webviewpage_get_data_fail">获取数据失败</string>
+
+	<!-- 动态贴纸 -->
+	<string name="lightapp06_share_title">我的小视频</string>
+	<string name="lightapp06_share_description">萌萌动态贴纸</string>
+	<string name="lightapp06_share_text">#美人相机#我的小视频 </string>
+	<string name="lightapp06_text_share">分享到</string>
+	<string name="lightapp06_text_save">已保存到相册</string>
+	<string name="lightapp06_not_exist_pic">图片不存在</string>
+	<string name="lightapp06_not_exist_video">视频文件不存在</string>
+	<string name="lightapp06_video_upload_fail">视频上传失败</string>
+	<string name="lightapp06_save_done">已保存到:</string>
+	<string name="lightapp06_video_save_fail">视频保存失败</string>
+	<string name="lightapp06_video_uploading">上传视频到服务器中...</string>
+	<string name="lightapp06_share_type_title1">直接分享</string>
+	<string name="lightapp06_share_type_please">请</string>
+	<string name="lightapp06_share_type_wexin">打开微信</string>
+	<string name="lightapp06_share_type_sina">打开新浪</string>
+	<string name="lightapp06_share_type_qzone">打开QQ</string>
+	<string name="lightapp06_share_type_after">后</string>
+	<string name="lightapp06_share_type_description1">从相册选择视频分享</string>
+	<string name="lightapp06_share_type_title2">上传分享</string>
+	<string name="lightapp06_share_type_description2">生成链接,\n以网页形式分享该视频</string>
+	<string name="lightapp06_share_type_upload">开始上传</string>
+	<string name="lightapp06_share_mix_video">视频合成中</string>
+	<string name="lightapp06_share_mix_video_fail">视频合成失败</string>
+	<string name="lightapp06_share_mic_error">未获取麦克风权限，视频没有录音</string>
+	<string name="lightapp06_video_bgm_non">无</string>
+	<string name="lightapp06_video_bgm_local">本地音乐</string>
+	<string name="lightapp06_video_bgm_select_music">选择音乐</string>
+	<string name="lightapp06_video_bgm_short_audio">音频过短，不支持裁剪</string>
+	<string name="lightapp06_video_bgm_short_audio_tip">音频过短，无法支持</string>
+	<string name="lightapp06_video_bgm_un_support">暂不支持添加该音乐</string>
+	<string name="lightapp06_share_mic_mute">录音关闭</string>
+	<string name="lightapp06_share_mic_unmute">录音开启</string>
+	<string name="lightapp06_share_saving_video">视频保存中，请稍后...</string>
+	<string name="lightapp06_share_saving_video_tips">为保证成功保存，\n请不要锁屏或者切换到其他应用程序</string>
+	<string name="lightapp06_share_video_time_limit">只能分享10秒以内的视频</string>
+	<string name="lightapp06_share_together_video_time_limit">只能分享大于2秒的视频</string>
+
+
+	<!-- 设置 -->
+	<string name="setting_topbar_title">设置</string>
+	<string name="setting_title_camera">镜头</string>
+	<string name="setting_camera_actual_camera">实时美颜</string>
+	<string name="setting_camera_tailor_made">美形定制</string>
+	<string name="setting_camera_no_sound">快门声音</string>
+	<string name="setting_camera_auto_open_camera">进入直接开启镜头</string>
+	<string name="setting_camera_auto_save_sdcard">拍照时自动保存原图</string>
+	<string name="setting_camera_tick_sound">定时/延时读秒声音</string>
+	<string name="setting_camera_camera_rotate">镜头方向修正</string>
+	<string name="setting_camera_reset">重置镜头设置</string>
+	<string name="setting_title_photo">照片</string>
+	<string name="setting_photo_watermark_set">水印设置</string>
+	<string name="setting_photo_hd_photo">高清模式</string>
+	<string name="setting_photo_remember_beautify_mode">记住上一次的美颜模式</string>
+	<string name="setting_photo_attach_date">拍照时添加日期</string>
+	<string name="setting_title_other">其他</string>
+	<string name="setting_other_feedback">帮助与反馈</string>
+	<string name="setting_other_clear_cache">清除缓存</string>
+	<string name="setting_other_about">关于我们</string>
+	<string name="setting_text_camera_reset">即将重置镜头设置</string>
+	<string name="setting_beauty_auto_thinface">美颜时自动瘦脸</string>
+	<string name="setting_reset_complete">重置镜头设置完成</string>
+	<string name="setting_clear_cache_text">是否清除缓存?</string>
+	<string name="setting_clear_cache_button">清除</string>
+	<string name="setting_clear_cache_toast">成功清除缓存</string>
+
+	<!-- 精彩推荐 -->
+	<string name="appmarket_topbar_title">精品推荐</string>
+	<string name="appmarket_title1">推荐</string>
+	<string name="appmarket_title2">精品</string>
+	<string name="appmarket_network_error">网速不好,请检查网络连接</string>
+	<string name="appmarket_webview_app_installed">该应用已安装</string>
+
+	<!-- 商业通用通道 -->
+	<string name="business_download_res_error">获取资源失败！</string>
+	<string name="business_signup_btn_name">马上参加</string>
+	<string name="business_camera_btn_name">拍一张</string>
+	<string name="business_photo_btn_name">从相册选</string>
+	<string name="business_submit_btn_name">提交资料</string>
+
+	<!-- 绑定poco -->
+	<string name="pocologin_login_fail">登录失败,</string>
+	<string name="pocologin_register_success">注册POCO成功</string>
+	<string name="pocologin_register_account_effective">恭喜您!POCO帐号已经生效:</string>
+	<string name="pocologin_login_on_network">同时也可以在www.poco.cn登录哦!</string>
+	<string name="pocologin_login_hint_account">用户名/E-mail/POCO号</string>
+	<string name="pocologin_hint_password">请输入密码</string>
+	<string name="pocologin_login_title">登录POCO</string>
+	<string name="pocologin_login_button">登录</string>
+	<string name="pocologin_free_registration">免费注册</string>
+	<string name="pocologin_invalid_account">无效用户名或E-mail!</string>
+	<string name="pocologin_invalid_password">密码不能为空!</string>
+	<string name="pocologin_register_fail">注册失败,</string>
+	<string name="pocologin_register_hint_account">请输入E-mail</string>
+	<string name="pocologin_register_title">注册POCO</string>
+	<string name="pocologin_register_button">注册</string>
+	<string name="pocologin_check_other_weibo">检测到你已绑定其他微博账号\n点击确认用该账号直接登录</string>
+	<string name="pocologin_other_weibo_login">其他账号登录</string>
+	<string name="pocologin_ensure">确认</string>
+	<string name="pocologin_exit">暂不登录</string>
+
+	<!-- 云相册 -->
+	<string name="unable_to_get_info">无法获取云相册信息</string>
+	<string name="fail_to_update_info">更新失败，请检查网络设置</string>
+	<string name="refreshed_finish">刷新完成</string>
+	<string name="ok_text">好的</string>
+	<string name="account_login_other_device">该账号已经在其他设备登录,</string>
+	<string name="relogin">请重新登录</string>
+	<string name="succeed_do_something">成功</string>
+	<string name="shortcut_travel">旅行相册</string>
+	<string name="shortcut_delicous_food">DIY美食</string>
+	<string name="shortcut_selfish">自拍</string>
+	<string name="shortcut_family">家庭合照</string>
+	<string name="shortcut_baby">宝宝</string>
+	<string name="shortcut_pets">萌宠</string>
+	<string name="album_name_taken">该相册名已被你使用</string>
+	<string name="cloud_album">云相册</string>
+	<string name="creating">正在创建</string>
+	<string name="album_name_can_not_empty">输入的名字不能为空</string>
+	<string name="fali_to_craete_album">创建相册失败，请重试</string>
+	<string name="succeed_creating_album"> 新建相册成功 </string>
+	<string name="upload_photoes_rightnow">马上去上传照片吧</string>
+	<string name="go_back_home_page">回首页</string>
+	<string name="good">好</string>
+	<string name="not_select_category_yet">还没有选择分类</string>
+	<string name="same_name_album_exist">不能创建同名相册</string>
+	<string name="album_exist">该相册已经存在</string>
+	<string name="succeed_save">保存成功</string>
+	<string name="succeed_save2">保存成功</string>
+	<string name="cancel_save">取消保存</string>
+	<string name="fail_to_save">保存失败,请重试</string>
+	<string name="close_wifi_notify">关闭开关将会使用手机流</string>
+	<string name="close_wifi_notify2">量进行传输, 是否继续</string>
+	<string name="go_on">继续</string>
+	<string name="uploading_number_limit">最多同时上传%d张</string>
+	<string name="downloading_number_limit">最多同时下载%d张</string>
+	<string name="uploading_and_downloading_tip">%1$d张照片正在上传，%2$d张照片正在下载</string>
+	<string name="uploading_tip">%d张照片正在上传</string>
+	<string name="downloading_tip">%d张照片正在下载</string>
+	<string name="waiting_wifi_to_transport">%d张照片等待wifi传输</string>
+	<string name="waiting_wifi_to_upload">%d张照片等待wifi上传</string>
+	<string name="waiting_wifi_to_download">%d张照片等待wifi下载</string>
+	<string name="all_photo_upload_success">全部照片上传成功</string>
+	<string name="all_photo_download_success">全部照片下载成功</string>
+	<string name="upload_error">%d张照片上传失败，点击查看列表</string>
+	<string name="download_error">%d张照片下载失败，点击查看列表</string>
+	<string name="upload_to_album">上传至相册：%s</string>
+	<string name="upload_error_title">上传失败（%d）</string>
+	<string name="wait_to_upload_title">等待上传（%d）</string>
+	<string name="download_from_album">从%s下载</string>
+	<string name="download_error_title">下载失败（%d）</string>
+	<string name="wait_to_download_title">等待下载（%d）</string>
+
+	<!-- gif文字编辑 -->
+	<string name="gif_edit_add_text_tip">点击添加文字</string>
+	<string name="gif_text_number_tip">字数超出限制了哦~</string>
+	<string name="gif_recommend">推荐字幕</string>
+	<string name="gif_edittext_hint">请输入文字</string>
+	<string name="gif_edit_save">确定</string>
+	<string name="gif_edit_title">文字编辑</string>
+
+	<string name="sticker_pager_network_error">网络不可用</string>
+	<string name="sticker_pager_manager">管理</string>
+	<string name="sticker_pager_manager_material">管理已下载</string>
+	<string name="sticker_pager_manager_local_non_delete">内置素材不可删除</string>
+	<string name="sticker_page_manager_delete_tip">"请选择你想删除的贴纸"</string>
+	<string name="camera_type_video">视频</string>
+	<string name="camera_type_gif">表情包</string>
+
+	<!-- 美形定制 -->
+	<string name="ding_zhi_first_text">更瘦更美？</string>
+	<string name="ding_zhi_second_text">定制你的个人美形参数</string>
+	<string name="ding_zhi_third_text">系统将记住并持续使用</string>
+	<string name="ding_zhi_bottom_text">去设置</string>
+	<string name="ding_zhi_skip_text">以后再说</string>
+	<string name="ding_zhi_forth_text">你也可以随时更改设置哟</string>
+	<string name="tailor_title">美形定制</string>
+	<string name="camera_gif_title">表情包模式</string>
+	<string name="sticker_shutter_gif_text">GIF</string>
+	<string name="bgm_center_name">音乐</string>
+	<string name="tailor_close_switch_text">已关闭美形定制，启用默认美颜模式</string>
+	<string name="tailor_open_switch_text">已关闭默认美颜，启用美形定制模式</string>
+	<string name="tailor_beauty_text">美颜</string>
+	<string name="tailor_thin_face_text">瘦脸</string>
+	<string name="tailor_skin_beauty_text">肤色</string>
+	<string name="tailor_big_eye_text">大眼</string>
+	<string name="tailor_thin_nose_text">瘦鼻</string>
+	<string name="tailor_beauty_tooth_text">美牙</string>
+	<string name="bgm_down_load_failed">出错啦，请检查网络</string>
+
+	<string name="updateRightNow">立即升级</string>
+	<string name="sdkUpdateText">当前版本过低,\n部分功能将失效,请及时更新</string>
+	<string name="importantUpdate">重要更新</string>
+	<string name="updateLater">以后再说</string>
+
+	<!-- 图片、视频预览 -->
+	<string name="preview_pic_delete">图片不存在</string>
+	<string name="preview_video_delete">视频不存在</string>
+
+	<!-- 关于我们 -->
+	<string name="about_title">关于我们</string>
+	<string name="about_introduction">　　美人相机，是国内第一款针对女性自拍的手机工具。目前已经有超过3.5亿的女性用户使用。美人相机，希望为更多的中国女性服务，让更多人找到自信，享受愉悦，留住美丽。</string>
+
+
+	<!--登陆注册-->
+	<string name="bindphonepage_getting">正在获取...</string>
+	<string name="bindphonepage_sendsuccess">验证码发送成功</string>
+	<string name="bindphonepage_chooseareanum">请选择国际区号</string>
+	<string name="bindphonepage_writerightnum">请输入正确的手机号</string>
+	<string name="bindphonepage_operafrequently">操作过于频繁，请稍后再试</string>
+	<string name="bindphonepage_senderror">发送失败，请稍后再试</string>
+	<string name="bindphonepage_reigstertips">该手机号码已注册美人通行证，\n是否退出当前账户，\n使用该手机号码登录?</string>
+	<string name="bindphonepage_logintips">去登录</string>
+	<string name="bindphonepage_cancel">取消</string>
+	<string name="bindphonepage_reget">重新获取</string>
+	<string name="bindphonepage_networkerror">网络异常,获取验证码失败!</string>
+	<string name="bindphonepage_othererror">获取验证码失败</string>
+
+	<string name="choosecountrypage_title">选择国家和地区</string>
+	<string name="choosecountrypage_country">"AFGHANISTAN_阿富汗_93", "ALBANIA_阿尔巴尼亚_355", "ALGERIA_阿尔及利亚_213", "ANDORRA_安道尔_376", "ANGOLA_安哥拉_244", "ANGULLIAIS_安圭拉岛_1264", "ANTIGUAANDBARBUDA_安提瓜岛和巴布达_1268", "ARGENTINA_阿根廷_54",
+	"ARMENIA_亚美尼亚_374", "ASCENSION_阿森松_247", "AUSTRALIA_澳大利亚_61", "AUSTRIA_奥地利_43", "AZERBAIJAN_阿塞拜疆_994", "BAHAMAS_巴哈马群岛_1242", "BAHRANI_巴林_973", "BANGLADESH_孟加拉国_880", "BARBADOS_巴巴多斯_1246",
+	"BELARUS_白俄罗斯_375", "BELGIUM_比利时_32", "BELIZE_伯利兹_501", "BENIN_贝宁_229", "BERMUDAIS_百慕大群岛_1441", "BHUTAN_不丹_975", "BOLIVIA_玻利维亚_591", "BOSNIA&amp;HERZEGOVINA_波黑_387", "BOTSWANA_博茨瓦纳_267", "BRAZIL_巴西_55",
+	"BRUNEI_文莱_673", "BULGARIA_保加利亚_359", "BURKINAFASO_布基纳法索_226", "BURUNDI_布隆迪_257", "CAMBODIA_柬埔寨_855", "CAMEROON_喀麦隆_237", "CANADA_加拿大_1", "CAPEVERDE_佛得角_238", "CAYMANIS_开曼群岛_1345",
+	"CENTRALAFRICA_非洲中部_236", "CHAD_乍得_235", "CHILE_智利_56", "CHINA_中国_86", "COLOMBIA_哥伦比亚_57", "COMORO_科摩罗_269", "CONGO_刚果_242", "Congo(DemRep)_刚果(金)_243", "COOKIS_库克群岛_682", "COSTARICA_哥斯达黎加_506",
+	"CROATIA_克罗地亚_385", "CUBA_古巴_53", "CYPRUS_塞浦路斯_357", "CZECH_捷克_420", "DENMARK_丹麦_45", "DIEGOGARCIA_迪戈加西亚岛_246", "DJIBOUTI_吉布提_253", "DOMINICA(COMMOMWEALTHOF)_多米尼克_1767", "DOMINICANREP_多米尼加_1809",
+	"ECUADOR_厄瓜多尔_593", "EGYPT_埃及_20", "ELSALVADOR_萨尔瓦多_503", "EQUATORIALGUINEA_赤道几内亚_240", "ERITREA_厄立特里亚_291", "ESTIONIA_爱沙尼亚_372", "ETHIOPIA_埃塞俄比亚_251", "FALKLANDIS_福克兰群岛_500", "FAROEIS_法罗群岛_298",
+	"FIJI_斐济_679", "FINLAND_芬兰_358", "FRANCE_法国_33", "FRENCHGUIANA_法属圭亚那_594", "FRENCHPOLYNESIA_法属波利尼西亚_689", "GABON_加蓬_241", "GAMBIA_冈比亚_220", "GEORGIA_乔治亚州_995", "GERMANY_德国_49", "GHANA_加纳_233",
+	"GIBRALTAR_直布罗陀_350", "GREECE_希腊_30", "GREENLANDIS_格陵兰岛_299", "GRENADA_格林纳达_1473", "GUADELOUPEIS_瓜德罗普岛_590", "GUAM_关岛_1671", "GUATEMAILA_危地马拉_502", "GUINEA_几内亚_224", "GUINEABISSAU_几内亚比绍_245",
+	"GUYANY_圭亚那_592", "HAITI_海地_509", "HONDURAS_洪都拉斯_504", "HONGKONG_香港_852", "HUNGARY_匈牙利_36", "ICELAND_冰岛_354", "INDIA_印度_91", "INDONESIA_印尼_62", "IRAN_伊朗_98", "IRAQ_伊拉克_964", "IRELAND_爱尔兰_353", "ISRAFI_以色列_972",
+	"ITALY_意大利_39", "IVORYCOAST_科特迪瓦_225", "JAMAICA_牙买加_1876", "JAPAN_日本_81", "JORDAN_约旦_962", "KENYA_肯尼亚_254", "KIRIBATI_基里巴斯_686", "KOREA_韩国_82", "KOREA（DPROF）_朝鲜_850", "KUWAIT_科威特_965",
+	"KYRGYZSTAN_吉尔吉斯斯坦_996", "LAOS_老挝_856", "LATVIA_拉脱维亚_371", "LEBANON_黎巴嫩_961", "LESOTHO_莱索托_266", "LIBERIA_利比里亚_231", "LIBYA_利比亚_218", "LIECHTENSTEIN_列支敦斯登_4175", "LITHUANIA_立陶宛_370",
+	"LUXEMBOURG_卢森堡_352", "MACAU_澳门_853", "MACEDONIJA_马其顿_389", "MADAGASCAR_马达加斯加_261", "MALAWI_马拉维_265", "MALAYSIA_马来西亚_60", "MALDIVE_马尔代夫_960", "MALI_马里_223", "MALTA_马耳他_356", "MARIANAIS_马里亚纳群岛_1670",
+	"MARSHALLIS_马歇尔群岛_692", "MARTINIQUE_马提尼克岛_596", "MAURITANIA_毛利塔尼亚_222", "MAURITIUS_毛里求斯_230", "MEXICO_墨西哥_52", "MICRONESIA_密克罗尼西亚_691", "MILDOVA_摩尔多瓦_373", "MONACO_摩纳哥_377", "MONGOLIA_蒙古_976",
+	"MONTSERRATIS_蒙特塞拉特岛_1664", "MOROCCO_摩洛哥_212", "MOZAMBIQUE_莫桑比克_258", "MYANMAR_缅甸_95", "NAMIBIA_纳米比亚_264", "NAURU_瑙鲁_674", "NEPAL_尼泊尔_977", "NETHERLANDS_荷兰_31", "NEWZEALAND_新西兰_64", "NICARAGUA_尼加拉瓜_505",
+	"NIGER_尼日尔_227", "NIGERIA_尼日利亚_234", "NIUEIS_纽埃岛_683", "NORFOLKIS_诺福克岛_672", "NORWAY_挪威_47", "OMAN_阿曼_968", "PAKISTAN_巴基斯坦_92", "PALAU_帕劳_680", "PANAMA_巴拿马_507", "PAPUANEWGUINEA_巴布亚新几内亚_675",
+	"PARAGUAY_巴拉圭_595", "PERU_秘鲁_51", "PHILIPPINES_菲律宾_63", "POLAND_波兰_48", "PORTUGAL_葡萄牙_351", "PUERTORICO_波多黎各_1787", "QATAR_卡塔尔_974", "REUNIONIS_留尼旺岛_262", "RUMANIA_罗马尼亚_40", "RUSSIA_俄罗斯_7",
+	"RWANDA_卢旺达_250", "SAMOA(EASTERN)_萨摩亚(东部)_684", "SAMOA(WESTERN)_萨摩亚(西部)_685", "SANMARINO_圣马力诺_378", "SAOTOME&amp;PRINCIPE_圣多美和普林西比_239", "SAUDIARABIA_沙特阿拉伯_966", "SENEGAL_塞内加尔_221",
+	"SEYCHELLIES_塞舌尔共和国_248", "SIERRALEONE_塞拉利昂_232", "SINGAPORE_新加坡_65", "SLOVAK_斯洛伐克_421", "SLOVENIA_斯洛文尼亚_386", "SOLOMONIS_所罗门群岛_677", "SOMAIL_索马里_252", "SOUTHAFRICA_南非_27", "SPAIN_西班牙_34",
+	"SRILANKA_斯里兰卡_94", "ST.CHRISTOPHER&amp;NEVISIS_圣基茨和尼维斯_1869", "ST.HELENA_圣赫勒拿_290", "ST.LUCIA_圣卢西亚_1784", "ST.PIERRE&amp;MIQUELON_圣皮埃尔和密克隆群岛_508", "SUDAN_苏丹_249", "SURINAME_苏里南_597", "SWAZILAND_斯威士兰_268",
+	"SWEDEN_瑞典_46", "SWITZERLAND_瑞士_41", "SYRIA_叙利亚_963", "TAIWAN_台湾_886", "TANZANIA_坦桑尼亚_255", "THAILAND_泰国_66", "TOGO_多哥_228", "TOKELAUIS_托克劳岛_690", "TONGA_汤加_676", "TRINIDAD&amp;TOBAGO_特立尼达和多巴哥_1868",
+	"TUISIA_突尼斯_216", "TURKEY_土耳其_90", "TURKMENISTAN_土库曼斯坦_993", "TURKS&amp;CAICOSIS_特克斯和凯科斯群岛_1649", "TUVALU_图瓦卢_688", "U.K._英国_44", "UGANDA_乌干达_256", "UKRAINE_乌克兰_380", "UNITEDARABEMIRATES_阿联酋_971",
+	"URUGUAY_乌拉圭_598", "U.S.A_美国_1", "UZBEKISTAN_乌兹别克斯坦_998", "VANUATU_瓦努阿图_678", "VENEZUELA_委内瑞拉_58", "VIETNAM_越南_84", "VIRGINIS.(BRITISH)_维珍群岛（英属）_1284", "VIRGINIS.(U.S.A)_维珍群岛(美属)_1340",
+	"WAKEIS_威克岛_1808", "WALLSANDFUTUNA_瓦利斯群岛和富图纳群岛_1681", "YEMEN_也门_967", "YUGOSLAVIA_南斯拉夫_381", "ZAMBIA_赞比亚_260", "ZANZIBAR_桑给巴尔岛_259", "ZIMBABWE_津巴布韦_263"</string>
+	<string name="choosecountrypage_taiwan">台湾</string>
+	<string name="choosecountrypage_macau">澳门</string>
+	<string name="choosecountrypage_hongkong">香港</string>
+	<string name="choosecountrypage_china">中国</string>
+	<string name="choosecountrypage_commonuse">常用</string>
+
+
+	<string name="commonview_writephonenum">请输入手机号码</string>
+	<string name="commonview_verificationcode">验证码</string>
+	<string name="commonview_geting">获取验证码</string>
+	<string name="commonview_sure">确定</string>
+	<string name="commonview_agreeprotocol1">注册即表示同意</string>
+	<string name="commonview_agreeprotocol2">《美人相机用户协议》</string>
+	<string name="commonview_tips">美人通行证账号可登录使用美人信息旗下所有APP</string>
+	<string name="commonview_writeverificationcode">请填写验证码</string>
+	<string name="commonview_writephonenumtips">请输入手机号！</string>
+	<string name="commonview_regettime">s重新获取</string>
+	<string name="commonview_reget">重新获取</string>
+	<string name="commonview_verificationcodeerror">验证码不正确</string>
+	<string name="commonview_networkerror">网络异常</string>
+	<string name="commonview_bindphone">绑定手机</string>
+
+	<string name="editheadiconpage_uploadtips">正在上传用户头像，请稍等</string>
+	<string name="editheadiconpage_nonetwork">无网络连接！</string>
+	<string name="editheadiconpage_uploading">正在上传...</string>
+	<string name="editheadiconpage_uploadfail">上传头像失败，请重新上传!</string>
+	<string name="editheadiconpage_uploadfail2">上传头像失败，网络异常，请重新上传！</string>
+	<string name="editheadiconpage_uploadsuccess">头像上传成功 ！</string>
+	<string name="editheadiconpage_uploadfailed">头像上传失败 ！</string>
+
+	<string name="loginutil_dailogtips">请稍后...</string>
+	<string name="loginutil_modifypasswordsuccess">修改密码成功!</string>
+	<string name="loginutil_parametererror">参数错误</string>
+	<string name="loginutil_passwordformaterror">密码格式错误</string>
+	<string name="loginutil_notfound">用户不存在</string>
+	<string name="loginutil_operafail">操作失败</string>
+	<string name="loginutil_unknowerror">未知错误</string>
+	<string name="loginutil_loginutil_modifypasswordfail">修改密码失败</string>
+	<string name="loginutil_bindphoneing">正在绑定手机号...</string>
+	<string name="loginutil_writepassword">请输入密码!</string>
+	<string name="loginutil_bindphonefail">绑定手机失败！</string>
+	<string name="loginutil_registering">正在注册...</string>
+	<string name="loginutil_registered">该账号已注册!</string>
+	<string name="loginutil_registerfail">注册失败!</string>
+	<string name="loginutil_networkerror">网络异常!</string>
+
+	<string name="loginpage_country">中国</string>
+	<string name="loginpage_passwordtips">请输入密码！</string>
+	<string name="loginpage_passwordtips2">你输入的密码不正确，请重新输入。</string>
+	<string name="loginpage_passwordtips3">密码里不能包含中文</string>
+	<string name="loginpage_notfound">用户不存在</string>
+	<string name="loginpage_phonenumhint">请输入手机号码</string>
+	<string name="loginpage_passwordhint">请输入密码</string>
+	<string name="loginpage_login">登录</string>
+	<string name="loginpage_forgetpassword">忘记密码?</string>
+	<string name="loginpage_createAccount">创建账号</string>
+	<string name="loginpage_networderror">网络异常！</string>
+	<string name="loginpage_binding">绑定中...</string>
+	<string name="loginpage_loginsuccess">登录成功！</string>
+
+	<string name="loginstyle_sinatips">还没有安装最新的新浪微博客户端</string>
+	<string name="loginstyle_sinabinderror">绑定新浪微博失败</string>
+	<string name="loginstyle_wechattips">还没有安装微信客户端</string>
+	<string name="loginstyle_wechattips2">微信客户端版本过低，请升级你的微信客户端版本！</string>
+	<string name="loginstyle_wechatbinderror">微信绑定失败!</string>
+	<string name="loginstyle_binding">绑定中...</string>
+	<string name="loginstyle_loginfail">登录失败!</string>
+	<string name="loginstyle_networderrorloginfail">网络异常,登录失败!</string>
+	<string name="loginstyle_phonenumtips">请输入手机号</string>
+	<string name="loginstyle_passwordtips">请输入密码</string>
+	<string name="loginstyle_notfound">用户不存在</string>
+	<string name="loginstyle_accountlimit">你的账号已被禁用</string>
+	<string name="loginstyle_passworderror">你输入的密码不正确，请重新输入。</string>
+	<string name="loginstyle_logining">登录中...</string>
+	<string name="loginstyle_parametererror">参数错误!</string>
+	<string name="loginstyle_tokenfail">第三方授权失败!</string>
+
+	<string name="registerloginpage_getting">正在获取...</string>
+	<string name="registerloginpage_sendverificationcodesuccess">验证码发送成功</string>
+	<string name="registerloginpage_countrynumtips">请选择国际区号</string>
+	<string name="registerloginpage_phonenumtips">请输入正确的手机号</string>
+	<string name="registerloginpage_operatfrequent">操作过于频繁，请稍后再试</string>
+	<string name="registerloginpage_senderror">发送失败，请稍后再试</string>
+	<string name="registerloginpage_registertips">该手机号码已注册美人通行证</string>
+	<string name="registerloginpage_gologin">去登录</string>
+	<string name="registerloginpage_cancel">取消</string>
+	<string name="registerloginpage_getverificationcodefail">获取验证码失败</string>
+	<string name="registerloginpage_reget">重新获取</string>
+	<string name="registerloginpage_networkerror">网络异常,获取验证码失败!</string>
+
+
+	<string name="resetloginpage_getting">正在获取...</string>
+	<string name="resetloginpage_notregister">手机号未注册</string>
+	<string name="resetloginpage_sendsuccess">验证码发送成功</string>
+	<string name="resetloginpage_chooseareanum">请选择国际区号</string>
+	<string name="resetloginpage_writephonenum">请输入正确的手机号</string>
+	<string name="resetloginpage_oparefrequent">操作过于频繁，请稍后再试</string>
+	<string name="resetloginpage_sendfail">发送失败，请稍后再试</string>
+	<string name="resetloginpage_getvcodefail">获取验证码失败!</string>
+	<string name="resetloginpage_reget">重新获取</string>
+	<string name="resetloginpage_networkerror">网络异常,获取验证码失败!</string>
+
+	<string name="resetpage_pswtips">密码长度应为8-20位！</string>
+	<string name="resetpage_pswemptytips">密码不能为空！</string>
+	<string name="resetpage_newpsw">设置新密码</string>
+	<string name="resetpage_finish">完成</string>
+	<string name="resetpage_setpsw">设置密码</string>
+	<string name="resetpage_writepsw">请输入密码</string>
+
+
+	<string name="resgisterpage_pswtips">密码长度应为8-20位！</string>
+	<string name="resgisterpage_pswemptytips">密码不能为空！</string>
+	<string name="resgisterpage_uploadhead">请上传头像!</string>
+	<string name="resgisterpage_nicknametips">昵称不能为空！</string>
+	<string name="resgisterpage_setheadicon">设置头像</string>
+	<string name="resgisterpage_nickname">昵称</string>
+	<string name="resgisterpage_setpsw">设置密码</string>
+	<string name="resgisterpage_finish">完成</string>
+	<string name="resgisterpage_registering">正在注册...</string>
+
+	<string name="textutils_nicknametips">昵称不能含有空格！</string>
+	<string name="textutils_overlimit">超出输入限制</string>
+
+	<string name="tipspage_logintips">去登录</string>
+	<string name="tipspage_cancel">取消</string>
+
+	<string name="tipspage2_sure">确定</string>
+
+	<string name="wheeldata_year">年</string>
+	<string name="wheeldata_month">月</string>
+	<string name="wheeldata_day">日</string>
+
+	<string name="userinfopage_networkerror">当前网络不好，请检查网络</string>
+	<string name="userinfopage_modifysuccess">修改成功</string>
+	<string name="userinfopage_paramdataerror">参数错误</string>
+	<string name="userinfopage_oldpswerror">旧密码错误</string>
+	<string name="userinfopage_operafail">操作失败</string>
+	<string name="userinfopage_modifypswfail">修改密码失败</string>
+	<string name="userinfopage_networkerror2">网络异常</string>
+	<string name="userinfopage_modifyfail">修改失败，请检查网络</string>
+	<string name="userinfopage_loginoverdata">登录信息过期，请重新登录!</string>
+	<string name="userinfopage_sure">确定</string>
+	<string name="userinfopage_nickname">昵称</string>
+	<string name="userinfopage_phonenum">手机号码</string>
+	<string name="userinfopage_sex">性别</string>
+	<string name="userinfopage_bird">生日</string>
+	<string name="userinfopage_area">地区</string>
+	<string name="userinfopage_modifypsw">修改密码</string>
+	<string name="userinfopage_exitlogin">退出登录</string>
+	<string name="userinfopage_nicknametips">昵称不能为空</string>
+	<string name="userinfopage_saving">正在保存</string>
+	<string name="userinfopage_writeoripsw">请输入原密码</string>
+	<string name="userinfopage_write_new_psw">请输入新密码</string>
+	<string name="userinfopage_pswtips">密码长度必须在8-20位以内的字母、数字或符号!</string>
+	<string name="userinfopage_man">男</string>
+	<string name="userinfopage_women">女</string>
+	<string name="userinfopage_bindphonetips">请绑定手机</string>
+	<string name="userinfopage_modifynickname">修改昵称</string>
+	<string name="userinfopage_integraltitle">如何获得积分</string>
+	<string name="userinfopage_integraltips1">1.第一次使用第三方登录可获10个积分</string>
+	<string name="userinfopage_integraltips2">2.第一次使用手机注册可获60个积分</string>
+	<string name="userinfopage_integraltips3">3.完善性别、地区、生日资料分别可获10个积分</string>
+	<string name="userinfopage_integraltips4">4.每天打开APP可连续获得1-6个积分</string>
+	<string name="userinfopage_integraltips5">5.从精品推荐下载1个美人信息旗下APP可获100个积分</string>
+	<string name="userinfopage_integraltips6">6.在[问题反馈]中反馈的问题被采纳可获50-100个积分</string>
+	<string name="userinfopage_integraltips7">7.第一次使用云相册导入照片可获80个积分</string>
+	<string name="userinfopage_integraltips8">8.第一次使用第三方绑定手机使用云相册可获50个积分</string>
+	<string name="userinfopage_modifysex">修改性别</string>
+	<string name="userinfopage_finish">完成</string>
+	<string name="userinfopage_nobind">未绑定</string>
+	<string name="userinfopage_nowrite">未填写</string>
+	<string name="userinfopage_oldpassword">原密码</string>
+	<string name="userinfopage_newpassword">新密码</string>
+
+	<string name="makeup1downItem_downmore">下载更多</string>
+
+	<string name="shrinknose_title">瘦鼻</string>
+	<string name="whiteteeth_title">美牙</string>
+	<string name="camera_type_photo">高清拍照</string>
+	<string name="camera_type_cute">萌妆照</string>
+	<string name="camera_flash_open">闪光灯</string>
+	<string name="camera_flash_auto">自动</string>
+	<string name="camera_flash_close">关</string>
+	<string name="camera_flash_light">手电筒</string>
+	<string name="camera_clear_all_video_tips">视频未保存，是否退出？</string>
+	<string name="camera_clear_all_video_not_abandon">保留</string>
+	<string name="camera_clear_all_video_abandon">放弃</string>
+	<string name="camera_meng_zhuang_title">萌妆照模式</string>
+	<string name="camera_use_tips_shutter_text">轻触开始拍摄哦</string>
+	<string name="camera_use_tips_duration_text">这里切换录制时长</string>
+	<string name="camera_photo_title">高清拍照模式</string>
+	<string name="camera_video_title">视频模式</string>
+    <string name="camera_setting_front_flash_text">补光灯</string>
+
+	<!--分享给好友-->
+	<string name="share_with_friends_title">【推荐】美人相机APP-少女心滤镜与萌趣短视频</string>
+	<string name="camera_video_duration_ten_second">10秒视频</string>
+	<string name="camera_video_duration_three_minute">3分钟视频</string>
+	<string name="camera_use_tips_ratio_text">切换比例</string>
+	<string name="camera_use_tip_beauty_text">美形定制</string>
+	<string name="camera_use_tips_video_logo_text">动态贴纸\n在这里啦</string>
+
+	<string name="video_preview_clip_title">剪辑</string>
+	<string name="video_preview_vol_title">音量</string>
+	<string name="video_preview_clip_record">原声</string>
+	<string name="video_preview_clip_music">音乐</string>
+
+	<!-- 增高 -->
+	<string name="rise_page_title">增高</string>
+	<string name="rise_page_no_scale_tip">此功能不支持缩放图片哟</string>
+	<string name="rise_page_sel_area_text">拖动标准线, 选中腿部区域</string>
+	<string name="gif_pre_back_text">返回</string>
+
+	<!--美颜美型-->
+	<string name="entry_beauty_face">美颜</string>
+	<string name="entry_beauty_tool">美化</string>
+	<string name="entry_beauty_tailor">裁剪</string>
+
+	<!--美颜美肤脸型控件-->
+	<string name="beauty_selector_view_tab_beauty">美颜</string>
+	<string name="beauty_selector_view_tab_shape">脸型</string>
+	<string name="beauty_selector_view_tab_filter">滤镜</string>
+
+	<!--脸型-->
+	<string name="beauty_selector_view_shape_thinface">瘦脸</string>
+	<string name="beauty_selector_view_shape_littleface">小脸</string>
+	<string name="beauty_selector_view_shape_shavedface">削脸</string>
+	<string name="beauty_selector_view_shape_forehead">额头</string>
+	<string name="beauty_selector_view_shape_cheekbones">颧骨</string>
+	<string name="beauty_selector_view_shape_bigeye">大眼</string>
+	<string name="beauty_selector_view_shape_canthus">眼角</string>
+	<string name="beauty_selector_view_shape_eyespan">眼距</string>
+	<string name="beauty_selector_view_shape_shrinknose">瘦鼻</string>
+	<string name="beauty_selector_view_shape_nosewing">鼻翼</string>
+	<string name="beauty_selector_view_shape_noseheight">高度</string>
+	<string name="beauty_selector_view_shape_chin">下巴</string>
+	<string name="beauty_selector_view_shape_mouth">嘴型</string>
+	<string name="beauty_selector_view_shape_overallheight">高度</string>
+    <string name="beauty_selector_view_shape_reset_params">重置</string>
+    <string name="beauty_selector_view_shape_saved_params">已保存</string>
+    <string name="beauty_selector_view_shape_unsaved_params">保存</string>
+    <string name="beauty_selector_view_shape_reset_params_success">已恢复默认参数</string>
+	<string name="beauty_selector_view_shape_save_login">登录</string>
+	<string name="beauty_selector_view_shape_save_next_time">下次</string>
+	<string name="beauty_selector_view_shape_save_login_tips">当前参数已保存\n登录后可将保存上传至云端</string>
+
+	<!--脸型-->
+	<string name="shape_cus_defaule_non">无</string>
+	<string name="shape_cus_mine_sync">我的</string>
+	<string name="shape_cus_id_ziranxiushi">自然修饰</string>
+	<string name="shape_cus_id_babigongzhu">芭比公主</string>
+	<string name="shape_cus_id_jingzhiwanghong">精致网红</string>
+	<string name="shape_cus_id_jimengshaonv">激萌少女</string>
+	<string name="shape_cus_id_modengnvwang">摩登女王</string>
+	<string name="shape_cus_id_daimengtianxin">呆萌甜心</string>
+	<string name="shape_cus_id_dudutongyan">嘟嘟童颜</string>
+	<string name="shape_cus_id_xiaoliannvshen">小脸女神</string>
+
+	<!--美颜-->
+	<string name="shape_cus_beauty_skin_beauty">美肤</string>
+	<string name="shape_cus_beauty_whiten_teeth">美牙</string>
+	<string name="shape_cus_beauty_skin_color">肤色</string>
+
+
+	<string name="ar_camera_page_aimed_tips">对准礼物</string>
+	<string name="ar_camera_page_hide_title">藏祝福</string>
+	<string name="ar_camera_page_find_title">找祝福</string>
+	<string name="ar_wish_scan_tips_one">将目标框对准你的礼物</string>
+	<string name="ar_wish_scan_tips_two">AR镜头将自动扫描识别</string>
+	<string name="ar_wish_password_tips_one">Ta给你藏了一段祝福</string>
+	<string name="ar_wish_password_tips_two">输入口令查看惊喜</string>
+	<string name="ar_hide_from_album">从相册选</string>
+	<string name="ar_hide_record">录制</string>
+	<string name="ar_hide_cancel">取消</string>
+	<string name="ar_album_preview_go_on">继续</string>
+	<string name="ar_hide_done">完成</string>
+	<string name="ar_find_password_ok">确定</string>
+	<string name="ar_find_password_cancel">取消</string>
+	<string name="ar_find_password_hint">请输入你的口令</string>
+	<string name="ar_wish_find_net_error">网络异常，请检查重试</string>
+	<string name="ar_wish_find_clue">点击查看大图</string>
+
+	<!-- AR祝福 -->
+	<string name="arwish_upload_video">祝福上传中，请稍后...</string>
+	<string name="arwish_upload_video_tips">为保证成功上传，\n请不要锁屏或者切换到其他应用程序</string>
+	<string name="arwish_hidewish_share_hide_complete_text1">你的祝福贺卡已生成，点击分享送给Ta吧</string>
+	<string name="arwish_hidewish_share_hide_complete_text2">扫描图示物品就能收到你的祝福啦</string>
+	<string name="arwish_hidewish_share_button_call">喊人来玩</string>
+	<string name="arwish_hidewish_share_button_finish">完成</string>
+	<string name="arwish_findwish_title">找祝福</string>
+	<string name="arwish_findwish_nowish">哎呦，附近还没有祝福哦~</string>
+	<string name="arwish_findwish_location">正在获取位置信息</string>
+	<string name="arwish_findwish_nearwish">正在获取附近的祝福</string>
+	<string name="arwish_findwish_location_fail">获取当前位置失败，请检查网络及权限后重试</string>
+	<string name="arwish_findwish_load_fail">加载失败</string>
+	<string name="arwish_findwish_findtips">找到这个物品，即可收到祝福</string>
+	<string name="arwish_findwish_inputpw">请输入口令</string>
+	<string name="arwish_hidewish_share_location_fail">无法获取位置</string>
+	<string name="arwish_hidewish_share_save">图片已保存至本地</string>
+	<string name="arwish_hidewish_share_upload_fail">网络异常，请重试</string>
+	<string name="arwish_hidewish_share_no_image">线索图片不存在，请重新拍摄</string>
+	<string name="arwish_hidewish_share_no_video">礼物视频不存在，请重新录制</string>
+	<string name="ar_find_preview_saved">已保存</string>
+	<string name="ar_find_preview_cancel_save">取消下载</string>
+	<string name="ar_find_preview_download">视频保存中，请稍后...</string>
+	<string name="ar_find_preview_save_failed">保存失败</string>
+	<string name="ar_find_preview_confirm">确定</string>
+	<string name="ar_find_preview_cancel">取消</string>
+	<string name="ar_find_preview_photo_net_tips_one">使用移动网络播放</string>
+	<string name="ar_find_preview_photo_net_tips_two">播放将消耗手机流量</string>
+	<string name="ar_find_preview_no_video">抱歉，视频已下架</string>
+	<string name="ar_find_preview_video_exit">视频文件已存在</string>
+	<string name="ar_find_preview_net_error">网络出错了</string>
+	<string name="ar_hide_pre_exit_tips">祝福未完成，确定退出？</string>
+	<string name="ar_hide_pre_exit_stay">保留</string>
+	<string name="ar_hide_pre_exit">退出</string>
+	<string name="ar_hide_pre_step_one">Step1: 拍摄礼物</string>
+	<string name="ar_hide_pre_step_two">Step2: 说出你的祝福</string>
+
+	<string name="ar_find_intro_near_btn">附近线索</string>
+	<string name="ar_find_intro_album_btn">从相册选</string>
+	<string name="ar_create_intro_album_btn">从相册选</string>
+	<string name="ar_create_intro_video_btn">录制视频</string>
+	<string name="arwish_findwish_publish">我来送祝福</string>
+	<string name="arwish_findwish_findbtn">马上寻找</string>
+
+	<!--ar活动首页-->
+	<string name="ar_index_intro_title">会说话的礼物</string>
+	<string name="ar_index_intro_create_btn">贴</string>
+	<string name="ar_index_intro_find_btn">扫</string>
+	<string name="ar_index_intro_create_btn_tips">送出礼物的你，请戳</string>
+	<string name="ar_index_intro_find_btn_tips">收到礼物的你，请戳</string>
+	<string name="ar_activities_intro_page_title_scanning">扫</string>
+	<string name="ar_activities_intro_page_title_paste">贴</string>
+    <string name="ar_command_rule">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+
+    <!--直播-->
+	<string name="live_intro_title">美人直播助手</string>
+	<string name="live_start_live">开始直播</string>
+	<string name="live_live_description">手机变成摄像头，直播最佳美颜</string>
+	<string name="live_start_class">查看教程</string>
+	<string name="live_class_description">教你如何连接美人相机与电脑</string>
+	<string name="live_tips_text1">1.在电脑搜索美人直播助手，在官网下载美人直播助手PC端</string>
+	<string name="live_tips_text2">2.将手机和电脑用数据线连接起来</string>
+	<string name="live_tips_text3">3.打开PC端的直播助手，\n点击"马上连接"即可完成手机摄像头效果的同步</string>
+	<string name="live_tips_btngo">点击查看详细教程</string>
+	<string name="live_tips_btnok">确定</string>
+	<string name="live_tips_title">连接教程</string>
+	<string name="live_connect_tips">请打开PC端直播助手进行同步</string>
+	<string name="live_auto_focus_tips">自动曝光/自动对焦锁定</string>
+
+
+</resources>
